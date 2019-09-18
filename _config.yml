@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "en-AU"
 title                    : "Trevor Cohn"
 title_separator          : "-"
 name                     : &name "Trevor Cohn"
@@ -83,7 +83,7 @@ author:
   name             : "Trevor Cohn"
   avatar           : "profile.png"
   bio              : "Associate Professor<br>School of Computing and Information Systems<br>The University of Melbourne"
-  location         : "Room 3.23, Level 3<br>Doug McDonell Building<br>+61 3 8344 1732""
+  location         : "Room 3.23, Level 3<br>Doug McDonell Building<br>+61 3 8344 1732"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=FCom398AAAAJ&hl=en"

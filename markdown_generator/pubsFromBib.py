@@ -24,23 +24,24 @@ import html
 import os
 import re
 
+# step 1: download from DBLP, filter out CoRR papers [what about papers that are under review / preprints?]
+https://dblp.uni-trier.de/pers/tb2/c/Cohn:Trevor.bib
+
+# remove crossref, @proceedings entries, publisher, timestamp, biburl, bibsource
+# mungle booktitle to grab just short conference name which is usually between 
+
+# step 2: load up my additional publications
+
+
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
 publist = {
     "proceeding": {
-        "file" : "proceedings.bib",
+        "file" : "/Users/tcohn/Google Drive/trevor-cohn.bib",
         "venuekey": "booktitle",
         "venue-pretext": "In the proceedings of ",
         "collection" : {"name":"publications",
                         "permalink":"/publication/"}
-        
-    },
-    "journal":{
-        "file": "pubs.bib",
-        "venuekey" : "journal",
-        "venue-pretext" : "",
-        "collection" : {"name":"publications",
-                        "permalink":"/publication/"}
-    } 
+    }
 }
 
 html_escape_table = {
@@ -68,93 +69,60 @@ for pubsource in publist:
         b = bibdata.entries[bib_id].fields
         
         try:
-            pub_year = f'{b["year"]}'
 
-            #todo: this hack for month and day needs some cleanup
-            if "month" in b.keys(): 
-                if(len(b["month"])<3):
-                    pub_month = "0"+b["month"]
-                    pub_month = pub_month[-2:]
-                elif(b["month"] not in range(12)):
-                    tmnth = strptime(b["month"][:3],'%b').tm_mon   
-                    pub_month = "{:02d}".format(tmnth) 
-                else:
-                    pub_month = str(b["month"])
-            if "day" in b.keys(): 
-                pub_day = str(b["day"])
+            #if "selected" in b and b["selected"] == "1":
+            if True:
 
+                authors = ""
+                num_authors = len(bibdata.entries[bib_id].persons["author"])
+                for ai, author in enumerate(bibdata.entries[bib_id].persons["author"]):
+                    if ai == (num_authors-1) and num_authors != 1:
+                        authors += "and "
+                    authors += author.first_names[0]+" "+author.last_names[0]
+                    if ai < (num_authors-2):
+                        authors += ", "
+                    elif ai < (num_authors-1):
+                        authors += " "
+                paper_type = bibdata.entries[bib_id].type
+
+                ## YAML variables
+                md  = "  - layout: paper" + "\n"
+                md += "    author: \"" + authors + "\"\n"
+                md += "    title: \""   + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + '"\n'
+                md += "    year: \"" + b["year"] + "\"\n"
+                md += "    paper-type: " + paper_type + "\n"
+
+                if paper_type == "inproceedings":
+                    # find the short name of the conference
+                    re.
+                    
+                    md += "    booktitle: \"" + b["booktitle"] + "\"\n"
+                    if "address" in b.keys():
+                        md += "    address: \"" + b["address"] + "\"\n"
+
+                elif paper_type == "article":
+                    md += "    journal: \"" + b["journal"] + "\"\n"
+                    if "volume" in b.keys():
+                        md += "    volume: " + b["volume"] + "\n"
+
+                #venue
+                #md += "    venue: " + b["venue"] + "\n"
                 
-            pub_date = pub_year+"-"+pub_month+"-"+pub_day
-            
-            #strip out {} as needed (some bibtex entries that maintain formatting)
-            clean_title = b["title"].replace("{", "").replace("}","").replace("\\","").replace(" ","-")    
+                #optional doc and code url
+                if "docurl" in b.keys():
+                    if len(str(b["url"])) > 5:
+                        md += "    docurl: \"" + b["url"] + "\"\n"
 
-            url_slug = re.sub("\\[.*\\]|[^a-zA-Z0-9_-]", "", clean_title)
-            url_slug = url_slug.replace("--","-")
+                if "codeurl" in b.keys():
+                    if len(str(b["codeurl"])) > 5:
+                        md += "    codeurl: \"" + b["codeurl"] + "\"\n"
 
-            md_filename = (str(pub_date) + "-" + url_slug + ".md").replace("--","-")
-            html_filename = (str(pub_date) + "-" + url_slug).replace("--","-")
+                #optional page numbers
+                if "pages" in b.keys():
+                    md += "    pages: " + b["pages"].replace("--", "&mdash;") + "\n"
 
-            #Build Citation from text
-            citation = ""
+                print(md, end="")
 
-            #citation authors - todo - add highlighting for primary author?
-            for author in bibdata.entries[bib_id].persons["author"]:
-                citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
-
-            #citation title
-            citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""
-
-            #add venue logic depending on citation type
-            venue = publist[pubsource]["venue-pretext"]+b[publist[pubsource]["venuekey"]].replace("{", "").replace("}","").replace("\\","")
-
-            citation = citation + " " + html_escape(venue)
-            citation = citation + ", " + pub_year + "."
-
-            
-            ## YAML variables
-            md = "---\ntitle: \""   + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + '"\n'
-            
-            md += """collection: """ +  publist[pubsource]["collection"]["name"]
-
-            md += """\npermalink: """ + publist[pubsource]["collection"]["permalink"]  + html_filename
-            
-            note = False
-            if "note" in b.keys():
-                if len(str(b["note"])) > 5:
-                    md += "\nexcerpt: '" + html_escape(b["note"]) + "'"
-                    note = True
-
-            md += "\ndate: " + str(pub_date) 
-
-            md += "\nvenue: '" + html_escape(venue) + "'"
-            
-            url = False
-            if "url" in b.keys():
-                if len(str(b["url"])) > 5:
-                    md += "\npaperurl: '" + b["url"] + "'"
-                    url = True
-
-            md += "\ncitation: '" + html_escape(citation) + "'"
-
-            md += "\n---"
-
-            
-            ## Markdown description for individual page
-            if note:
-                md += "\n" + html_escape(b["note"]) + "\n"
-
-            if url:
-                md += "\n[Access paper here](" + b["url"] + "){:target=\"_blank\"}\n" 
-            else:
-                md += "\nUse [Google Scholar](https://scholar.google.com/scholar?q="+html.escape(clean_title.replace("-","+"))+"){:target=\"_blank\"} for full citation"
-
-            md_filename = os.path.basename(md_filename)
-
-            with open("../_publications/" + md_filename, 'w') as f:
-                f.write(md)
-            print(f'SUCESSFULLY PARSED {bib_id}: \"', b["title"][:60],"..."*(len(b['title'])>60),"\"")
-        # field may not exist for a reference
         except KeyError as e:
-            print(f'WARNING Missing Expected Field {e} from entry {bib_id}: \"', b["title"][:30],"..."*(len(b['title'])>30),"\"")
+            print("WARNING Missing Expected Field", e, "from entry ", bib_id, ": \"", b["title"][:30] ,"\"")
             continue

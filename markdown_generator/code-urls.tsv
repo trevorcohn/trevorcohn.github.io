@@ -1,0 +1,137 @@
+DBLP:journals/tois/LukasikBCZLP19
+DBLP:conf/acl/RahimiLC19
+DBLP:conf/acl/LiBC19
+DBLP:conf/acl/MathurBC19
+DBLP:conf/bionlp/ZhaiNATDCGV19	https://github.com/unimelbbionlp/BioNLPST2016/
+DBLP:conf/icassp/SpratleyBC19
+DBLP:conf/icml/LiRC19
+DBLP:conf/naacl/VylomovaCCBE19
+DBLP:conf/starsem/SubramanianCB19
+DBLP:conf/www/LiRC19
+DBLP:journals/biomedsem/Chandrasekarasastry18
+DBLP:journals/ipm/ZubiagaKLPLBCA18
+DBLP:conf/acl/LiBC18	https://github.com/lrank/Robust_and_Privacy_preserving_Text_Representations
+DBLP:conf/acl/SubramanianBC18
+DBLP:conf/acl/CohnHB18	https://github.com/beckdaniel/acl2018_graph2seq
+DBLP:conf/acl/LiuCB18	https://github.com/liufly/narrative-modeling
+DBLP:conf/acl/CohnSA18	https://github.com/philschulz/stochastic-decoder
+DBLP:conf/acl/BaldwinCBLH18	https://github.com/jhlau/deepspeare
+DBLP:conf/acl/BaldwinCR18
+DBLP:conf/acl-alta/HoangHC18
+DBLP:conf/acl-alta/MathurBC18
+DBLP:conf/aclnmt/HoangKHC18
+DBLP:conf/aclnut/MiyazakiRCB18
+DBLP:conf/emnlp/Wu0C18
+DBLP:conf/lrec/AdamsCNCBM18
+DBLP:conf/naacl/LiuCB18	https://github.com/liufly/delayed-memory-update-entnet
+DBLP:conf/naacl/LiBC18	https://github.com/lrank/Domain_Robust_Text_Representation
+DBLP:conf/naacl/SubramanianCB18
+DBLP:conf/acl/RahimiCB17
+DBLP:conf/acl/LauBC17
+DBLP:conf/acl/FangC17
+DBLP:conf/acl-alta/LiuCB17
+DBLP:conf/acl-alta/SubramanianCBB17
+DBLP:conf/acl-alta/AdamsCNM17
+DBLP:conf/acl-multiling/XuLBC17
+DBLP:conf/asunam/SrijithLBC17
+DBLP:conf/bigdataconf/KarunaratneMKHC17
+DBLP:conf/eacl/BaldwinCL17
+DBLP:conf/eacl/BaldwinCVC17
+DBLP:conf/eacl/KanayamaCMBD17
+DBLP:conf/eacl/CohnBNAM17
+DBLP:conf/emnlp/VylomovaCHH17
+DBLP:conf/emnlp/HoangHC17	https://github.com/duyvuleo/Mantidae
+DBLP:conf/emnlp/RahimiBC17	https://github.com/afshinrahimi/geomdn
+DBLP:conf/emnlp/FangLC17	https://github.com/mengf1/PAL
+DBLP:conf/emnlp/MathurBC17
+DBLP:conf/ijcai/KarunaratneMKHC17
+DBLP:conf/ijcai/ShareghiHC17
+DBLP:conf/ijcnlp/BeckC17
+DBLP:conf/ijcnlp/LiuBC17
+DBLP:conf/ijcnlp/LauCTC17
+DBLP:conf/www/SubramanianBBC17
+DBLP:journals/tacl/ShareghiPHC16	https://github.com/mpetri/cstlm
+DBLP:conf/aaai/LukasikC16
+DBLP:conf/acl/LukasikSVBZC16	https://github.com/mlukasik/seqhawkes
+DBLP:conf/acl/RahimiCB16	http://github.com/afshinrahimi/pigeo
+DBLP:conf/acl/VylomovaRCB16
+DBLP:conf/acl-alta/HoangHC16
+DBLP:conf/acl-alta/Chandrasekarasastry16
+DBLP:conf/bionlp/Chandrasekarasastry16
+DBLP:conf/coling/PetriC16
+DBLP:conf/conll/FangC16	https://github.com/mengf1/BiLSTM-Debias
+DBLP:conf/conll/BeckSC16
+DBLP:conf/emnlp/ShareghiCH16
+DBLP:conf/emnlp/DuongKMBC16	https://github.com/longdt219/XlingualEmb
+DBLP:conf/emnlp/LiCB16	https://github.com/lrank/Robust-Representation
+DBLP:conf/emnlp/AdamsNCBDN16
+DBLP:conf/interspeech/AdamsNCB16	https://github.com/oadams/latticelm-v2
+DBLP:conf/lrec/Preotiuc-Pietro16
+DBLP:conf/naacl/CohnHVYDH16	https://github.com/trevorcohn/mantis
+DBLP:conf/naacl/DuongACBC16	https://github.com/longdt219/speechtranslation
+DBLP:conf/naacl/HoangCH16
+DBLP:conf/smbm/Chandrasekarasastry16
+DBLP:journals/ml/BitvaiC15
+DBLP:journals/mt/ShahCS15
+DBLP:journals/tacl/BeckCHS15
+DBLP:conf/aaai/BitvaiC15
+DBLP:conf/acl/BitvaiC15
+DBLP:conf/acl/LukasikCB15
+DBLP:conf/acl/RahimiCB15
+DBLP:conf/acl/DuongCBC15
+DBLP:conf/conll/DuongCBC15
+DBLP:conf/emnlp/LukasikSCB15
+DBLP:conf/emnlp/DuongCBC15
+DBLP:conf/emnlp/ShareghiPHC15	http://github.com/eehsan/lm-sdsl
+DBLP:conf/emnlp/LukasikCB15	https://github.com/mlukasik/rumour-classification
+DBLP:conf/naacl/RahimiVCB15
+DBLP:conf/pkdd/ShareghiHCN15
+DBLP:conf/acl/CohnPL14
+DBLP:conf/acl/LamposPSGC14
+DBLP:conf/acl/GellingC14	http://github.com/dgel/fastalign
+DBLP:conf/conll/FengCD14
+DBLP:conf/eacl/LamposAPC14
+DBLP:conf/emnlp/DuongCVBC14
+DBLP:conf/emnlp/BeckCS14	http://github.com/beckdaniel/emnlp14_joint_ea
+DBLP:journals/tist/CohnL13	https://people.eng.unimelb.edu.au/tcohn/t3.html
+DBLP:conf/acl/CohnS13
+DBLP:conf/acl/SpeciaSSC13
+DBLP:conf/acl/FengC13
+DBLP:conf/acl/BeckSC13
+DBLP:conf/acl/CohnH13
+DBLP:conf/acl/LamposPC13
+DBLP:conf/cicling/ZhangCC13
+DBLP:conf/emnlp/Preotiuc-PietroC13
+DBLP:conf/ht/RoutBPC13
+DBLP:conf/icassp/NgHC13
+DBLP:conf/websci/Preotiuc-PietroC13
+DBLP:conf/wmt/BeckSCS13
+DBLP:conf/emnlp/FengLLC12
+DBLP:conf/naacl/NicholsonCB12
+DBLP:conf/sepln/AkerCG12
+DBLP:conf/acl/BlunsomC11
+DBLP:conf/wmt/SongC11
+DBLP:journals/jmlr/CohnBG10
+DBLP:conf/acl/CohnB10
+DBLP:conf/emnlp/AkerCG10
+DBLP:conf/emnlp/BlunsomC10
+DBLP:conf/naacl/BlunsomC10
+DBLP:journals/jair/CohnL09
+DBLP:conf/acl/BlunsomCGJ09
+DBLP:conf/acl/BlunsomCDO09
+DBLP:conf/eacl/SchroederCK09
+DBLP:conf/emnlp/CohnB09
+DBLP:conf/naacl/CohnGB09
+DBLP:journals/coling/CohnCL08
+DBLP:conf/acl/BlunsomCO08
+DBLP:conf/coling/Callison-BurchCL08
+DBLP:conf/coling/CohnL08	https://people.eng.unimelb.edu.au/tcohn/t3.html
+DBLP:conf/nips/BlunsomCO08
+DBLP:conf/acl/CohnL07
+DBLP:conf/emnlp/CohnL07
+DBLP:conf/acl/BlunsomC06
+DBLP:conf/ecml/Cohn06
+DBLP:conf/acl/CohnSO05
+DBLP:conf/acl/SmithCO05
+DBLP:conf/conll/CohnB05
+DBLP:conf/acl-alta/Cohn03
