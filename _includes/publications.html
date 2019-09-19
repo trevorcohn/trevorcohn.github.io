@@ -1,6 +1,7 @@
 <ul>
   {% for paper in site.data.papers.papers %}
-    {% if paper.year == include.year %}
+    {% assign year = paper.year | plus: 0 %}
+    {% if year == include.year %}
       <li>
       {{ paper.author }}
       ({{ paper.year }}).
