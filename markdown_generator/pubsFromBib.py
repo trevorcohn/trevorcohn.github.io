@@ -1,20 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # Publications markdown generator for academicpages
-# 
-# Takes a set of bibtex of publications and converts them for use with [academicpages.github.io](academicpages.github.io). This is an interactive Jupyter notebook ([see more info here](http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html)). 
-# 
-# The core python code is also in `pubsFromBibs.py`. 
-# Run either from the `markdown_generator` folder after replacing updating the publist dictionary with:
-# * bib file names
-# * specific venue keys based on your bib file preferences
-# * any specific pre-text for specific files
-# * Collection Name (future feature)
-# 
-# TODO: Make this work with other databases of citations, 
-# TODO: Merge this with the existing TSV parsing solution
-
+# run this first, then pubsFromBib.py and direct output to ../_pubs.yml
 
 from pybtex.database.input import bibtex
 import pybtex.database.input.bibtex 
@@ -23,26 +10,18 @@ import string
 import html
 import os
 import re
+import json
+import sys
 
-# step 1: download from DBLP, filter out CoRR papers [what about papers that are under review / preprints?]
-https://dblp.uni-trier.de/pers/tb2/c/Cohn:Trevor.bib
+conffname = 'conferences.json'
+if os.path.exists(conffname):
+    with open(conffname, 'r') as jsonfile:
+        conference_names = json.load(jsonfile)
 
-# remove crossref, @proceedings entries, publisher, timestamp, biburl, bibsource
-# mungle booktitle to grab just short conference name which is usually between 
-
-# step 2: load up my additional publications
-
-
-#todo: incorporate different collection types rather than a catch all publications, requires other changes to template
-publist = {
-    "proceeding": {
-        "file" : "/Users/tcohn/Google Drive/trevor-cohn.bib",
-        "venuekey": "booktitle",
-        "venue-pretext": "In the proceedings of ",
-        "collection" : {"name":"publications",
-                        "permalink":"/publication/"}
-    }
-}
+codeffname = 'code-urls.json'
+if os.path.exists(codeffname):
+    with open(codeffname, 'r') as jsonfile:
+        code_urls = json.load(jsonfile)
 
 html_escape_table = {
     "&": "&amp;",
@@ -54,75 +33,76 @@ def html_escape(text):
     """Produce entities within text."""
     return "".join(html_escape_table.get(c,c) for c in text)
 
+parser = bibtex.Parser()
+dblpbib = parser.parse_file("dblp.bib")
+allbib = parser.parse_file("addendum.bib") # returns the union
 
-for pubsource in publist:
-    parser = bibtex.Parser()
-    bibdata = parser.parse_file(publist[pubsource]["file"])
+print("papers:\n", end="")
 
-    #loop through the individual references in a given bibtex file
-    for bib_id in bibdata.entries:
-        #reset default date
-        pub_year = "1900"
-        pub_month = "01"
-        pub_day = "01"
-        
-        b = bibdata.entries[bib_id].fields
-        
-        try:
+for bib_id in sorted(allbib.entries, reverse=True,
+        key=lambda bib_id: allbib.entries[bib_id].fields["year"]+bib_id):
+    e = allbib.entries[bib_id]
+    b = e.fields
+    
+    try:
+        authors = ""
+        num_authors = len(e.persons["author"])
+        for ai, author in enumerate(e.persons["author"]):
+            if ai == (num_authors-1) and num_authors != 1:
+                authors += "and "
+            authors += author.first_names[0]+" "+author.last_names[0]
+            if ai < (num_authors-2):
+                authors += ", "
+            elif ai < (num_authors-1):
+                authors += " "
+        paper_type = e.type
 
-            #if "selected" in b and b["selected"] == "1":
-            if True:
+        ## YAML variables
+        md  = "  - layout: paper" + "\n"
+        md += "    author: \"" + authors + "\"\n"
+        md += "    title: \""   + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + '"\n'
+        md += "    year: \"" + b["year"] + "\"\n"
+        md += "    paper-type: " + paper_type + "\n"
 
-                authors = ""
-                num_authors = len(bibdata.entries[bib_id].persons["author"])
-                for ai, author in enumerate(bibdata.entries[bib_id].persons["author"]):
-                    if ai == (num_authors-1) and num_authors != 1:
-                        authors += "and "
-                    authors += author.first_names[0]+" "+author.last_names[0]
-                    if ai < (num_authors-2):
-                        authors += ", "
-                    elif ai < (num_authors-1):
-                        authors += " "
-                paper_type = bibdata.entries[bib_id].type
+        if paper_type == "inproceedings":
+            # find the short name of the conference
+            name = None
+            if 'confid' in b:
+                proc = conference_names.get(b.get("confid"))
+                if proc: name = proc['short']
+            elif 'confname' in b:
+                name = b['confname']
 
-                ## YAML variables
-                md  = "  - layout: paper" + "\n"
-                md += "    author: \"" + authors + "\"\n"
-                md += "    title: \""   + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + '"\n'
-                md += "    year: \"" + b["year"] + "\"\n"
-                md += "    paper-type: " + paper_type + "\n"
+            if not name:
+                print('WARNING: no entry for conference', b['booktitle'], file=sys.stderr)
+                name = b['booktitle']
 
-                if paper_type == "inproceedings":
-                    # find the short name of the conference
-                    re.
-                    
-                    md += "    booktitle: \"" + b["booktitle"] + "\"\n"
-                    if "address" in b.keys():
-                        md += "    address: \"" + b["address"] + "\"\n"
+            name = html_escape(name.replace("{", "").replace("}","").replace("\\","")) 
+            
+            md += "    booktitle: \"" + name + "\"\n"
 
-                elif paper_type == "article":
-                    md += "    journal: \"" + b["journal"] + "\"\n"
-                    if "volume" in b.keys():
-                        md += "    volume: " + b["volume"] + "\n"
+        elif paper_type == "article":
+            name = html_escape(b['journal'].replace("{", "").replace("}","").replace("\\","")) 
+            md += "    journal: \"" + name + "\"\n"
+            if "volume" in b.keys():
+                md += "    volume: " + b["volume"] + "\n"
+            # could have number, issue, month
 
-                #venue
-                #md += "    venue: " + b["venue"] + "\n"
-                
-                #optional doc and code url
-                if "docurl" in b.keys():
-                    if len(str(b["url"])) > 5:
-                        md += "    docurl: \"" + b["url"] + "\"\n"
+        #optional doc and code url
+        if "url" in b.keys():
+            if len(str(b["url"])) > 5:
+                md += "    docurl: \"" + b["url"] + "\"\n"
 
-                if "codeurl" in b.keys():
-                    if len(str(b["codeurl"])) > 5:
-                        md += "    codeurl: \"" + b["codeurl"] + "\"\n"
+        codeurl = code_urls.get(bib_id)
+        if codeurl:
+            md += "    codeurl: \"" + codeurl['url'] + "\"\n"
 
-                #optional page numbers
-                if "pages" in b.keys():
-                    md += "    pages: " + b["pages"].replace("--", "&mdash;") + "\n"
+        #optional page numbers
+        #if "pages" in b.keys():
+            #md += "    pages: " + b["pages"].replace("--", "&mdash;") + "\n"
 
-                print(md, end="")
+        print(md, end="")
 
-        except KeyError as e:
-            print("WARNING Missing Expected Field", e, "from entry ", bib_id, ": \"", b["title"][:30] ,"\"")
-            continue
+    except KeyError as e:
+        print("WARNING Missing Expected Field", e, "from entry ", bib_id, ": \"", b["title"][:30] ,"\"", file=sys.stderr)
+        continue

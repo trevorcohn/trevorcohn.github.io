@@ -12,6 +12,7 @@ import pybtex.errors
 import pybtex.utils
 import numpy as np
 import csv
+import json
 
 # step 1: download from DBLP, filter out CoRR papers [what about papers that are under review / preprints?]
 
@@ -31,13 +32,10 @@ parser = bibtex.Parser()
 bibdata = parser.parse_string(html)
 
 conference_names = {}
-conffname = 'conferences.tsv'
+conffname = 'conferences.json'
 if os.path.exists(conffname):
-    with open(conffname, 'r') as tsvfile:
-        conf_reader = csv.reader(tsvfile, delimiter='\t')
-        for row in conf_reader:
-            confid, longname, shortname = row
-            conference_names[confid] = (longname, shortname)
+    with open(conffname, 'r') as jsonfile:
+        conference_names = json.load(jsonfile)
 
 #loop through the individual references in a given bibtex file
 to_keep = pybtex.database.BibliographyData()
@@ -62,7 +60,8 @@ for bib_id in bibdata.entries:
 
             conf = conference_names.get(b['crossref'])
             if conf != None:
-                proceedings, short = conf
+                proceedings = conf['long']
+                short = conf['short']
             else:
                 proc = new_entry.fields['booktitle']
                 print('WARNING: guessing details of unseen conference:', b['crossref'])
@@ -72,7 +71,6 @@ for bib_id in bibdata.entries:
 
                 proceedings = parts[longest].strip()
                 new_entry.fields['booktitle'] = proceedings
-
 
                 # see if there's a short form in the string
                 short = None
@@ -97,12 +95,11 @@ for bib_id in bibdata.entries:
                 print('\tlong form', proceedings)
                 print('\tshort form', short)
 
-                conference_names[b['crossref']] = (proceedings, short)
+                conference_names[b['crossref']] = { 'long': proceedings, 'short': short }
 
             new_entry.fields['booktitle'] = proceedings
             if short:
                 new_entry.fields['confname'] = short
-
 
             to_keep.entries[bib_id] = new_entry
 
@@ -121,7 +118,5 @@ to_keep.to_file("dblp.bib", "bibtex")
 
 if not os.path.exists(conffname):
     with open(conffname, "w") as conffile:
-        writer = csv.writer(conffile, delimiter='\t')
-        for key, value in sorted(conference_names.items()):
-            writer.writerow([key, value[0], value[1]])
+        json.dump(conference_names, conffile, indent=2, sort_keys=True)
     

@@ -1,0 +1,350 @@
+{
+  "DBLP:conf/aaai/2015": {
+    "long": "Proceedings of the Twenty-Ninth {AAAI} Conference on Artificial Intelligence",
+    "short": "AAAI 2015"
+  },
+  "DBLP:conf/aaai/2016": {
+    "long": "Proceedings of the Thirtieth {AAAI} Conference on Artificial Intelligence",
+    "short": "AAAI 2016"
+  },
+  "DBLP:conf/acl-alta/2003": {
+    "long": "Proceedings of the Australasian Language Technology Workshop",
+    "short": "{ALTA} 2003"
+  },
+  "DBLP:conf/acl-alta/2016": {
+    "long": "Proceedings of the Australasian Language Technology Association Workshop 2016",
+    "short": "ALTA 2016"
+  },
+  "DBLP:conf/acl-alta/2017": {
+    "long": "Proceedings of the Australasian Language Technology Association Workshop",
+    "short": "{ALTA} 2017"
+  },
+  "DBLP:conf/acl-alta/2018": {
+    "long": "Proceedings of the Australasian Language Technology Association Workshop 2018",
+    "short": "ALTA 2018"
+  },
+  "DBLP:conf/acl-multiling/2017": {
+    "long": "Proceedings of the Workshop on Summarization and Summary Evaluation Across Source Types and Genres",
+    "short": null
+  },
+  "DBLP:conf/acl/2005": {
+    "long": "43rd Annual Meeting of the Association for Computational Linguistics",
+    "short": "{ACL} 2005"
+  },
+  "DBLP:conf/acl/2006": {
+    "long": "21st International Conference on Computational Linguistics and 44th Annual Meeting of the Association for Computational Linguistics",
+    "short": "{ACL} 2006"
+  },
+  "DBLP:conf/acl/2007": {
+    "long": "Proceedings of the 45th Annual Meeting of the Association for Computational Linguistics",
+    "short": "{ACL} 2007"
+  },
+  "DBLP:conf/acl/2008": {
+    "long": "Proceedings of the 46th Annual Meeting of the Association for Computational Linguistics",
+    "short": "{ACL} 2008"
+  },
+  "DBLP:conf/acl/2009": {
+    "long": "Proceedings of the 47th Annual Meeting of the Association for Computational Linguistics and the 4th International Joint Conference on Natural Language Processing of the AFNLP",
+    "short": "{ACL} 2009"
+  },
+  "DBLP:conf/acl/2009s": {
+    "long": "Proceedings of the 47th Annual Meeting of the Association for Computational Linguistics and the 4th International Joint Conference on Natural Language Processing of the AFNLP",
+    "short": "{ACL} 2009"
+  },
+  "DBLP:conf/acl/2010s": {
+    "long": "Proceedings of the 48th Annual Meeting of the Association for Computational Linguistics",
+    "short": "{ACL} 2010"
+  },
+  "DBLP:conf/acl/2011": {
+    "long": "The 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies",
+    "short": "ACL 2011"
+  },
+  "DBLP:conf/acl/2013-1": {
+    "long": "Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics",
+    "short": "{ACL} 2013"
+  },
+  "DBLP:conf/acl/2013-2": {
+    "long": "Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics",
+    "short": "{ACL} 2013"
+  },
+  "DBLP:conf/acl/2013-d": {
+    "long": "51st Annual Meeting of the Association for Computational Linguistics",
+    "short": "{ACL} 2013"
+  },
+  "DBLP:conf/acl/2014-2": {
+    "long": "Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics",
+    "short": "{ACL} 2014"
+  },
+  "DBLP:conf/acl/2014-t": {
+    "long": "Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics",
+    "short": "{ACL} 2014"
+  },
+  "DBLP:conf/acl/2014ltcss": {
+    "long": "Proceedings of the Workshop on Language Technologies and Computational Social Science@ACL 2014",
+    "short": null
+  },
+  "DBLP:conf/acl/2015-2": {
+    "long": "Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing of the Asian Federation of Natural Language Processing",
+    "short": "{ACL} 2015"
+  },
+  "DBLP:conf/acl/2016-1": {
+    "long": "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics",
+    "short": "{ACL} 2016"
+  },
+  "DBLP:conf/acl/2016-2": {
+    "long": "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics",
+    "short": "{ACL} 2016"
+  },
+  "DBLP:conf/acl/2016-d": {
+    "long": "Proceedings of {ACL-2016} System Demonstrations",
+    "short": null
+  },
+  "DBLP:conf/acl/2017-1": {
+    "long": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics",
+    "short": "{ACL} 2017"
+  },
+  "DBLP:conf/acl/2017-2": {
+    "long": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics",
+    "short": "{ACL} 2017"
+  },
+  "DBLP:conf/acl/2018-1": {
+    "long": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics",
+    "short": "{ACL} 2018"
+  },
+  "DBLP:conf/acl/2018-2": {
+    "long": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics",
+    "short": "{ACL} 2018"
+  },
+  "DBLP:conf/acl/2019-1": {
+    "long": "Proceedings of the 57th Conference of the Association for Computational Linguistics",
+    "short": "{ACL} 2019"
+  },
+  "DBLP:conf/aclnmt/2018": {
+    "long": "Proceedings of the 2nd Workshop on Neural Machine Translation and Generation",
+    "short": "NMT@ACL 2018"
+  },
+  "DBLP:conf/aclnut/2018": {
+    "long": "Proceedings of the 4th Workshop on Noisy User-generated Text",
+    "short": "NUT@EMNLP 2018"
+  },
+  "DBLP:conf/asunam/2017": {
+    "long": "Proceedings of the 2017 {IEEE/ACM} International Conference on Advances in Social Networks Analysis and Mining 2017",
+    "short": "ASONAM 2017"
+  },
+  "DBLP:conf/bigdataconf/2017": {
+    "long": "2017 {IEEE} International Conference on Big Data",
+    "short": null
+  },
+  "DBLP:conf/bionlp/2016-s": {
+    "long": "Proceedings of the 4th BioNLP Shared Task Workshop",
+    "short": null
+  },
+  "DBLP:conf/bionlp/2019": {
+    "long": "Proceedings of the 18th BioNLP Workshop and Shared Task",
+    "short": null
+  },
+  "DBLP:conf/cicling/2013-1": {
+    "long": "Computational Linguistics and Intelligent Text Processing - 14th International Conference",
+    "short": "CICLING 2013"
+  },
+  "DBLP:conf/coling/2008": {
+    "long": "22nd International Conference on Computational Linguistics",
+    "short": "{COLING} 2008"
+  },
+  "DBLP:conf/coling/2016t": {
+    "long": "26th International Conference on Computational Linguistics",
+    "short": "{COLING} 2016"
+  },
+  "DBLP:conf/conll/2005": {
+    "long": "Proceedings of the Ninth Conference on Computational Natural Language Learning",
+    "short": "CoNLL 2005"
+  },
+  "DBLP:conf/conll/2014": {
+    "long": "Proceedings of the Eighteenth Conference on Computational Natural Language Learning",
+    "short": "CoNLL 2014"
+  },
+  "DBLP:conf/conll/2015": {
+    "long": "Proceedings of the 19th Conference on Computational Natural Language Learning",
+    "short": "CoNLL 2015"
+  },
+  "DBLP:conf/conll/2016": {
+    "long": "Proceedings of the 20th {SIGNLL} Conference on Computational Natural Language Learning",
+    "short": "CoNLL 2016"
+  },
+  "DBLP:conf/eacl/2009": {
+    "long": "12th Conference of the European Chapter of the Association for Computational Linguistics",
+    "short": "{EACL} 2009"
+  },
+  "DBLP:conf/eacl/2014": {
+    "long": "Proceedings of the 14th Conference of the European Chapter of the Association for Computational Linguistics",
+    "short": "{EACL} 2014"
+  },
+  "DBLP:conf/eacl/2017-1": {
+    "long": "Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics",
+    "short": "{EACL} 2017"
+  },
+  "DBLP:conf/eacl/2017-2": {
+    "long": "Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics",
+    "short": "{EACL} 2017"
+  },
+  "DBLP:conf/ecml/2006": {
+    "long": "17th European Conference on Machine Learning",
+    "short": "ECML"
+  },
+  "DBLP:conf/emnlp/2007": {
+    "long": "Proceedings of the 2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning",
+    "short": "EMNLP-CoNLL 2007"
+  },
+  "DBLP:conf/emnlp/2009": {
+    "long": "Proceedings of the 2009 Conference on Empirical Methods in Natural Language Processing",
+    "short": "{EMNLP} 2009"
+  },
+  "DBLP:conf/emnlp/2010": {
+    "long": "Proceedings of the 2010 Conference on Empirical Methods in Natural Language Processing",
+    "short": "{EMNLP} 2010"
+  },
+  "DBLP:conf/emnlp/2012": {
+    "long": "Proceedings of the 2012 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning",
+    "short": "EMNLP-CoNLL 2012"
+  },
+  "DBLP:conf/emnlp/2013": {
+    "long": "Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing",
+    "short": "{EMNLP} 2013"
+  },
+  "DBLP:conf/emnlp/2014": {
+    "long": "Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing",
+    "short": "{EMNLP} 2014"
+  },
+  "DBLP:conf/emnlp/2015": {
+    "long": "Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing",
+    "short": "{EMNLP} 2015"
+  },
+  "DBLP:conf/emnlp/2016": {
+    "long": "Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing",
+    "short": "{EMNLP} 2016"
+  },
+  "DBLP:conf/emnlp/2017": {
+    "long": "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing",
+    "short": "{EMNLP} 2017"
+  },
+  "DBLP:conf/emnlp/2017swcm": {
+    "long": "Proceedings of the First Workshop on Subword and Character Level Models in NLP",
+    "short": null
+  },
+  "DBLP:conf/emnlp/2018": {
+    "long": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
+    "short": "EMNLP 2018"
+  },
+  "DBLP:conf/ht/2013": {
+    "long": "24th {ACM} Conference on Hypertext and Social Media (part of ECRC)",
+    "short": "{HT} 2013"
+  },
+  "DBLP:conf/icassp/2013": {
+    "long": "{IEEE} International Conference on Acoustics",
+    "short": "ICASSP 2013"
+  },
+  "DBLP:conf/icassp/2019": {
+    "long": "{IEEE} International Conference on Acoustics",
+    "short": "ICASSP 2019"
+  },
+  "DBLP:conf/icml/2019": {
+    "long": "Proceedings of the 36th International Conference on Machine Learning",
+    "short": "{ICML} 2019"
+  },
+  "DBLP:conf/ijcai/2017": {
+    "long": "Proceedings of the Twenty-Sixth International Joint Conference on Artificial Intelligence",
+    "short": "{IJCAI} 2017"
+  },
+  "DBLP:conf/ijcnlp/2017-1": {
+    "long": "Proceedings of the Eighth International Joint Conference on Natural Language Processing",
+    "short": "{IJCNLP} 2017"
+  },
+  "DBLP:conf/ijcnlp/2017-2": {
+    "long": "Proceedings of the Eighth International Joint Conference on Natural Language Processing",
+    "short": "{IJCNLP} 2017"
+  },
+  "DBLP:conf/interspeech/2016": {
+    "long": "17th Annual Conference of the International Speech Communication Association",
+    "short": "INTERSPEECH 2016"
+  },
+  "DBLP:conf/lrec/2016": {
+    "long": "Proceedings of the Tenth International Conference on Language Resources and Evaluation {LREC} 2016",
+    "short": "LREC 2016"
+  },
+  "DBLP:conf/lrec/2018": {
+    "long": "Proceedings of the Eleventh International Conference on Language Resources and Evaluation",
+    "short": "{LREC} 2018"
+  },
+  "DBLP:conf/naacl/2009": {
+    "long": "Human Language Technologies: Conference of the North American Chapter of the Association of Computational Linguistics",
+    "short": "HLT:NAACL 2009"
+  },
+  "DBLP:conf/naacl/2010": {
+    "long": "Human Language Technologies: Conference of the North American Chapter of the Association of Computational Linguistics",
+    "short": "HLT:NAACL 2010"
+  },
+  "DBLP:conf/naacl/2012": {
+    "long": "Human Language Technologies: Conference of the North American Chapter of the Association of Computational Linguistics",
+    "short": "HLT:NAACL 2012"
+  },
+  "DBLP:conf/naacl/2015": {
+    "long": "The 2015 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    "short": "{NAACL} {HLT} 2015"
+  },
+  "DBLP:conf/naacl/2016": {
+    "long": "The 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    "short": "{NAACL} {HLT} 2016"
+  },
+  "DBLP:conf/naacl/2018-1": {
+    "long": "Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    "short": "{NAACL-HLT} 2018"
+  },
+  "DBLP:conf/naacl/2018-2": {
+    "long": "Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    "short": "NAACL-HLT 2018"
+  },
+  "DBLP:conf/naacl/2019-1": {
+    "long": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    "short": "{NAACL-HLT} 2019"
+  },
+  "DBLP:conf/nips/2008": {
+    "long": "Proceedings of the Twenty-Second Annual Conference on Neural Information Processing Systems",
+    "short": "NeurIPS 2008"
+  },
+  "DBLP:conf/pkdd/2015-2": {
+    "long": "Machine Learning and Knowledge Discovery in Databases - European Conference",
+    "short": "{ECML} {PKDD} 2015"
+  },
+  "DBLP:conf/sepln/2012elkr": {
+    "long": "Proceedings of the 2nd International Workshop on Exploiting Large Knowledge Repositories",
+    "short": null
+  },
+  "DBLP:conf/smbm/2016": {
+    "long": "Proceedings of the 7th International Symposium on Semantic Mining in Biomedicine",
+    "short": "{SMBM} 2016"
+  },
+  "DBLP:conf/starsem/2019": {
+    "long": "Proceedings of the Eighth Joint Conference on Lexical and Computational Semantics",
+    "short": "*SEM@NAACL-HLT 2019"
+  },
+  "DBLP:conf/websci/2013": {
+    "long": "Web Science 2013",
+    "short": null
+  },
+  "DBLP:conf/wmt/2011": {
+    "long": "Proceedings of the Sixth Workshop on Statistical Machine Translation",
+    "short": "WMT@EMNLP 2011"
+  },
+  "DBLP:conf/wmt/2013": {
+    "long": "Proceedings of the Eighth Workshop on Statistical Machine Translation",
+    "short": "WMT@ACL 2013"
+  },
+  "DBLP:conf/www/2017c": {
+    "long": "Proceedings of the 26th International Conference on World Wide Web Companion",
+    "short": null
+  },
+  "DBLP:conf/www/2019": {
+    "long": "The World Wide Web Conference",
+    "short": "{WWW} 2019"
+  }
+}
