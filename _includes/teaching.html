@@ -1,0 +1,15 @@
+<ul>
+  {% for subject in site.data.teaching.teaching %}
+    {% assign year = subject.year | plus: 0 %}
+    {% if subject.year == include.year %}
+      <li>
+        <b><a href="{{ subject.url }}">{{ subject.name }}</a></b> ({{ subject.department }})
+      {% if subject.note1 %}
+      <ul>
+        <li>{{ subject.note1 }}</li>
+      </ul>
+      {% endif %}
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
