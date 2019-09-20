@@ -1,5 +1,5 @@
 <ul>
-  {% for subject in site.data.teaching.teaching %}
+  {% for subject in site.data.teaching.subjects %}
     {% assign year = subject.year | plus: 0 %}
     {% if subject.year == include.year %}
       <li>
