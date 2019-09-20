@@ -248,7 +248,7 @@ papers:
     booktitle: "IJCNLP 2017"
     docurl: "https://www.aclweb.org/anthology/I17-1056/"
   - layout: paper
-    author: "Jey Lau, Lianhua Chi, Khoi{-}Nguyen Tran and Trevor Cohn"
+    author: "Jey Lau, Lianhua Chi, Khoi-Nguyen Tran and Trevor Cohn"
     title: "End-to-end Network for Twitter Geolocation Prediction and Hashing"
     year: "2017"
     paper-type: inproceedings
@@ -450,7 +450,7 @@ papers:
     docurl: "https://www.aclweb.org/anthology/N16-1102/"
     codeurl: "https://github.com/trevorcohn/mantis"
   - layout: paper
-    author: "Daniel Preotiuc{-}Pietro, P. Srijith, Mark Hepple and Trevor Cohn"
+    author: "Daniel Preotiuc-Pietro, P. Srijith, Mark Hepple and Trevor Cohn"
     title: "Studying the Temporal Dynamics of Word Co-occurrences: An Application to Event Detection"
     year: "2016"
     paper-type: inproceedings
@@ -710,7 +710,7 @@ papers:
     docurl: "https://www.aclweb.org/anthology/D14-1190/"
     codeurl: "http://github.com/beckdaniel/emnlp14_joint_ea"
   - layout: paper
-    author: "Vasileios Lampos, Nikolaos Aletras, Daniel Preotiuc{-}Pietro and Trevor Cohn"
+    author: "Vasileios Lampos, Nikolaos Aletras, Daniel Preotiuc-Pietro and Trevor Cohn"
     title: "Predicting and Characterising User Impact on Twitter"
     year: "2014"
     paper-type: inproceedings
@@ -724,7 +724,7 @@ papers:
     booktitle: "CoNLL 2014"
     docurl: "https://www.aclweb.org/anthology/W14-1616/"
   - layout: paper
-    author: "Vasileios Lampos, Daniel Preotiuc{-}Pietro, Sina Samangooei, Douwe Gelling and Trevor Cohn"
+    author: "Vasileios Lampos, Daniel Preotiuc-Pietro, Sina Samangooei, Douwe Gelling and Trevor Cohn"
     title: "Extracting Socioeconomic Patterns from the News: Modelling Text and Outlet Importance Jointly"
     year: "2014"
     paper-type: inproceedings
@@ -739,7 +739,7 @@ papers:
     docurl: "https://www.aclweb.org/anthology/P14-2025/"
     codeurl: "http://github.com/dgel/fastalign"
   - layout: paper
-    author: "Trevor Cohn, Daniel Preotiuc{-}Pietro and Neil Lawrence"
+    author: "Trevor Cohn, Daniel Preotiuc-Pietro and Neil Lawrence"
     title: "Gaussian Processes for Natural Language Processing"
     year: "2014"
     paper-type: inproceedings
@@ -768,7 +768,7 @@ papers:
     booktitle: "WMT@ACL 2013"
     docurl: "https://www.aclweb.org/anthology/W13-2241/"
   - layout: paper
-    author: "Daniel Preotiuc{-}Pietro and Trevor Cohn"
+    author: "Daniel Preotiuc-Pietro and Trevor Cohn"
     title: "Mining user behaviours: a study of check-in patterns in location based social networks"
     year: "2013"
     paper-type: inproceedings
@@ -782,14 +782,14 @@ papers:
     booktitle: "ICASSP 2013"
     docurl: "https://doi.org/10.1109/ICASSP.2013.6639304"
   - layout: paper
-    author: "Dominic Rout, Kalina Bontcheva, Daniel Preotiuc{-}Pietro and Trevor Cohn"
+    author: "Dominic Rout, Kalina Bontcheva, Daniel Preotiuc-Pietro and Trevor Cohn"
     title: "Where&apos;s @wally?: a classification approach to geolocating users based on their social ties"
     year: "2013"
     paper-type: inproceedings
     booktitle: "HT 2013"
     docurl: "https://doi.org/10.1145/2481492.2481494"
   - layout: paper
-    author: "Daniel Preotiuc{-}Pietro and Trevor Cohn"
+    author: "Daniel Preotiuc-Pietro and Trevor Cohn"
     title: "A temporal model of text periodicities using Gaussian Processes"
     year: "2013"
     paper-type: inproceedings
@@ -803,14 +803,14 @@ papers:
     booktitle: "CICLING 2013"
     docurl: "https://doi.org/10.1007/978-3-642-37247-6\\_25"
   - layout: paper
-    author: "Lucia Specia, Kashif Shah, Jos{\'{e}} Souza and Trevor Cohn"
+    author: "Lucia Specia, Kashif Shah, Jose Souza and Trevor Cohn"
     title: "QuEst - A translation quality estimation framework"
     year: "2013"
     paper-type: inproceedings
     booktitle: "ACL 2013"
     docurl: "https://www.aclweb.org/anthology/P13-4014/"
   - layout: paper
-    author: "Vasileios Lampos, Daniel Preotiuc{-}Pietro and Trevor Cohn"
+    author: "Vasileios Lampos, Daniel Preotiuc-Pietro and Trevor Cohn"
     title: "A user-centric model of voting intention from Social Media"
     year: "2013"
     paper-type: inproceedings
@@ -983,7 +983,7 @@ papers:
     booktitle: "ACL 2009"
     docurl: "https://www.aclweb.org/anthology/P09-1088/"
   - layout: paper
-    author: "Trevor Cohn, Chris Callison{-}Burch and Mirella Lapata"
+    author: "Trevor Cohn, Chris Callison-Burch and Mirella Lapata"
     title: "Constructing Corpora for the Development and Evaluation of Paraphrase Systems"
     year: "2008"
     paper-type: article
@@ -1006,7 +1006,7 @@ papers:
     docurl: "https://www.aclweb.org/anthology/C08-1018/"
     codeurl: "https://people.eng.unimelb.edu.au/tcohn/t3.html"
   - layout: paper
-    author: "Chris Callison{-}Burch, Trevor Cohn and Mirella Lapata"
+    author: "Chris Callison-Burch, Trevor Cohn and Mirella Lapata"
     title: "ParaMetric: An Automatic Evaluation Metric for Paraphrasing"
     year: "2008"
     paper-type: inproceedings

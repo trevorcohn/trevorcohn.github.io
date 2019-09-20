@@ -5,7 +5,7 @@ permalink: /teaching/
 author_profile: true
 ---
 
-{% for yr in (2010..2019) reversed %}
+{% for yr in (2011..2019) reversed %}
 ## {{yr}}
 {% include teaching.html year=yr %}
 {% endfor %}
