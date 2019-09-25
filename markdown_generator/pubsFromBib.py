@@ -50,7 +50,7 @@ for bib_id in sorted(allbib.entries, reverse=True,
         for ai, author in enumerate(e.persons["author"]):
             if ai == (num_authors-1) and num_authors != 1:
                 authors += "and "
-            authors += author.first_names[0]+" "+author.last_names[0]
+            authors += html_escape(author.first_names[0].replace("{", "").replace("}","").replace("\\","")) + " " + html_escape(author.last_names[0].replace("{", "").replace("}","").replace("\\","")) 
             if ai < (num_authors-2):
                 authors += ", "
             elif ai < (num_authors-1):
@@ -91,7 +91,7 @@ for bib_id in sorted(allbib.entries, reverse=True,
         #optional doc and code url
         if "url" in b.keys():
             if len(str(b["url"])) > 5:
-                md += "    docurl: \"" + b["url"] + "\"\n"
+                md += "    docurl: \"" + b["url"].replace("\\","") + "\"\n"
 
         codeurl = code_urls.get(bib_id)
         if codeurl:
