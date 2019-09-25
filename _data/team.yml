@@ -167,6 +167,12 @@ students:
     tagline: Ph.D. student, UMelbourne.
     description: >
         Multilingual parsing, co-supervised with Lea Frermann.
+  -
+    name: Najam Zaidi
+    img: najam
+    tagline: Ph.D. student, UMonash.
+    description: >
+	Structured prediction, co-supervised with Reza Haffari.
   - 
     name: Zhuohan Xie
     img: zhuohan
@@ -179,3 +185,4 @@ students:
     tagline: MSc student, UMelbourne.
     description: >
         Adversarial attacks on NLP models.
+
