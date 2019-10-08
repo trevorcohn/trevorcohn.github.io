@@ -1,5 +1,11 @@
 papers:
   - layout: paper
+    author: "Dalin Wang, Daniel Beck and Trevor Cohn"
+    title: "On the Role of Scene Graphs in Image Captioning"
+    year: "2019"
+    paper-type: inproceedings
+    booktitle: "The First Workshop Beyond Vision and LANguage: inTEgrating Real-World kNowledge (LANTERN)"
+  - layout: paper
     author: "Xudong Han, Philip Schulz and Trevor Cohn"
     title: "Grounding learning of modifier dynamics: An application to colour naming"
     year: "2019"
@@ -603,7 +609,7 @@ papers:
     year: "2015"
     paper-type: inproceedings
     booktitle: "ECML PKDD 2015"
-    docurl: "https://doi.org/10.1007/978-3-319-23525-7\\_23"
+    docurl: "https://doi.org/10.1007/978-3-319-23525-7_23"
   - layout: paper
     author: "Afshin Rahimi, Duy Vu, Trevor Cohn and Timothy Baldwin"
     title: "Exploiting Text and Network Context for Geolocation of Social Media Users"
@@ -801,9 +807,9 @@ papers:
     year: "2013"
     paper-type: inproceedings
     booktitle: "CICLING 2013"
-    docurl: "https://doi.org/10.1007/978-3-642-37247-6\\_25"
+    docurl: "https://doi.org/10.1007/978-3-642-37247-6_25"
   - layout: paper
-    author: "Lucia Specia, Kashif Shah, Jose Souza and Trevor Cohn"
+    author: "Lucia Specia, Kashif Shah, Jos&apos;e Souza and Trevor Cohn"
     title: "QuEst - A translation quality estimation framework"
     year: "2013"
     paper-type: inproceedings
@@ -874,7 +880,7 @@ papers:
     year: "2012"
     paper-type: inproceedings
     booktitle: "Proceedings of the 2nd International Workshop on Exploiting Large Knowledge Repositories"
-    docurl: "http://ceur-ws.org/Vol-882/elkr\\_atsf\\_2012\\_paper6.pdf"
+    docurl: "http://ceur-ws.org/Vol-882/elkr_atsf_2012_paper6.pdf"
   - layout: paper
     author: "Jeremy Nicholson, Trevor Cohn and Timothy Baldwin"
     title: "Evaluating a Morphological Analyser of Inuktitut"
@@ -1039,7 +1045,7 @@ papers:
     year: "2006"
     paper-type: inproceedings
     booktitle: "ECML"
-    docurl: "https://doi.org/10.1007/11871842\\_58"
+    docurl: "https://doi.org/10.1007/11871842_58"
   - layout: paper
     author: "Phil Blunsom and Trevor Cohn"
     title: "Discriminative Word Alignment with Conditional Random Fields"
