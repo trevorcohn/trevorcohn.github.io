@@ -1,188 +1,229 @@
-staff:
+team:
   - 
     name: Yuan Li
     img: yuan
     tagline: Research Fellow, UMelbourne
     description: >
-	Domain adaptation and transfer learning.
+        Domain adaptation and transfer learning.
+    type: staff
   - 
     name: Mel Mystica
     img: mel
     tagline: Research Fellow, UMelbourne
     description: >
         Interaction dynamics in cooperative team-based environments; with Tim Baldwin.
+    type: staff
   - 
     name: Philip Arthur 
     img: philip
     tagline: Research Fellow, UMonash
     description: >
         Simultaneous machine translation; with Reza Haffari.
-alumni:
+    type: staff
   -
     name: Afshin Rahimi
     img: afshin
     tagline: Research Fellow, UMelbourne
+    type: alumni
   -
     name: Ekaterina Vylomova
     img: kat
     tagline: Research Fellow, Pyschology, UMelbourne.
+    type: alumni
   -
     name: Daniel Beck
     img: beck
     tagline: Lecturer, UMelbourne
     url: https://beckdaniel.wordpress.com/
+    type: alumni
   -
     name: Matthias Petri
     img: matthias
     tagline: Research Scientist, Amazon
     url: https://github.com/mpetri
+    type: alumni
   -
     name: Moe (Meng) Fang
     img: moe
     tagline: Research Scientist, Tencent
+    type: alumni
   -
     name: Srijith P.K.
     img: srijith
     tagline: Assistant Prof., IIT Hyderabad
     url: https://sites.google.com/site/pksrijith/contact
+    type: alumni
   -
     name: Wai Man (Raymond) Ng
     img: ray
     tagline: Research Associate, USheffield
+    type: alumni
   -
     name: Yang Feng
     img: yang
     tagline: Assistant Prof., Chinese Academy of Sciences
     url: http://www.lampos.net
+    type: alumni
   -
     name: Vasileios (Bill) Lampos
     img: bill
     tagline: Principal Research Fellow, UCL
     url: http://www.lampos.net
+    type: alumni
   - 
     name: Josh Schroeder
     tagline: Engineer, Google
     img: josh
+    type: alumni
   -
     name: Daniel Preotiuc-Pietro
     img: preotiuc
     tagline: UPenn/Bloomberg
     url: https://web.sas.upenn.edu/danielpr/
+    type: alumni
   -
     name: Xingyi Song
     img: xingyi
     tagline: Research Associate, USheffield
+    type: alumni
   -
     name: Zsolt Bitvai
     img: zsolt
     tagline: Research Scientist, Amazon
+    type: alumni
   -
     name: Michal Lukasik
     img: michal
     tagline: Google AI
+    type: alumni
   -
     name: Ehsan Shareghi
     img: ehsan
     tagline: Research Fellow, UCambridge
+    type: alumni
   -
     name: Long Duong
     img: long-duong
-    tagline: Senior Computer Scientist, speak.ai 
+    tagline: Senior Computer Scientist, Oracle
+    type: alumni
   - 
     name: Oliver Adams
     img: ollie
     tagline: Research Fellow, Johns Hopkins U.
+    type: alumni
   - 
     name: Douwe Gelling
     img: douwe
     tagline: Software Engineer, Intel
+    type: alumni
   -
     name: Vu (Cong Duy) Hoang
     img: vu
-    tagline: Research Scientist, speak.ai
+    tagline: Research Scientist, Oracle
+    type: alumni
   - 
     name: Nagesh PC
     img: nagesh
     tagline: Data Scientist, PI Exchange
     url: https://nageshpc.github.io/
+    type: alumni
   - 
     name: Malcolm Karutz
     img: malcolm
     tagline: MSc student, UMelbourne.
+    type: alumni
   - 
     name: Ryan Henderson
     img: ryan
     tagline: MSc student, UMelbourne.
+    type: alumni
   - 
     name: Minghan Wang
     img: minghan
     tagline: MSc student, UMelbourne.
-students:
+    type: alumni
   - 
     name: Felix (Fei) Liu
     img: felix
     tagline: Ph.D. student, UMelbourne.
     url: https://liufly.github.io/
     description: >
-        Felix is researching multi-word expressions, and compositionality using deep learning. Co-supervised with Tim Baldwin.
+        Memory-based models of deep learning, co-supervised with Tim Baldwin.
+    type: student
   - 
     name:  Yitong Li
     img: yitong
     tagline: Ph.D. student, UMelbourne.
     description: >
         Adversarial learning of NLP, co-supervised with Tim Baldwin.
+    type: student
   - 
     name:  Nitika Mathur
     img: nitika
     tagline: Ph.D. student, UMelbourne.
     description: >
         Evaluation of translation, co-supervised with Tim Baldwin.
+    type: student
   - 
     name: Shivashankar Subramanian
     img: shiva
     tagline: Ph.D. student, UMelbourne.
     description: >
         Computational social science for political text, co-supervised with Tim Baldwin.
+    type: student
   - 
     name:  Dalin Wang
     img: dalin
     tagline: Ph.D. student, UMelbourne.
     description: >
         Vision and language, co-supervised with Daniel Beck.
+    type: student
   - 
     name:  Zenan Zhai
     img: zenan
     tagline: Ph.D. student, UMelbourne.
     description: >
         Information extraction from scientific literature, co-supervised with Karin Verspoor.
+    type: student
   - 
     name: Chunhua Liu
     img: chunhua
     tagline: Ph.D. student, UMelbourne.
     description: >
-        Common-sense reasoning, co-supervised with Lea Frermann.
+        Commonsense reasoning, co-supervised with Lea Frermann.
+    type: student
   - 
     name: Kemal Kurniawan
     img: kemal
     tagline: Ph.D. student, UMelbourne.
     description: >
         Multilingual parsing, co-supervised with Lea Frermann.
+    type: student
   -
     name: Najam Zaidi
     img: najam
     tagline: Ph.D. student, UMonash.
     description: >
-	Structured prediction, co-supervised with Reza Haffari.
+        Structured prediction, co-supervised with Reza Haffari (Monash).
+    type: student
   - 
     name: Zhuohan Xie
     img: zhuohan
     tagline: Ph.D. student, UMelbourne.
     description: >
         Generation of poetry, co-supervised with Jey Han Lau.
+    type: student
   - 
     name: Jiaheng Zhang
     img: zhuohan
     tagline: MSc student, UMelbourne.
     description: >
         Adversarial attacks on NLP models.
-
+    type: student
+  - 
+    name: Joshua Yang
+    img: zhuohan
+    tagline: MSc student, UMelbourne.
+    description: >
+        Low resource NLP for Australian indigenous languages, with Steven Bird (CDU).
+    type: student

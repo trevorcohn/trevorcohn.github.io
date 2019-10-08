@@ -3,11 +3,9 @@
     {% assign year = subject.year | plus: 0 %}
     {% if year == include.year %}
       <li>
-        <b><a href="{{ subject.url }}">{{ subject.name }}</a></b> ({{ subject.department }})
+        <b><a href="{{ subject.url }}">{{ subject.name }}</a></b>
       {% if subject.note1 %}
-      <ul>
-        <li>{{ subject.note1 }}</li>
-      </ul>
+        (<i>{{ subject.note1 }}</i>)
       {% endif %}
       </li>
     {% endif %}

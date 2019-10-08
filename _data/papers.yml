@@ -4,7 +4,7 @@ papers:
     title: "On the Role of Scene Graphs in Image Captioning"
     year: "2019"
     paper-type: inproceedings
-    booktitle: "The First Workshop Beyond Vision and LANguage: inTEgrating Real-World kNowledge (LANTERN)"
+    booktitle: "The First Workshop Beyond Vision and LANguage: inTEgrating Real-World kNowledge (LANTERN@EMNLP)"
   - layout: paper
     author: "Xudong Han, Philip Schulz and Trevor Cohn"
     title: "Grounding learning of modifier dynamics: An application to colour naming"

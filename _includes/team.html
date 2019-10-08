@@ -1,0 +1,24 @@
+<ul>
+  {% for people in site.data.team.team %}
+     {% if people.type == include.type %}
+      <li>
+	{% if people.url %}
+		<a href="{{ people.url }}">
+	{% endif %}
+      <b>{{ people.name }}</b>
+	{% if people.url %}
+		</a>
+	{% endif %}
+
+	{% if people.tagline %}
+        <i>{{ people.tagline }}</i>
+	{% endif %}
+      {% if people.description %}
+      <ul>
+        <li>{{ people.description }}</li>
+      </ul>
+      {% endif %}
+      </li>
+      {% endif %}
+  {% endfor %}
+</ul>
