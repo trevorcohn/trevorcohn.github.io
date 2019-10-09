@@ -11,36 +11,27 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ph.D, Melbourne University, 2007 
+* B.Eng. (Hons 1, Software), Melbourne University, 2000
+* B.Comm., Melbourne University, 2000
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2014-: Associate Professor
+  * Melbourne University, School of Computing and Information Systems
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2009-2013: Senior Lecturer
+  * Sheffield University, Department of Computer Science
+
+* 2006-2009: Research Fellow
+  * Edinburgh University, School of Informatics
+  * Supervisor: Mirella Lapata
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
 Publications
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  <ol reversed>{% for paper in site.data.papers.papers %}
+    {% include single-paper-cv.html %}
+  {% endfor %}</ol>
   
 Talks
 ======
@@ -56,4 +47,8 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Programme Chair for EMNLP 2020.
+* Local Chair for ACL 2018.
+* Action editor for TACL 2018-2020.
+* Editorial board for Computational Linguistics, Computer Speech and Language (2016).
+* Area Chair for ACL, EMNLP, COLING, NeurIPS, IJCAI (various years).

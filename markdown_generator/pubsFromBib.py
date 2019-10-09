@@ -78,8 +78,10 @@ for bib_id in sorted(allbib.entries, reverse=True,
                 name = b['booktitle']
 
             name = html_escape(name.replace("{", "").replace("}","").replace("\\","")) 
+            full_name = html_escape(b['booktitle'].replace("{", "").replace("}","").replace("\\","")) 
             
             md += "    booktitle: \"" + name + "\"\n"
+            md += "    booktitle-full: \"" + full_name + "\"\n"
 
         elif paper_type == "article":
             name = html_escape(b['journal'].replace("{", "").replace("}","").replace("\\","")) 
