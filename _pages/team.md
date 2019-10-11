@@ -16,4 +16,4 @@ author_profile: true
 
 ## Alumni
 
-{% include team.html type="alumni" %}
+{% include team-alumni.html type="alumni" %}
