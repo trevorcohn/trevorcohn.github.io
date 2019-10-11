@@ -5,7 +5,9 @@
       <li>
       {{ paper.author }}
       ({{ paper.year }}).
+      {% if paper.docurl %}<a href="{{paper.docurl}}">{% endif %}
       <b>{{ paper.title }}</b>.
+      {% if paper.docurl %}</a>{% endif %}
       In
       {% case paper.paper-type %}
         {% when "inproceedings" %}
