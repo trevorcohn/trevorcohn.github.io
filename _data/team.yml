@@ -68,7 +68,7 @@ team:
     type: student
     degree: PhD
     completed: 1
-    institution: University of Sheffield
+    affiliation: University of Sheffield
     co-supervisor: Lucia Specia
     start: 2012
     end: 2017

@@ -1,0 +1,14 @@
+{% assign team = site.data.team.team | sort: "start" %}
+
+<ul>
+  {% for people in team %}
+    {% if people.type == "student" %}
+
+      <li>
+      [{{ people.start }}{% if people.end %}&mdash;{{ people.end }}{% endif %}]&nbsp; <b>{{ people.name }}</b>,
+      {{ people.degree }}, {{ people.affiliation }}.
+      </li>
+
+    {% endif %}
+  {% endfor %}
+</ul>

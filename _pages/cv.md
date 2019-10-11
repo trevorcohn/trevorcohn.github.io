@@ -9,14 +9,14 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D, Melbourne University, 2007 
-* B.Eng. (Hons 1, Software), Melbourne University, 2000
-* B.Comm., Melbourne University, 2000
+## Education
 
-Work experience
-======
+* 2017: Ph.D, Melbourne University
+* 2000: B.Eng. (Hons 1, Software), Melbourne University
+* 2000: B.Comm., Melbourne University
+
+## Appointments
+
 * 2014-: Associate Professor
   * Melbourne University, School of Computing and Information Systems
 
@@ -26,27 +26,48 @@ Work experience
 * 2006-2009: Research Fellow
   * Edinburgh University, School of Informatics
   * Supervisor: Mirella Lapata
+
+## Grants
+
+TBD
+
+## Academic honours
+
+TBD
+
+## Invited talks
+
+TBD
   
-Publications
-======
-  <ol reversed>{% for paper in site.data.papers.papers %}
-    {% include single-paper-cv.html %}
+## Publications
+
+### Journals
+
+  <ol>{% for paper in site.data.papers.papers %}
+	{% if paper.paper-type == "article" %}
+	    {% include single-paper-cv.html %} 
+	{% endif %}
   {% endfor %}</ol>
+
+### Conferences and workshops
+
+  <ol>{% for paper in site.data.papers.papers %}
+	{% if paper.paper-type == "inproceedings" %}
+	    {% include single-paper-cv.html %} 
+	{% endif %}
+  {% endfor %}</ol>
+
   
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+## Teaching
+
+  {% include teaching-cv.html %}
+
+## Supervision
+
+  {% include supervision-cv.html %}
   
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
+## Service and leadership
+
 * Programme Chair for EMNLP 2020.
 * Local Chair for ACL 2018.
 * Action editor for TACL 2018-2020.
