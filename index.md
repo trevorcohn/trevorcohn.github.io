@@ -4,7 +4,8 @@ layout: page
 
 <div class="row">
     <div class="col-sm-3">
-	<img border=0 src="public/mug18.png"/>
+	<img border=0 src="public/mug18.png">
+	</img>
     </div> 
     <div class="col-sm-9">
 	  <div class="row">
