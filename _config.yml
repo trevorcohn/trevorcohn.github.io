@@ -14,7 +14,7 @@ title:            Trevor Cohn
 tagline:          'U. Melb.'
 description:      'Associate Professor, <a href="https://cis.unimelb.edu.au/">Computing and Information Systems</a> at <a href="https://www.unimelb.edu.au/">the University of Melbourne</a>.'
 url:              http://trevorcohn.github.io
-baseurl:          /
+baseurl:          http://trevorcohn.github.io/
 
 author:
   name:           'Trevor Cohn'
