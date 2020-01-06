@@ -7,6 +7,6 @@ then
     #exit 1
 fi
 
-jekyll build
+jekyll build --baseurl 'tcohn' --url 'https://people.eng.unimelb.edu.au/tcohn'
 #rsync -av ~/Website/_site/ /Volumes/mywebpages
 rsync -av ./_site/ /Volumes/mywebpages
