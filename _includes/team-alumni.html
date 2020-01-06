@@ -1,0 +1,19 @@
+{% assign team = site.data.team.team | sort: "start" %}
+
+<ul>
+  {% for people in team %}
+     {% if people.completed == 1 %}
+      <li>
+	{% if people.url %}<a href="{{ people.url }}">{% endif %}
+	<b>{{ people.name }}</b>
+	{% if people.url %}</a>{% endif %}
+        ({{ people.start }}{% if people.end %}&mdash;{{ people.end }}{% endif %})
+{% if people.type == "student" %} {{ people.degree }} {{ people.type }}{% else %} {{ people.role }}{% endif %}
+{% if people.co-supervisor %} co-supervised with {{ people.co-supervisor }}{% endif %}
+{% if people.current %}
+<i>&rarr; {{ people.current }}</i>
+{% endif %}
+      </li>
+      {% endif %}
+  {% endfor %}
+</ul>

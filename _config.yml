@@ -1,0 +1,30 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+#relative_permalinks: true
+gem: [jekyll-paginate, jekyll-gists]
+# See fix in https://github.com/poole/hyde/issues/118
+plugins: [jekyll-paginate]
+
+# Setup
+title:            Trevor Cohn
+tagline:          'U. Melb.'
+description:      'Associate Professor, <a href="https://cis.unimelb.edu.au/">Computing and Information Systems</a> at <a href="https://www.unimelb.edu.au/">the University of Melbourne</a>.'
+url:              http://trevorcohn.github.io
+baseurl:          /
+
+author:
+  name:           'Trevor Cohn'
+  url:            https://scholar.google.com/citations?user=FCom398AAAAJ&hl=en
+
+paginate:         5
+
+# Custom vars
+
+dblp:             https://dblp.org/pers/hd/c/Cohn:Trevor
+gscholar:	  https://scholar.google.com/citations?user=FCom398AAAAJ&hl=en
+github:           https://github.com/trevorcohn
+  
