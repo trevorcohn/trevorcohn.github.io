@@ -4,7 +4,7 @@ layout: page
 
 <div class="row">
     <div class="col-sm-3">
-	[mug shot]({{ site.baseurl }}public/mug18.png)
+	![photo of Trevor]({{ site.baseurl }}public/mug18.png)
     </div> 
     <div class="col-sm-9">
 	  <div class="row">
