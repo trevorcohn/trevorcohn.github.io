@@ -38,7 +38,7 @@ papers:
     paper-type: inproceedings
     booktitle: "*SEM@NAACL-HLT 2019"
     booktitle-full: "Proceedings of the Eighth Joint Conference on Lexical and Computational Semantics"
-    docurl: "https://www.aclweb.org/anthology/S19-1030/"
+    docurl: "https://doi.org/10.18653/v1/s19-1030"
   - layout: paper
     author: "Ekaterina Vylomova, Ryan Cotterell, Trevor Cohn, Timothy Baldwin and Jason Eisner"
     title: "Contextualization of Morphological Inflection"
@@ -46,7 +46,7 @@ papers:
     paper-type: inproceedings
     booktitle: "NAACL-HLT 2019"
     booktitle-full: "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
-    docurl: "https://www.aclweb.org/anthology/N19-1203/"
+    docurl: "https://doi.org/10.18653/v1/n19-1203"
   - layout: paper
     author: "Yuan Li, Benjamin Rubinstein and Trevor Cohn"
     title: "Exploiting Worker Correlation for Label Aggregation in Crowdsourcing"
@@ -86,7 +86,7 @@ papers:
     paper-type: inproceedings
     booktitle: "Proceedings of the 18th BioNLP Workshop and Shared Task"
     booktitle-full: "Proceedings of the 18th BioNLP Workshop and Shared Task"
-    docurl: "https://www.aclweb.org/anthology/W19-5035/"
+    docurl: "https://doi.org/10.18653/v1/w19-5035"
     codeurl: "https://github.com/unimelbbionlp/BioNLPST2016/"
   - layout: paper
     author: "Afshin Rahimi, Yuan Li and Trevor Cohn"
@@ -95,7 +95,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ACL 2019"
     booktitle-full: "Proceedings of the 57th Conference of the Association for Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/P19-1015/"
+    docurl: "https://doi.org/10.18653/v1/p19-1015"
     codeurl: "https://github.com/afshinrahimi/mmner"
   - layout: paper
     author: "Nitika Mathur, Timothy Baldwin and Trevor Cohn"
@@ -104,7 +104,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ACL 2019"
     booktitle-full: "Proceedings of the 57th Conference of the Association for Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/P19-1269/"
+    docurl: "https://doi.org/10.18653/v1/p19-1269"
   - layout: paper
     author: "Yitong Li, Timothy Baldwin and Trevor Cohn"
     title: "Semi-supervised Stochastic Multi-Domain Learning using Variational Inference"
@@ -112,7 +112,15 @@ papers:
     paper-type: inproceedings
     booktitle: "ACL 2019"
     booktitle-full: "Proceedings of the 57th Conference of the Association for Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/P19-1186/"
+    docurl: "https://doi.org/10.18653/v1/p19-1186"
+  - layout: paper
+    author: "Zhuohan Xie, Jey Lau and Trevor Cohn"
+    title: "From Shakespeare to Li-Bai: Adapting a Sonnet Model to Chinese Poetry"
+    year: "2019"
+    paper-type: inproceedings
+    booktitle: "ALTA 2019"
+    booktitle-full: "Proceedings of the The 17th Annual Workshop of the Australasian Language Technology Association"
+    docurl: "https://aclweb.org/anthology/papers/U/U19/U19-1002/"
   - layout: paper
     author: "Alexis Michaud, Oliver Adams, Trevor Cohn, Graham Neubig and Séverine Guillaume"
     title: "Integrating automatic transcription into the language documentation workflow: Experiments with Na data and the PERSEPHONE toolkit"
@@ -150,7 +158,7 @@ papers:
     paper-type: inproceedings
     booktitle: "NAACL-HLT 2018"
     booktitle-full: "Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
-    docurl: "https://www.aclweb.org/anthology/N18-1178/"
+    docurl: "https://doi.org/10.18653/v1/n18-1178"
   - layout: paper
     author: "Fei Liu, Trevor Cohn and Timothy Baldwin"
     title: "Recurrent Entity Networks with Delayed Memory Update for Targeted Aspect-Based Sentiment Analysis"
@@ -158,7 +166,7 @@ papers:
     paper-type: inproceedings
     booktitle: "NAACL-HLT 2018"
     booktitle-full: "Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
-    docurl: "https://www.aclweb.org/anthology/N18-2045/"
+    docurl: "https://doi.org/10.18653/v1/n18-2045"
     codeurl: "https://github.com/liufly/delayed-memory-update-entnet"
   - layout: paper
     author: "Yitong Li, Timothy Baldwin and Trevor Cohn"
@@ -167,7 +175,7 @@ papers:
     paper-type: inproceedings
     booktitle: "NAACL-HLT 2018"
     booktitle-full: "Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
-    docurl: "https://www.aclweb.org/anthology/N18-2076/"
+    docurl: "https://doi.org/10.18653/v1/n18-2076"
     codeurl: "https://github.com/lrank/Domain_Robust_Text_Representation"
   - layout: paper
     author: "Oliver Adams, Trevor Cohn, Graham Neubig, Hilaria Cruz, Steven Bird and Alexis Michaud"
@@ -184,7 +192,7 @@ papers:
     paper-type: inproceedings
     booktitle: "EMNLP 2018"
     booktitle-full: "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing"
-    docurl: "https://www.aclweb.org/anthology/D18-1310/"
+    docurl: "https://doi.org/10.18653/v1/d18-1310"
   - layout: paper
     author: "Taro Miyazaki, Afshin Rahimi, Trevor Cohn and Timothy Baldwin"
     title: "Twitter Geolocation using Knowledge-Based Methods"
@@ -192,7 +200,7 @@ papers:
     paper-type: inproceedings
     booktitle: "NUT@EMNLP 2018"
     booktitle-full: "Proceedings of the 4th Workshop on Noisy User-generated Text"
-    docurl: "https://www.aclweb.org/anthology/W18-6102/"
+    docurl: "https://doi.org/10.18653/v1/w18-6102"
   - layout: paper
     author: "Vu Hoang, Philipp Koehn, Gholamreza Haffari and Trevor Cohn"
     title: "Iterative Back-Translation for Neural Machine Translation"
@@ -200,7 +208,7 @@ papers:
     paper-type: inproceedings
     booktitle: "NMT@ACL 2018"
     booktitle-full: "Proceedings of the 2nd Workshop on Neural Machine Translation and Generation"
-    docurl: "https://www.aclweb.org/anthology/W18-2703/"
+    docurl: "https://doi.org/10.18653/v1/w18-2703"
   - layout: paper
     author: "Shivashankar Subramanian, Timothy Baldwin and Trevor Cohn"
     title: "Content-based Popularity Prediction of Online Petitions Using a Deep Regression Model"
@@ -333,7 +341,7 @@ papers:
     paper-type: inproceedings
     booktitle: "Proceedings of the First Workshop on Subword and Character Level Models in NLP"
     booktitle-full: "Proceedings of the First Workshop on Subword and Character Level Models in NLP"
-    docurl: "https://www.aclweb.org/anthology/W17-4115/"
+    docurl: "https://doi.org/10.18653/v1/w17-4115"
   - layout: paper
     author: "Afshin Rahimi, Timothy Baldwin and Trevor Cohn"
     title: "Continuous Representation of Location for Geolocation and Lexical Dialectology using Mixture Density Networks"
@@ -341,7 +349,7 @@ papers:
     paper-type: inproceedings
     booktitle: "EMNLP 2017"
     booktitle-full: "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing"
-    docurl: "https://www.aclweb.org/anthology/D17-1016/"
+    docurl: "https://doi.org/10.18653/v1/d17-1016"
     codeurl: "https://github.com/afshinrahimi/geomdn"
   - layout: paper
     author: "Nitika Mathur, Timothy Baldwin and Trevor Cohn"
@@ -350,7 +358,7 @@ papers:
     paper-type: inproceedings
     booktitle: "EMNLP 2017"
     booktitle-full: "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing"
-    docurl: "https://www.aclweb.org/anthology/D17-1306/"
+    docurl: "https://doi.org/10.18653/v1/d17-1306"
   - layout: paper
     author: "Vu Hoang, Gholamreza Haffari and Trevor Cohn"
     title: "Towards Decoding as Continuous Optimisation in Neural Machine Translation"
@@ -358,7 +366,7 @@ papers:
     paper-type: inproceedings
     booktitle: "EMNLP 2017"
     booktitle-full: "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing"
-    docurl: "https://www.aclweb.org/anthology/D17-1014/"
+    docurl: "https://doi.org/10.18653/v1/d17-1014"
     codeurl: "https://github.com/duyvuleo/Mantidae"
   - layout: paper
     author: "Meng Fang, Yuan Li and Trevor Cohn"
@@ -367,40 +375,40 @@ papers:
     paper-type: inproceedings
     booktitle: "EMNLP 2017"
     booktitle-full: "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing"
-    docurl: "https://www.aclweb.org/anthology/D17-1063/"
+    docurl: "https://doi.org/10.18653/v1/d17-1063"
     codeurl: "https://github.com/mengf1/PAL"
   - layout: paper
-    author: "Hiroshi Kanayama, Trevor Cohn, Tengfei Ma, Steven Bird and Long Duong"
+    author: "Long Duong, Hiroshi Kanayama, Tengfei Ma, Steven Bird and Trevor Cohn"
     title: "Multilingual Training of Crosslingual Word Embeddings"
     year: "2017"
     paper-type: inproceedings
     booktitle: "EACL 2017"
     booktitle-full: "Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/E17-1084/"
+    docurl: "https://doi.org/10.18653/v1/e17-1084"
   - layout: paper
-    author: "Trevor Cohn, Steven Bird, Graham Neubig, Oliver Adams and Adam Makarucha"
+    author: "Oliver Adams, Adam Makarucha, Graham Neubig, Steven Bird and Trevor Cohn"
     title: "Cross-Lingual Word Embeddings for Low-Resource Language Modeling"
     year: "2017"
     paper-type: inproceedings
     booktitle: "EACL 2017"
     booktitle-full: "Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/E17-1088/"
+    docurl: "https://doi.org/10.18653/v1/e17-1088"
   - layout: paper
-    author: "Timothy Baldwin, Trevor Cohn, Ekaterina Vylomova and Ryan Cotterell"
+    author: "Ekaterina Vylomova, Ryan Cotterell, Timothy Baldwin and Trevor Cohn"
     title: "Context-Aware Prediction of Derivational Word-forms"
     year: "2017"
     paper-type: inproceedings
     booktitle: "EACL 2017"
     booktitle-full: "Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/E17-2019/"
+    docurl: "https://doi.org/10.18653/v1/e17-2019"
   - layout: paper
-    author: "Timothy Baldwin, Trevor Cohn and Yitong Li"
+    author: "Yitong Li, Trevor Cohn and Timothy Baldwin"
     title: "Robust Training under Linguistic Adversity"
     year: "2017"
     paper-type: inproceedings
     booktitle: "EACL 2017"
     booktitle-full: "Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/E17-2004/"
+    docurl: "https://doi.org/10.18653/v1/e17-2004"
   - layout: paper
     author: "Pasan Karunaratne, Masud Moshtaghi, Shanika Karunasekera, Aaron Harwood and Trevor Cohn"
     title: "Multi-step prediction with missing smart sensor data using multi-task Gaussian processes"
@@ -448,7 +456,7 @@ papers:
     paper-type: inproceedings
     booktitle: "Proceedings of the Workshop on Summarization and Summary Evaluation Across Source Types and Genres"
     booktitle-full: "Proceedings of the Workshop on Summarization and Summary Evaluation Across Source Types and Genres"
-    docurl: "https://www.aclweb.org/anthology/W17-1002/"
+    docurl: "https://doi.org/10.18653/v1/w17-1002"
   - layout: paper
     author: "Shivashankar Subramanian, Trevor Cohn, Timothy Baldwin and Julian Brooke"
     title: "Joint Sentence-Document Model for Manifesto Text Analysis"
@@ -504,7 +512,7 @@ papers:
     paper-type: inproceedings
     booktitle: "NAACL HLT 2016"
     booktitle-full: "The 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
-    docurl: "https://www.aclweb.org/anthology/N16-1149/"
+    docurl: "https://doi.org/10.18653/v1/n16-1149"
   - layout: paper
     author: "Long Duong, Antonios Anastasopoulos, David Chiang, Steven Bird and Trevor Cohn"
     title: "An Attentional Model for Speech Translation Without Transcription"
@@ -512,7 +520,7 @@ papers:
     paper-type: inproceedings
     booktitle: "NAACL HLT 2016"
     booktitle-full: "The 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
-    docurl: "https://www.aclweb.org/anthology/N16-1109/"
+    docurl: "https://doi.org/10.18653/v1/n16-1109"
     codeurl: "https://github.com/longdt219/speechtranslation"
   - layout: paper
     author: "Trevor Cohn, Vu Hoang, Ekaterina Vymolova, Kaisheng Yao, Chris Dyer and Gholamreza Haffari"
@@ -521,7 +529,7 @@ papers:
     paper-type: inproceedings
     booktitle: "NAACL HLT 2016"
     booktitle-full: "The 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
-    docurl: "https://www.aclweb.org/anthology/N16-1102/"
+    docurl: "https://doi.org/10.18653/v1/n16-1102"
     codeurl: "https://github.com/trevorcohn/mantis"
   - layout: paper
     author: "Daniel Preotiuc-Pietro, P. Srijith, Mark Hepple and Trevor Cohn"
@@ -547,7 +555,7 @@ papers:
     paper-type: inproceedings
     booktitle: "EMNLP 2016"
     booktitle-full: "Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing"
-    docurl: "https://www.aclweb.org/anthology/D16-1094/"
+    docurl: "https://doi.org/10.18653/v1/d16-1094"
   - layout: paper
     author: "Yitong Li, Trevor Cohn and Timothy Baldwin"
     title: "Learning Robust Representations of Text"
@@ -555,7 +563,7 @@ papers:
     paper-type: inproceedings
     booktitle: "EMNLP 2016"
     booktitle-full: "Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing"
-    docurl: "https://www.aclweb.org/anthology/D16-1207/"
+    docurl: "https://doi.org/10.18653/v1/d16-1207"
     codeurl: "https://github.com/lrank/Robust-Representation"
   - layout: paper
     author: "Long Duong, Hiroshi Kanayama, Tengfei Ma, Steven Bird and Trevor Cohn"
@@ -564,7 +572,7 @@ papers:
     paper-type: inproceedings
     booktitle: "EMNLP 2016"
     booktitle-full: "Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing"
-    docurl: "https://www.aclweb.org/anthology/D16-1136/"
+    docurl: "https://doi.org/10.18653/v1/d16-1136"
     codeurl: "https://github.com/longdt219/XlingualEmb"
   - layout: paper
     author: "Oliver Adams, Graham Neubig, Trevor Cohn, Steven Bird, Quoc Do and Satoshi Nakamura"
@@ -573,7 +581,7 @@ papers:
     paper-type: inproceedings
     booktitle: "EMNLP 2016"
     booktitle-full: "Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing"
-    docurl: "https://www.aclweb.org/anthology/D16-1263/"
+    docurl: "https://doi.org/10.18653/v1/d16-1263"
   - layout: paper
     author: "Meng Fang and Trevor Cohn"
     title: "Learning when to trust distant supervision: An application to low-resource POS tagging using cross-lingual projection"
@@ -581,7 +589,7 @@ papers:
     paper-type: inproceedings
     booktitle: "CoNLL 2016"
     booktitle-full: "Proceedings of the 20th SIGNLL Conference on Computational Natural Language Learning"
-    docurl: "https://www.aclweb.org/anthology/K16-1018/"
+    docurl: "https://doi.org/10.18653/v1/k16-1018"
     codeurl: "https://github.com/mengf1/BiLSTM-Debias"
   - layout: paper
     author: "Daniel Beck, Lucia Specia and Trevor Cohn"
@@ -590,7 +598,7 @@ papers:
     paper-type: inproceedings
     booktitle: "CoNLL 2016"
     booktitle-full: "Proceedings of the 20th SIGNLL Conference on Computational Natural Language Learning"
-    docurl: "https://www.aclweb.org/anthology/K16-1021/"
+    docurl: "https://doi.org/10.18653/v1/k16-1021"
   - layout: paper
     author: "Matthias Petri and Trevor Cohn"
     title: "Succinct Data Structures for NLP-at-Scale"
@@ -614,7 +622,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ACL 2016"
     booktitle-full: "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/P16-1158/"
+    docurl: "https://doi.org/10.18653/v1/p16-1158"
   - layout: paper
     author: "Afshin Rahimi, Trevor Cohn and Timothy Baldwin"
     title: "pigeo: A Python Geotagging Tool"
@@ -631,7 +639,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ACL 2016"
     booktitle-full: "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/P16-2064/"
+    docurl: "https://doi.org/10.18653/v1/p16-2064"
     codeurl: "https://github.com/mlukasik/seqhawkes"
   - layout: paper
     author: "Vu Hoang, Reza Haffari and Trevor Cohn"
@@ -703,7 +711,7 @@ papers:
     paper-type: inproceedings
     booktitle: "NAACL HLT 2015"
     booktitle-full: "The 2015 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
-    docurl: "https://www.aclweb.org/anthology/N15-1153/"
+    docurl: "https://doi.org/10.3115/v1/n15-1153"
   - layout: paper
     author: "Ehsan Shareghi, Matthias Petri, Gholamreza Haffari and Trevor Cohn"
     title: "Compact, Efficient and Unlimited Capacity: Language Modeling with Compressed Suffix Trees"
@@ -711,7 +719,7 @@ papers:
     paper-type: inproceedings
     booktitle: "EMNLP 2015"
     booktitle-full: "Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing"
-    docurl: "https://www.aclweb.org/anthology/D15-1288/"
+    docurl: "https://doi.org/10.18653/v1/d15-1288"
   - layout: paper
     author: "Michal Lukasik, P. Srijith, Trevor Cohn and Kalina Bontcheva"
     title: "Modeling Tweet Arrival Times using Log-Gaussian Cox Processes"
@@ -719,7 +727,7 @@ papers:
     paper-type: inproceedings
     booktitle: "EMNLP 2015"
     booktitle-full: "Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing"
-    docurl: "https://www.aclweb.org/anthology/D15-1028/"
+    docurl: "https://doi.org/10.18653/v1/d15-1028"
   - layout: paper
     author: "Michal Lukasik, Trevor Cohn and Kalina Bontcheva"
     title: "Classifying Tweet Level Judgements of Rumours in Social Media"
@@ -727,7 +735,7 @@ papers:
     paper-type: inproceedings
     booktitle: "EMNLP 2015"
     booktitle-full: "Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing"
-    docurl: "https://www.aclweb.org/anthology/D15-1311/"
+    docurl: "https://doi.org/10.18653/v1/d15-1311"
     codeurl: "https://github.com/mlukasik/rumour-classification"
   - layout: paper
     author: "Long Duong, Trevor Cohn, Steven Bird and Paul Cook"
@@ -736,7 +744,7 @@ papers:
     paper-type: inproceedings
     booktitle: "EMNLP 2015"
     booktitle-full: "Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing"
-    docurl: "https://www.aclweb.org/anthology/D15-1040/"
+    docurl: "https://doi.org/10.18653/v1/d15-1040"
   - layout: paper
     author: "Long Duong, Trevor Cohn, Steven Bird and Paul Cook"
     title: "Cross-lingual Transfer for Unsupervised Dependency Parsing Without Parallel Data"
@@ -744,7 +752,7 @@ papers:
     paper-type: inproceedings
     booktitle: "CoNLL 2015"
     booktitle-full: "Proceedings of the 19th Conference on Computational Natural Language Learning"
-    docurl: "https://www.aclweb.org/anthology/K15-1012/"
+    docurl: "https://doi.org/10.18653/v1/k15-1012"
   - layout: paper
     author: "Afshin Rahimi, Trevor Cohn and Timothy Baldwin"
     title: "Twitter User Geolocation Using a Unified Text and Network Prediction Model"
@@ -752,7 +760,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ACL 2015"
     booktitle-full: "Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing of the Asian Federation of Natural Language Processing"
-    docurl: "https://www.aclweb.org/anthology/P15-2104/"
+    docurl: "https://doi.org/10.3115/v1/p15-2104"
   - layout: paper
     author: "Michal Lukasik, Trevor Cohn and Kalina Bontcheva"
     title: "Point Process Modelling of Rumour Dynamics in Social Media"
@@ -760,7 +768,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ACL 2015"
     booktitle-full: "Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing of the Asian Federation of Natural Language Processing"
-    docurl: "https://www.aclweb.org/anthology/P15-2085/"
+    docurl: "https://doi.org/10.3115/v1/p15-2085"
   - layout: paper
     author: "Long Duong, Trevor Cohn, Steven Bird and Paul Cook"
     title: "Low Resource Dependency Parsing: Cross-lingual Parameter Sharing in a Neural Network Parser"
@@ -768,7 +776,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ACL 2015"
     booktitle-full: "Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing of the Asian Federation of Natural Language Processing"
-    docurl: "https://www.aclweb.org/anthology/P15-2139/"
+    docurl: "https://doi.org/10.3115/v1/p15-2139"
   - layout: paper
     author: "Zsolt Bitvai and Trevor Cohn"
     title: "Non-Linear Text Regression with a Deep Convolutional Neural Network"
@@ -776,7 +784,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ACL 2015"
     booktitle-full: "Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing of the Asian Federation of Natural Language Processing"
-    docurl: "https://www.aclweb.org/anthology/P15-2030/"
+    docurl: "https://doi.org/10.3115/v1/p15-2030"
   - layout: paper
     author: "Zsolt Bitvai and Trevor Cohn"
     title: "Predicting Peer-to-Peer Loan Rates Using Bayesian Non-Linear Regression"
@@ -806,7 +814,7 @@ papers:
     paper-type: inproceedings
     booktitle: "EMNLP 2014"
     booktitle-full: "Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing"
-    docurl: "https://www.aclweb.org/anthology/D14-1096/"
+    docurl: "https://doi.org/10.3115/v1/d14-1096"
   - layout: paper
     author: "Daniel Beck, Trevor Cohn and Lucia Specia"
     title: "Joint Emotion Analysis via Multi-task Gaussian Processes"
@@ -814,7 +822,7 @@ papers:
     paper-type: inproceedings
     booktitle: "EMNLP 2014"
     booktitle-full: "Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing"
-    docurl: "https://www.aclweb.org/anthology/D14-1190/"
+    docurl: "https://doi.org/10.3115/v1/d14-1190"
     codeurl: "http://github.com/beckdaniel/emnlp14_joint_ea"
   - layout: paper
     author: "Vasileios Lampos, Nikolaos Aletras, Daniel Preotiuc-Pietro and Trevor Cohn"
@@ -823,7 +831,7 @@ papers:
     paper-type: inproceedings
     booktitle: "EACL 2014"
     booktitle-full: "Proceedings of the 14th Conference of the European Chapter of the Association for Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/E14-1043/"
+    docurl: "https://doi.org/10.3115/v1/e14-1043"
   - layout: paper
     author: "Yang Feng, Trevor Cohn and Xinkai Du"
     title: "Factored Markov Translation with Robust Modeling"
@@ -831,7 +839,7 @@ papers:
     paper-type: inproceedings
     booktitle: "CoNLL 2014"
     booktitle-full: "Proceedings of the Eighteenth Conference on Computational Natural Language Learning"
-    docurl: "https://www.aclweb.org/anthology/W14-1616/"
+    docurl: "https://doi.org/10.3115/v1/w14-1616"
   - layout: paper
     author: "Vasileios Lampos, Daniel Preotiuc-Pietro, Sina Samangooei, Douwe Gelling and Trevor Cohn"
     title: "Extracting Socioeconomic Patterns from the News: Modelling Text and Outlet Importance Jointly"
@@ -847,7 +855,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ACL 2014"
     booktitle-full: "Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/P14-2025/"
+    docurl: "https://doi.org/10.3115/v1/p14-2025"
     codeurl: "http://github.com/dgel/fastalign"
   - layout: paper
     author: "Trevor Cohn, Daniel Preotiuc-Pietro and Neil Lawrence"
@@ -856,7 +864,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ACL 2014"
     booktitle-full: "Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/P14-6001/"
+    docurl: "https://doi.org/10.3115/v1/p14-6001"
   - layout: paper
     author: "Xingyi Song, Trevor Cohn and Lucia Specia"
     title: "BLEU deconstructed: Designing a Better MT Evaluation Metric"
