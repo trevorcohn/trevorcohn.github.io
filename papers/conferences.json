@@ -23,6 +23,10 @@
     "long": "Proceedings of the Australasian Language Technology Association Workshop 2018",
     "short": "ALTA 2018"
   },
+  "DBLP:conf/acl-alta/2019": {
+    "long": "Proceedings of the The 17th Annual Workshop of the Australasian Language Technology Association",
+    "short": "{ALTA} 2019"
+  },
   "DBLP:conf/acl-multiling/2017": {
     "long": "Proceedings of the Workshop on Summarization and Summary Evaluation Across Source Types and Genres",
     "short": null
