@@ -287,6 +287,14 @@ papers:
     booktitle-full: "Proceedings of the Australasian Language Technology Association Workshop 2018"
     docurl: "https://www.aclweb.org/anthology/U18-1001/"
   - layout: paper
+    author: "Graham Neubig, Chris Dyer, Yoav Goldberg, Austin Matthews, Waleed Ammar, Antonios Anastasopoulos, Miguel Ballesteros, David Chiang, Daniel Clothiaux, Trevor Cohn, Kevin Duh, Manaal Faruqui, Cynthia Gan, Dan Garrette, Yangfeng Ji, Lingpeng Kong, Adhiguna Kuncoro, Gaurav Kumar, Chaitanya Malaviya, Paul Michel, Yusuke Oda, Matthew Richardson, Naomi Saphra, Swabha Swayamdipta and Pengcheng Yin"
+    title: "DyNet: The Dynamic Neural Network Toolkit"
+    year: "2017"
+    paper-type: article
+    journal: "CoRR"
+    volume: abs/1701.03980
+    docurl: "http://arxiv.org/abs/1701.03980"
+  - layout: paper
     author: "Shivashankar Subramanian, Timothy Baldwin, Julian Brooke and Trevor Cohn"
     title: "Pairwise Webpage Coreference Classification Using Distant Supervision"
     year: "2017"
@@ -696,6 +704,14 @@ papers:
     journal: "Machine Learning"
     volume: 101
     docurl: "https://doi.org/10.1007/s10994-014-5480-x"
+  - layout: paper
+    author: "Kaisheng Yao, Trevor Cohn, Katerina Vylomova, Kevin Duh and Chris Dyer"
+    title: "Depth-Gated LSTM"
+    year: "2015"
+    paper-type: article
+    journal: "CoRR"
+    volume: abs/1508.03790
+    docurl: "http://arxiv.org/abs/1508.03790"
   - layout: paper
     author: "Ehsan Shareghi, Gholamreza Haffari, Trevor Cohn and Ann Nicholson"
     title: "Structured Prediction of Sequences and Trees Using Infinite Contexts"
