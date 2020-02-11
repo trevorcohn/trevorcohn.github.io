@@ -404,3 +404,13 @@ team:
     co-supervisor: Daniel Beck
     start: 2020
     end:
+  - 
+    name: Hang Hua
+    type: student
+    degree: PhD
+    affiliation: University of Melbourne
+    completed: 0
+    description: TBA
+    co-supervisor: Daniel Beck
+    start: 2020
+    end:
