@@ -31,6 +31,22 @@ papers:
     booktitle-full: "Advances in Information Retrieval - 42nd European Conference on IR Research"
     docurl: "https://doi.org/10.1007/978-3-030-45442-5_74"
   - layout: paper
+    author: "Dalin Wang, Daniel Beck and Trevor Cohn"
+    title: "On the Role of Scene Graphs in Image Captioning"
+    year: "2019"
+    paper-type: inproceedings
+    booktitle: "Proceedings of the Beyond Vision and LANguage: inTEgrating Real-world kNowledge (LANTERN)"
+    booktitle-full: "Proceedings of the Beyond Vision and LANguage: inTEgrating Real-world kNowledge (LANTERN)"
+    docurl: "https://www.aclweb.org/anthology/D19-6405"
+  - layout: paper
+    author: "Daniel Beck, Trevor Cohn and Gholamreza Haffari"
+    title: "Neural Speech Translation using Lattice Transformations and Graph Networks"
+    year: "2019"
+    paper-type: inproceedings
+    booktitle: "Proceedings of the Thirteenth Workshop on Graph-Based Methods for Natural Language Processing (TextGraphs-13)"
+    booktitle-full: "Proceedings of the Thirteenth Workshop on Graph-Based Methods for Natural Language Processing (TextGraphs-13)"
+    docurl: "https://www.aclweb.org/anthology/D19-5304"
+  - layout: paper
     author: "Michal Lukasik, Kalina Bontcheva, Trevor Cohn, Arkaitz Zubiaga, Maria Liakata and Rob Procter"
     title: "Gaussian Processes for Rumour Stance Classification in Social Media"
     year: "2019"
