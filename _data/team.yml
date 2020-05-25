@@ -489,3 +489,20 @@ team:
     description: TBA
     start: 2020
     end:
+  - 
+    name: Shima Khanehzar
+    type: student
+    degree: PhD
+    affiliation: University of Melbourne
+    completed: 0
+    description: TBA
+    start: 2019
+    end:
+    co-supervisor: Andrew Turpin, Gosia Mikolajczak
+    type: student
+    degree: MSc
+    affiliation: University of Melbourne
+    completed: 0
+    description: TBA
+    start: 2020
+    end:
