@@ -191,6 +191,10 @@
     "long": "Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics",
     "short": "{EACL} 2017"
   },
+  "DBLP:conf/ecir/2020-2": {
+    "long": "Advances in Information Retrieval - 42nd European Conference on {IR} Research",
+    "short": "{ECIR} 2020"
+  },
   "DBLP:conf/ecml/2006": {
     "long": "17th European Conference on Machine Learning",
     "short": "ECML"
@@ -254,6 +258,10 @@
   "DBLP:conf/icassp/2019": {
     "long": "{IEEE} International Conference on Acoustics",
     "short": "ICASSP 2019"
+  },
+  "DBLP:conf/iclr/2020": {
+    "long": "8th International Conference on Learning Representations",
+    "short": "{ICLR} 2020"
   },
   "DBLP:conf/icml/2019": {
     "long": "Proceedings of the 36th International Conference on Machine Learning",

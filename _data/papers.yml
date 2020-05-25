@@ -8,6 +8,29 @@ papers:
     booktitle-full: "International Conference on Learning Representations (ICLR 2020)"
     docurl: "https://openreview.net/forum?id=HklOo0VFDH"
   - layout: paper
+    author: "Trevor Nitika"
+    title: "Tangled up in BLEU: Reevaluating the Evaluation of Automatic Machine Translation Evaluation Metrics"
+    year: "2020"
+    paper-type: inproceedings
+    booktitle: "ACL 2020"
+    booktitle-full: "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistic"
+  - layout: paper
+    author: "Najam Zaidi, Trevor Cohn and Gholamreza Haffari"
+    title: "Decoding As Dynamic Programming For Recurrent Autoregressive Models"
+    year: "2020"
+    paper-type: inproceedings
+    booktitle: "ICLR 2020"
+    booktitle-full: "8th International Conference on Learning Representations"
+    docurl: "https://openreview.net/forum?id=HklOo0VFDH"
+  - layout: paper
+    author: "Dat Nguyen, Zenan Zhai, Hiyori Yoshikawa, Biaoyan Fang, Christian Druckenbrodt, Camilo Thorne, Ralph Hoessel, Saber Akhondi, Trevor Cohn, Timothy Baldwin and Karin Verspoor"
+    title: "ChEMU: Named Entity Recognition and Event Extraction of Chemical Reactions from Patents"
+    year: "2020"
+    paper-type: inproceedings
+    booktitle: "ECIR 2020"
+    booktitle-full: "Advances in Information Retrieval - 42nd European Conference on IR Research"
+    docurl: "https://doi.org/10.1007/978-3-030-45442-5_74"
+  - layout: paper
     author: "Michal Lukasik, Kalina Bontcheva, Trevor Cohn, Arkaitz Zubiaga, Maria Liakata and Rob Procter"
     title: "Gaussian Processes for Rumour Stance Classification in Social Media"
     year: "2019"
@@ -140,7 +163,7 @@ papers:
     title: "Discourse-aware rumour stance classification in social media using sequential classifiers"
     year: "2018"
     paper-type: article
-    journal: "Inf. Process. Manage."
+    journal: "Inf. Process. Manag."
     volume: 54
     docurl: "https://doi.org/10.1016/j.ipm.2017.11.009"
   - layout: paper
@@ -501,7 +524,7 @@ papers:
     title: "Fast, Small and Exact: Infinite-order Language Modelling with Compressed Suffix Trees"
     year: "2016"
     paper-type: article
-    journal: "TACL"
+    journal: "Trans. Assoc. Comput. Linguistics"
     volume: 4
     docurl: "https://transacl.org/ojs/index.php/tacl/article/view/865"
     codeurl: "https://github.com/mpetri/cstlm"
@@ -685,7 +708,7 @@ papers:
     title: "Learning Structural Kernels for Natural Language Processing"
     year: "2015"
     paper-type: article
-    journal: "TACL"
+    journal: "Trans. Assoc. Comput. Linguistics"
     volume: 3
     docurl: "https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/view/584"
   - layout: paper
@@ -693,7 +716,7 @@ papers:
     title: "A Bayesian non-linear method for feature selection in machine translation quality estimation"
     year: "2015"
     paper-type: article
-    journal: "Machine Translation"
+    journal: "Mach. Transl."
     volume: 29
     docurl: "https://doi.org/10.1007/s10590-014-9164-x"
   - layout: paper
@@ -701,7 +724,7 @@ papers:
     title: "Day trading profit maximization with multi-task learning and technical analysis"
     year: "2015"
     paper-type: article
-    journal: "Machine Learning"
+    journal: "Mach. Learn."
     volume: 101
     docurl: "https://doi.org/10.1007/s10994-014-5480-x"
   - layout: paper
@@ -893,7 +916,7 @@ papers:
     title: "An abstractive approach to sentence compression"
     year: "2013"
     paper-type: article
-    journal: "ACM TIST"
+    journal: "ACM Trans. Intell. Syst. Technol."
     volume: 4
     docurl: "https://doi.org/10.1145/2483669.2483674"
     codeurl: "https://people.eng.unimelb.edu.au/tcohn/t3.html"
@@ -1154,7 +1177,7 @@ papers:
     title: "Constructing Corpora for the Development and Evaluation of Paraphrase Systems"
     year: "2008"
     paper-type: article
-    journal: "Computational Linguistics"
+    journal: "Comput. Linguistics"
     volume: 34
     docurl: "https://doi.org/10.1162/coli.08-003-R1-07-044"
   - layout: paper

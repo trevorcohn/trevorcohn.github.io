@@ -2,9 +2,7 @@
 
 if [ ! -d /Volumes/mywebpages ]
 then
-    open 'smb://silo-hq1.eng.unimelb.edu.au/mywebpages'
-    #echo "Use finder to mount smb://silo-hq1.eng.unimelb.edu.au/mywebpages"
-    #exit 1
+    open 'smb://shares.eng.unimelb.edu.au/mywebpages'
 fi
 
 jekyll build --baseurl '/tcohn/'
