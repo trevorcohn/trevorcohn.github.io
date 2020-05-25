@@ -20,13 +20,13 @@ team:
     end: 2019
     current: Research Fellow at U. Melbourne
   - 
-    name: Mel Mystica
-    description: Interaction dynamics in cooperative team-based environments
+    name: Chang Xu
+    description: Adversarial machine learning in language processing
     role: Research Fellow
     type: staff
     affiliation: The University of Melbourne
-    co-supervisor: Tim Baldwin
-    start: 2019
+    co-supervisor: Ben Rubinstein
+    start: 2020
     end:
     current:
     completed: 0
@@ -274,8 +274,8 @@ team:
     description: Memory-based models of deep learning
     co-supervisor: Tim Baldwin
     start: 2015
-    end:
-    completed: 0
+    end: 2019
+    completed: 1
   - 
     name:  Yitong Li
     type: student
@@ -284,8 +284,8 @@ team:
     description: Adversarial learning for NLP
     co-supervisor: Tim Baldwin
     start: 2015
-    end:
-    completed: 0
+    end: 2020
+    completed: 1
   - 
     name:  Nitika Mathur
     type: student
@@ -412,5 +412,80 @@ team:
     completed: 0
     description: TBA
     co-supervisor: Daniel Beck
+    start: 2020
+    end:
+  - 
+    name: Jun Wang
+    type: student
+    degree: PhD
+    affiliation: University of Melbourne
+    completed: 0
+    description: TBA
+    co-supervisor: Ben Rubinstein, Change Xu
+    start: 2020
+    end:
+  - 
+    name: Chenao Xie
+    type: student
+    degree: MSc
+    affiliation: University of Melbourne
+    completed: 0
+    description: TBA
+    start: 2020
+    end:
+  - 
+    name: Fan Jiang
+    type: student
+    degree: MSc
+    affiliation: University of Melbourne
+    completed: 0
+    description: TBA
+    start: 2020
+    end:
+  - 
+    name: Haripriya Ramesh
+    type: student
+    degree: MSc
+    affiliation: University of Melbourne
+    completed: 0
+    description: TBA
+    co-supervisor: Olya Ohrimenko
+    start: 2020
+    end:
+  - 
+    name: Jia Zhu
+    type: student
+    degree: MSc
+    affiliation: University of Melbourne
+    completed: 0
+    description: TBA
+    start: 2020
+    end:
+  - 
+    name: Juizhou (Joe) Han
+    type: student
+    degree: MSc
+    affiliation: University of Melbourne
+    completed: 0
+    description: TBA
+    co-supervisor: Daniel Beck
+    start: 2020
+    end:
+  - 
+    name: Vignesh Chenthil Kumar
+    type: student
+    degree: MSc
+    affiliation: University of Melbourne
+    completed: 0
+    description: TBA
+    start: 2020
+    end:
+  - 
+    name: Zheng Wei
+    type: student
+    degree: MSc
+    affiliation: University of Melbourne
+    completed: 0
+    description: TBA
     start: 2020
     end:
