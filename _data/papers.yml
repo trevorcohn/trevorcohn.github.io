@@ -1,13 +1,5 @@
 papers:
   - layout: paper
-    author: "Najam Zaidi, Trevor Cohn and Gholamreza Haffari"
-    title: "Decoding As Dynamic Programming For Recurrent Autoregressive Models"
-    year: "2020"
-    paper-type: inproceedings
-    booktitle: "ICLR 2020"
-    booktitle-full: "International Conference on Learning Representations (ICLR 2020)"
-    docurl: "https://openreview.net/forum?id=HklOo0VFDH"
-  - layout: paper
     author: "Trevor Nitika"
     title: "Tangled up in BLEU: Reevaluating the Evaluation of Automatic Machine Translation Evaluation Metrics"
     year: "2020"
