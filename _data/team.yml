@@ -51,7 +51,7 @@ team:
     co-supervisor: Tim Baldwin
     start: 2014
     end: 2018
-    current: Research Fellow at U. Melbourne
+    current: Lecturer at U. Queensland
   -
     name: Ekaterina Vylomova
     type: student
@@ -276,6 +276,7 @@ team:
     start: 2015
     end: 2019
     completed: 1
+    current: Researcher, Amazon
   - 
     name:  Yitong Li
     type: student
@@ -286,6 +287,7 @@ team:
     start: 2015
     end: 2020
     completed: 1
+    current: Researcher, Salesforce
   - 
     name:  Nitika Mathur
     type: student
