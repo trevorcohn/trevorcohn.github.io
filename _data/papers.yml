@@ -1,6 +1,6 @@
 papers:
   - layout: paper
-    author: "Trevor Nitika"
+    author: "Nitika Mathur, Timothy Baldwin and Trevor Cohn"
     title: "Tangled up in BLEU: Reevaluating the Evaluation of Automatic Machine Translation Evaluation Metrics"
     year: "2020"
     paper-type: inproceedings
