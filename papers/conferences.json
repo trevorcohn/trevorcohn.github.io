@@ -123,6 +123,10 @@
     "long": "Proceedings of the 57th Conference of the Association for Computational Linguistics",
     "short": "{ACL} 2019"
   },
+  "DBLP:conf/acl/2020": {
+    "long": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    "short": "{ACL} 2020"
+  },
   "DBLP:conf/aclnmt/2018": {
     "long": "Proceedings of the 2nd Workshop on Neural Machine Translation and Generation",
     "short": "NMT@ACL 2018"
@@ -150,6 +154,14 @@
   "DBLP:conf/cicling/2013-1": {
     "long": "Computational Linguistics and Intelligent Text Processing - 14th International Conference",
     "short": "CICLING 2013"
+  },
+  "DBLP:conf/clef/2020": {
+    "long": "and Interaction - 11th International Conference of the {CLEF} Association",
+    "short": "{CLEF} 2020"
+  },
+  "DBLP:conf/clef/2020w": {
+    "long": "Working Notes of {CLEF} 2020 - Conference and Labs of the Evaluation Forum",
+    "short": null
   },
   "DBLP:conf/coling/2008": {
     "long": "22nd International Conference on Computational Linguistics",
@@ -190,6 +202,10 @@
   "DBLP:conf/eacl/2017-2": {
     "long": "Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics",
     "short": "{EACL} 2017"
+  },
+  "DBLP:conf/eamt/2014": {
+    "long": "Proceedings of the 17th Annual conference of the European Association for Machine Translation",
+    "short": "{EAMT} 2014"
   },
   "DBLP:conf/ecir/2020-2": {
     "long": "Advances in Information Retrieval - 42nd European Conference on {IR} Research",
@@ -246,6 +262,10 @@
   "DBLP:conf/emnlp/2019-1": {
     "long": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing",
     "short": "{EMNLP-IJCNLP} 2019"
+  },
+  "DBLP:conf/emnlp/2019lantern": {
+    "long": "Proceedings of the Beyond Vision and LANguage: inTEgrating Real-world kNowledge",
+    "short": "LANTERN@EMNLP-IJCNLP 2019"
   },
   "DBLP:conf/ht/2013": {
     "long": "24th {ACM} Conference on Hypertext and Social Media (part of ECRC)",

@@ -1,11 +1,32 @@
 papers:
   - layout: paper
-    author: "Nitika Mathur, Timothy Baldwin and Trevor Cohn"
-    title: "Tangled up in BLEU: Reevaluating the Evaluation of Automatic Machine Translation Evaluation Metrics"
-    year: "2020"
+    author: "Chang Xu, Jun Wang, Yuqing Tang, Francisco Guzm&apos;an, Benjamin Rubinstein and Trevor Cohn"
+    title: "Targeted Poisoning Attacks on Black-Box Neural Machine Translation"
+    year: "2021"
     paper-type: inproceedings
-    booktitle: "ACL 2020"
-    booktitle-full: "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistic"
+    booktitle: "WWW 2021"
+    booktitle-full: "The World Wide Web Conference (WWW)"
+  - layout: paper
+    author: "Kemal Kurniawan, Lea Frermann, Philip Schulz and Trevor Cohn"
+    title: "PPT: Parsimonious Parser Transfer for Unsupervised Cross-lingual Transfer"
+    year: "2021"
+    paper-type: inproceedings
+    booktitle: "EACL 2021"
+    booktitle-full: "Proceedings of the 2021 Conference of the European Chapter of the Association for Computational Linguistics (EACL)"
+  - layout: paper
+    author: "Xudong Han, Timothy Baldwin and Trevor Cohn"
+    title: "Diverse Adversaries for Mitigating Bias in Training"
+    year: "2021"
+    paper-type: inproceedings
+    booktitle: "EACL 2021"
+    booktitle-full: "Proceedings of the 2021 Conference of the European Chapter of the Association for Computational Linguistics (EACL)"
+  - layout: paper
+    author: "Philip Arthur, Trevor Cohn and Gholamreza Haffari"
+    title: "Learning Coupled Policies for Simultaneous Machine Translation using Imitation Learning"
+    year: "2021"
+    paper-type: inproceedings
+    booktitle: "EACL 2021"
+    booktitle-full: "Proceedings of the 2021 Conference of the European Chapter of the Association for Computational Linguistics (EACL)"
   - layout: paper
     author: "Najam Zaidi, Trevor Cohn and Gholamreza Haffari"
     title: "Decoding As Dynamic Programming For Recurrent Autoregressive Models"
@@ -22,6 +43,30 @@ papers:
     booktitle: "ECIR 2020"
     booktitle-full: "Advances in Information Retrieval - 42nd European Conference on IR Research"
     docurl: "https://doi.org/10.1007/978-3-030-45442-5_74"
+  - layout: paper
+    author: "Jiayuan He, Dat Nguyen, Saber Akhondi, Christian Druckenbrodt, Camilo Thorne, Ralph Hoessel, Zubair Afzal, Zenan Zhai, Biaoyan Fang, Hiyori Yoshikawa, Ameer Albahem, Jingqi Wang, Yuankai Ren, Zhi Zhang, Yaoyun Zhang, Mai Dao, Pedro Ruas, Andre Lamurias, Francisco Couto, Jenny Copara, Nona Naderi, Julien Knafou, Patrick Ruch, Douglas Teodoro, Daniel Lowe, John Mayfield, Abdullatif K&quot;oksal, Hilal D&quot;onmez, Elif &quot;Ozkirimli, Arzucan &quot;Ozg&quot;ur, Darshini Mahendran, Gabrielle Gurdin, Nastassja Lewinski, Christina Tang, Bridget McInnes, C. Malarkodi, Pattabhi Rao, Sobha Devi, Lawrence Cavedon, Trevor Cohn, Timothy Baldwin and Karin Verspoor"
+    title: "An Extended Overview of the CLEF 2020 ChEMU Lab: Information Extraction of Chemical Reactions from Patents"
+    year: "2020"
+    paper-type: inproceedings
+    booktitle: "Working Notes of CLEF 2020 - Conference and Labs of the Evaluation Forum"
+    booktitle-full: "Working Notes of CLEF 2020 - Conference and Labs of the Evaluation Forum"
+    docurl: "http://ceur-ws.org/Vol-2696/paper_254.pdf"
+  - layout: paper
+    author: "Jiayuan He, Dat Nguyen, Saber Akhondi, Christian Druckenbrodt, Camilo Thorne, Ralph Hoessel, Zubair Afzal, Zenan Zhai, Biaoyan Fang, Hiyori Yoshikawa, Ameer Albahem, Lawrence Cavedon, Trevor Cohn, Timothy Baldwin and Karin Verspoor"
+    title: "Overview of ChEMU 2020: Named Entity Recognition and Event Extraction of Chemical Reactions from Patents"
+    year: "2020"
+    paper-type: inproceedings
+    booktitle: "CLEF 2020"
+    booktitle-full: "and Interaction - 11th International Conference of the CLEF Association"
+    docurl: "https://doi.org/10.1007/978-3-030-58219-7_18"
+  - layout: paper
+    author: "Nitika Mathur, Timothy Baldwin and Trevor Cohn"
+    title: "Tangled up in BLEU: Reevaluating the Evaluation of Automatic Machine Translation Evaluation Metrics"
+    year: "2020"
+    paper-type: inproceedings
+    booktitle: "ACL 2020"
+    booktitle-full: "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics"
+    docurl: "https://doi.org/10.18653/v1/2020.acl-main.448"
   - layout: paper
     author: "Dalin Wang, Daniel Beck and Trevor Cohn"
     title: "On the Role of Scene Graphs in Image Captioning"
@@ -94,6 +139,14 @@ papers:
     booktitle: "ICASSP 2019"
     booktitle-full: "IEEE International Conference on Acoustics"
     docurl: "https://doi.org/10.1109/ICASSP.2019.8682765"
+  - layout: paper
+    author: "Dalin Wang, Daniel Beck and Trevor Cohn"
+    title: "On the Role of Scene Graphs in Image Captioning"
+    year: "2019"
+    paper-type: inproceedings
+    booktitle: "LANTERN@EMNLP-IJCNLP 2019"
+    booktitle-full: "Proceedings of the Beyond Vision and LANguage: inTEgrating Real-world kNowledge"
+    docurl: "https://doi.org/10.18653/v1/D19-6405"
   - layout: paper
     author: "Shivashankar Subramanian, Trevor Cohn and Timothy Baldwin"
     title: "Deep Ordinal Regression for Pledge Specificity Prediction"
@@ -179,7 +232,7 @@ papers:
     title: "Exploiting graph kernels for high performance biomedical relation extraction"
     year: "2018"
     paper-type: article
-    journal: "J. Biomedical Semantics"
+    journal: "J. Biomed. Semant."
     volume: 9
     docurl: "https://doi.org/10.1186/s13326-017-0168-3"
   - layout: paper
@@ -872,6 +925,14 @@ papers:
     docurl: "https://doi.org/10.3115/v1/d14-1190"
     codeurl: "http://github.com/beckdaniel/emnlp14_joint_ea"
   - layout: paper
+    author: "Xingyi Song, Lucia Specia and Trevor Cohn"
+    title: "Data selection for discriminative training in statistical machine translation"
+    year: "2014"
+    paper-type: inproceedings
+    booktitle: "EAMT 2014"
+    booktitle-full: "Proceedings of the 17th Annual conference of the European Association for Machine Translation"
+    docurl: "https://www.aclweb.org/anthology/2014.eamt-1.7/"
+  - layout: paper
     author: "Vasileios Lampos, Nikolaos Aletras, Daniel Preotiuc-Pietro and Trevor Cohn"
     title: "Predicting and Characterising User Impact on Twitter"
     year: "2014"
@@ -1195,7 +1256,7 @@ papers:
     paper-type: inproceedings
     booktitle: "NeurIPS 2008"
     booktitle-full: "Proceedings of the Twenty-Second Annual Conference on Neural Information Processing Systems"
-    docurl: "http://papers.nips.cc/paper/3453-bayesian-synchronous-grammar-induction"
+    docurl: "https://proceedings.neurips.cc/paper/2008/hash/ac1dd209cbcc5e5d1c6e28598e8cbbe8-Abstract.html"
   - layout: paper
     author: "Trevor Cohn and Mirella Lapata"
     title: "Sentence Compression Beyond Word Deletion"
