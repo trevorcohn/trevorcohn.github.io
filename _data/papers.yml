@@ -1,5 +1,40 @@
 papers:
   - layout: paper
+    author: "Xudong Han, Timothy Baldwin and Trevor Cohn"
+    title: "Decoupling Adversarial Training for Fair NLP"
+    year: 2021
+    paper-type: inproceedings
+    booktitle: "Findings of ACL 2021 (short)"
+    booktitle-full: "Findings of ACL 2021 short papers"
+  - layout: paper
+    author: "Jun Wang, Chang Xu, Francisco Guzman, Ahmed El-Kishky, Yuqing Tang, Benjamin Rubinstein and Trevor Cohn"
+    title: "Putting words into the system's mouth: A targeted attack on neural machine translation using monolingual data poisoning"
+    year: 2021
+    paper-type: inproceedings
+    booktitle: "Findings of ACL 2021"
+    booktitle-full: "Findings of ACL 2021"
+  - layout: paper
+    author: "Jun Wang, Chang Xu, Francisco GuzmÃ¡n, Ahmed El-Kishky, Benjamin Rubinstein and Trevor Cohn"
+    title: "As Easy as 1, 2, 3: Behavioural Testing of NMT Systems for Numerical Translation"
+    year: 2021
+    paper-type: inproceedings
+    booktitle: "Findings of ACL 2021 (short)"
+    booktitle-full: "Findings of ACL 2021, Short Papers"
+  - layout: paper
+    title: "Incorporating Syntax and Semantics in Coreference Resolution with Heterogeneous Graph Attention Network"
+    author: "Fan Jiang and Trevor Cohn"
+    year: 2021
+    paper-type: inproceedings
+    booktitle: "NAACL 2021 (short)"
+    booktitle-full: "Proceedings of the 2021 Conference of the North American chapter of the Association for Computational Linguistics, Short Papers"
+  - layout: paper
+    title: "Framing Unpacked: A Semi-Supervised Interpretable Multi-View Model of Media Frames"
+    author: "Shima Khanehzar, Trevor Cohn, Gosia Mikolajczak, Andrew Turpin and Lea Frermann"
+    year: 2021
+    paper-type: inproceedings
+    booktitle: "NAACL 2021"
+    booktitle-full: "Proceedings of the 2021 Conference of the North American chapter of the Association for Computational Linguistics"
+  - layout: paper
     author: "Chang Xu, Jun Wang, Yuqing Tang, Francisco Guzm&apos;an, Benjamin Rubinstein and Trevor Cohn"
     title: "Targeted Poisoning Attacks on Black-Box Neural Machine Translation"
     year: "2021"
