@@ -34,6 +34,7 @@ papers:
     paper-type: inproceedings
     booktitle: "NAACL 2021"
     booktitle-full: "Proceedings of the 2021 Conference of the North American chapter of the Association for Computational Linguistics"
+    docurl: "https://arxiv.org/abs/2104.11030"
   - layout: paper
     author: "Chang Xu, Jun Wang, Yuqing Tang, Francisco Guzm&apos;an, Benjamin Rubinstein and Trevor Cohn"
     title: "Targeted Poisoning Attacks on Black-Box Neural Machine Translation"
@@ -41,6 +42,7 @@ papers:
     paper-type: inproceedings
     booktitle: "WWW 2021"
     booktitle-full: "The World Wide Web Conference (WWW)"
+    docurl: "https://arxiv.org/pdf/2011.00675.pdf"
   - layout: paper
     author: "Kemal Kurniawan, Lea Frermann, Philip Schulz and Trevor Cohn"
     title: "PPT: Parsimonious Parser Transfer for Unsupervised Cross-lingual Transfer"
@@ -48,6 +50,7 @@ papers:
     paper-type: inproceedings
     booktitle: "EACL 2021"
     booktitle-full: "Proceedings of the 2021 Conference of the European Chapter of the Association for Computational Linguistics (EACL)"
+    docurl: "https://www.aclweb.org/anthology/2021.eacl-main.254"
   - layout: paper
     author: "Xudong Han, Timothy Baldwin and Trevor Cohn"
     title: "Diverse Adversaries for Mitigating Bias in Training"
@@ -55,6 +58,7 @@ papers:
     paper-type: inproceedings
     booktitle: "EACL 2021"
     booktitle-full: "Proceedings of the 2021 Conference of the European Chapter of the Association for Computational Linguistics (EACL)"
+    docurl: "https://www.aclweb.org/anthology/2021.eacl-main.239/"
   - layout: paper
     author: "Philip Arthur, Trevor Cohn and Gholamreza Haffari"
     title: "Learning Coupled Policies for Simultaneous Machine Translation using Imitation Learning"
@@ -62,6 +66,7 @@ papers:
     paper-type: inproceedings
     booktitle: "EACL 2021"
     booktitle-full: "Proceedings of the 2021 Conference of the European Chapter of the Association for Computational Linguistics (EACL)"
+    docurl: "https://www.aclweb.org/anthology/2021.eacl-main.233/"
   - layout: paper
     author: "Najam Zaidi, Trevor Cohn and Gholamreza Haffari"
     title: "Decoding As Dynamic Programming For Recurrent Autoregressive Models"
