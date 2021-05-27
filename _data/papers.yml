@@ -27,6 +27,7 @@ papers:
     paper-type: inproceedings
     booktitle: "NAACL 2021 (short)"
     booktitle-full: "Proceedings of the 2021 Conference of the North American chapter of the Association for Computational Linguistics, Short Papers"
+    docurl: "https://www.aclweb.org/anthology/2021.naacl-main.125/"
   - layout: paper
     title: "Framing Unpacked: A Semi-Supervised Interpretable Multi-View Model of Media Frames"
     author: "Shima Khanehzar, Trevor Cohn, Gosia Mikolajczak, Andrew Turpin and Lea Frermann"
