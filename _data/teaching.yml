@@ -1,8 +1,19 @@
 subjects:
+  - name: "BUSA90501 Text and Web Analytics"
+    department: "Melbourne Business School"
+    url: "https://handbook.unimelb.edu.au/2021/subjects/busa90501"
+    year: "2021"
+    note1: "with Jey Han Lau"
+  - name: "COMP90051 Statistical Machine Learning"
+    department: "Computing and Information Systems"
+    url: "https://handbook.unimelb.edu.au/2021/subjects/comp90051"
+    year: "2021"
+
   - name: "COMP90051 Statistical Machine Learning"
     department: "Computing and Information Systems"
     url: "https://handbook.unimelb.edu.au/2020/subjects/comp90051"
     year: "2020"
+
   - name: "BUSA90501 Text and Web Analytics"
     department: "Melbourne Business School"
     url: "https://handbook.unimelb.edu.au/2019/subjects/busa90501"

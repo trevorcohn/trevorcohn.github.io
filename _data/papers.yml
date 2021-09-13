@@ -1,11 +1,64 @@
 papers:
   - layout: paper
+    author: "Jinming Zhao, Philip Arthur, Gholamreza Haffari, Trevor Cohn and Ehsan Shareghi"
+    title: "It Is Not As Good As You Think! Evaluating Simultaneous Machine Translation on Interpretation Data"
+    year: 2021
+    paper-type: inproceedings
+    booktitle: "EMNLP 2021"
+    booktitle-full: "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing" 
+  - layout: paper
+    author: "Shivashankar Subramanian, Xudong Han, Timothy Baldwin, Trevor Cohn and Lea Frermann"
+    title: "Evaluating Debiasing Techniques for Intersectional Biases"
+    year: 2021
+    paper-type: inproceedings
+    booktitle: "EMNLP 2021"
+    booktitle-full: "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing" 
+  - layout: paper
+    author: "Shivashankar Subramanian, Afshin Rahimi, Timothy Baldwin, Trevor Cohn and Lea Frermann"
+    title: "Fairness-aware Class Imbalanced Learning"
+    year: 2021
+    paper-type: inproceedings
+    booktitle: "EMNLP 2021"
+    booktitle-full: "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing" 
+  - layout: paper
+    author: "Chang Xu, Jun Wang, Francisco Guzman, Benjamin Rubinstein and Trevor Cohn"
+    title: "Mitigating Data Poisoning in Text Classification with Differential Privacy"
+    year: 2021
+    paper-type: inproceedings
+    booktitle: "Findings of EMNLP 2021"
+    booktitle-full: "Findings of EMNLP 2021" 
+  - layout: paper
+    author: "Kemal Kurniawan, Lea Frermann, Philip Schulz and Trevor Cohn"
+    title: "PTST-UoM at SemEval-2021 Task 10: Parsimonious Transfer for Sequence Tagging"
+    year: 2021
+    paper-type: inproceedings
+    booktitle: "SemEval-2021"
+    booktitle-full: "Proceedings of the 15th International Workshop on Semantic Evaluation"
+    docurl: "https://aclanthology.org/2021.semeval-1.54.pdf"
+  - layout: paper
+    author: "Jiayuan He, Biaoyan Fang, Hiyori Yoshikawa, Yuan Li, Saber A. Akhondi, Christian Druckenbrodt, Camilo Thorne, Zubair Afzal, Zenan Zhai, Lawrence Cavedon, Trevor Cohn, Timothy Baldwin, Karin Verspoor"
+    title: "ChEMU 2021: Reaction Reference Resolution and Anaphora Resolution in Chemical Patents"
+    year: "2021"
+    paper-type: inproceedings
+    booktitle: "ECIR 2021"
+    booktitle-full: "Advances in Information Retrieval - 43rd European Conference on IR Research"
+    docurl: "https://link.springer.com/chapter/10.1007/978-3-030-72240-1_71"
+  - layout: paper
+    author: "Jiayuan He, Dat Quoc Nguyen, Saber A Akhondi, Christian Druckenbrodt, Camilo Thorne, Ralph Hoessel, Zubair Afzal, Zenan Zhai, Biaoyan Fang, Hiyori Yoshikawa, Ameer Albahem, Lawrence Cavedon, Trevor Cohn, Timothy Baldwin, Karin Verspoor"
+    title: "ChEMU 2020: Natural language processing methods are effective for information extraction from chemical patents"
+    year: "2021"
+    paper-type: article
+    booktitle: "Frontiers in Research Metrics and Analytics"
+    booktitle-full: "Frontiers in Research Metrics and Analytics"
+    docurl: "https://www.frontiersin.org/articles/10.3389/frma.2021.654438/full"
+  - layout: paper
     author: "Xudong Han, Timothy Baldwin and Trevor Cohn"
     title: "Decoupling Adversarial Training for Fair NLP"
     year: 2021
     paper-type: inproceedings
     booktitle: "Findings of ACL 2021 (short)"
     booktitle-full: "Findings of ACL 2021 short papers"
+    docurl: "https://aclanthology.org/2021.findings-acl.41.pdf"
   - layout: paper
     author: "Jun Wang, Chang Xu, Francisco Guzman, Ahmed El-Kishky, Yuqing Tang, Benjamin Rubinstein and Trevor Cohn"
     title: "Putting words into the system's mouth: A targeted attack on neural machine translation using monolingual data poisoning"
@@ -13,6 +66,7 @@ papers:
     paper-type: inproceedings
     booktitle: "Findings of ACL 2021"
     booktitle-full: "Findings of ACL 2021"
+    docurl: "https://aclanthology.org/2021.findings-acl.127.pdf"
   - layout: paper
     author: "Jun Wang, Chang Xu, Francisco GuzmÃ¡n, Ahmed El-Kishky, Benjamin Rubinstein and Trevor Cohn"
     title: "As Easy as 1, 2, 3: Behavioural Testing of NMT Systems for Numerical Translation"
@@ -20,6 +74,7 @@ papers:
     paper-type: inproceedings
     booktitle: "Findings of ACL 2021 (short)"
     booktitle-full: "Findings of ACL 2021, Short Papers"
+    docurl: "https://aclanthology.org/2021.findings-acl.415.pdf"
   - layout: paper
     title: "Incorporating Syntax and Semantics in Coreference Resolution with Heterogeneous Graph Attention Network"
     author: "Fan Jiang and Trevor Cohn"
