@@ -1,156 +1,163 @@
 papers:
   - layout: paper
-    author: "Zenan Zhai, Christian Druckenbrodt, Camilo Thorne, Saber A. Akhondi, Dat Quoc Nguyen, Trevor Cohn and Karin Verspoor"
-    title: "ChemTables: a dataset for semantic classification on tables in chemical patents"
-    paper-type: article
-    journal: "Journal of Cheminformatics"
-    volum: "13(1)"
-    year: "2021"
-    docurl: "https://doi.org/10.1186/s13321-021-00568-2"
-  - layout: paper
     author: "Jun Wang, Benjamin Rubinstein and Trevor Cohn"
     title: "Measuring and Mitigating Name Biases in Neural Machine Translation"
-    year: 2022
+    year: "2022"
     paper-type: inproceedings
     booktitle: "ACL 2022"
-    booktitle-full: "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics"
+    booktitle-full: "60th Annual Meeting of the Association for Computational Linguistics"
   - layout: paper
     author: "Fan Jiang and Trevor Cohn"
     title: "Incorporating Constituent Syntax for Coreference Resolution"
-    year: 2022
+    year: "2022"
     paper-type: inproceedings
     booktitle: "AAAI 2022"
-    booktitle-full: "Proceedings of the 36th Annual AAAI Conference on Artificial Intelligence"
-    docurl: "https://www.aaai.org/AAAI22Papers/AAAI-4134.JiangF.pdf"
+    booktitle-full: "36th AAAI Conference on Artificial Intelligence"
+    docurl: "https://aaai-2022.virtualchair.net/poster_aaai4134"
   - layout: paper
-    author: "Jinming Zhao, Philip Arthur, Gholamreza Haffari, Trevor Cohn and Ehsan Shareghi"
-    title: "It Is Not As Good As You Think! Evaluating Simultaneous Machine Translation on Interpretation Data"
-    year: 2021
-    paper-type: inproceedings
-    booktitle: "EMNLP 2021"
-    booktitle-full: "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing" 
-    docurl: "https://aclanthology.org/2021.emnlp-main.537/"
+    author: "Zenan Zhai, Christian Druckenbrodt, Camilo Thorne, Saber Akhondi, Dat Nguyen, Trevor Cohn and Karin Verspoor"
+    title: "ChemTables: a dataset for semantic classification on tables in chemical patents"
+    year: "2021"
+    paper-type: article
+    journal: "J. Cheminformatics"
+    volume: 13
+    docurl: "https://doi.org/10.1186/s13321-021-00568-2"
   - layout: paper
-    author: "Shivashankar Subramanian, Xudong Han, Timothy Baldwin, Trevor Cohn and Lea Frermann"
-    title: "Evaluating Debiasing Techniques for Intersectional Biases"
-    year: 2021
-    paper-type: inproceedings
-    booktitle: "EMNLP 2021"
-    booktitle-full: "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing" 
-    docurl: "https://aclanthology.org/2021.emnlp-main.193/"
+    author: "Jiayuan He, Dat Nguyen, Saber Akhondi, Christian Druckenbrodt, Camilo Thorne, Ralph Hoessel, Zubair Afzal, Zenan Zhai, Biaoyan Fang, Hiyori Yoshikawa, Ameer Albahem, Lawrence Cavedon, Trevor Cohn, Timothy Baldwin and Karin Verspoor"
+    title: "ChEMU 2020: Natural Language Processing Methods Are Effective for Information Extraction From Chemical Patents"
+    year: "2021"
+    paper-type: article
+    journal: "Frontiers Res. Metrics Anal."
+    volume: 6
+    docurl: "https://doi.org/10.3389/frma.2021.654438"
   - layout: paper
-    author: "Shivashankar Subramanian, Afshin Rahimi, Timothy Baldwin, Trevor Cohn and Lea Frermann"
-    title: "Fairness-aware Class Imbalanced Learning"
-    year: 2021
+    author: "Chang Xu, Jun Wang, Yuqing Tang, Francisco Guzm&apos;an, Benjamin Rubinstein and Trevor Cohn"
+    title: "A Targeted Attack on Black-Box Neural Machine Translation with Parallel Data Poisoning"
+    year: "2021"
     paper-type: inproceedings
-    booktitle: "EMNLP 2021"
-    booktitle-full: "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing" 
-    docurl: "https://aclanthology.org/2021.emnlp-main.155/"
-  - layout: paper
-    author: "Chang Xu, Jun Wang, Francisco Guzman, Benjamin Rubinstein and Trevor Cohn"
-    title: "Mitigating Data Poisoning in Text Classification with Differential Privacy"
-    year: 2021
-    paper-type: inproceedings
-    booktitle: "Findings of EMNLP 2021"
-    booktitle-full: "Findings of EMNLP 2021" 
-    docurl: "https://aclanthology.org/2021.findings-emnlp.369/"
+    booktitle: "WWW 2021"
+    booktitle-full: "WWW &apos;21: The Web Conference 2021"
+    docurl: "https://doi.org/10.1145/3442381.3450034"
   - layout: paper
     author: "Kemal Kurniawan, Lea Frermann, Philip Schulz and Trevor Cohn"
     title: "PTST-UoM at SemEval-2021 Task 10: Parsimonious Transfer for Sequence Tagging"
-    year: 2021
+    year: "2021"
     paper-type: inproceedings
-    booktitle: "SemEval-2021"
+    booktitle: "SEMEVAL 2021"
     booktitle-full: "Proceedings of the 15th International Workshop on Semantic Evaluation"
-    docurl: "https://aclanthology.org/2021.semeval-1.54.pdf"
+    docurl: "https://doi.org/10.18653/v1/2021.semeval-1.54"
   - layout: paper
-    author: "Jiayuan He, Biaoyan Fang, Hiyori Yoshikawa, Yuan Li, Saber A. Akhondi, Christian Druckenbrodt, Camilo Thorne, Zubair Afzal, Zenan Zhai, Lawrence Cavedon, Trevor Cohn, Timothy Baldwin, Karin Verspoor"
+    author: "Shima Khanehzar, Trevor Cohn, Gosia Mikolajczak, Andrew Turpin and Lea Frermann"
+    title: "Framing Unpacked: A Semi-Supervised Interpretable Multi-View Model of Media Frames"
+    year: "2021"
+    paper-type: inproceedings
+    booktitle: "NAACL-HLT 2021"
+    booktitle-full: "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
+    docurl: "https://doi.org/10.18653/v1/2021.naacl-main.174"
+  - layout: paper
+    author: "Fan Jiang and Trevor Cohn"
+    title: "Incorporating Syntax and Semantics in Coreference Resolution with Heterogeneous Graph Attention Network"
+    year: "2021"
+    paper-type: inproceedings
+    booktitle: "NAACL-HLT 2021"
+    booktitle-full: "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
+    docurl: "https://doi.org/10.18653/v1/2021.naacl-main.125"
+  - layout: paper
+    author: "Jiuzhou Han, Daniel Beck and Trevor Cohn"
+    title: "Generating Diverse Descriptions from Semantic Graphs"
+    year: "2021"
+    paper-type: inproceedings
+    booktitle: "INLG 2021"
+    booktitle-full: "Proceedings of the 14th International Conference on Natural Language Generation"
+    docurl: "https://aclanthology.org/2021.inlg-1.1"
+  - layout: paper
+    author: "Jinming Zhao, Philip Arthur, Gholamreza Haffari, Trevor Cohn and Ehsan Shareghi"
+    title: "It Is Not As Good As You Think! Evaluating Simultaneous Machine Translation on Interpretation Data"
+    year: "2021"
+    paper-type: inproceedings
+    booktitle: "EMNLP 2021"
+    booktitle-full: "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing"
+    docurl: "https://doi.org/10.18653/v1/2021.emnlp-main.537"
+  - layout: paper
+    author: "Chang Xu, Jun Wang, Francisco Guzm&apos;an, Benjamin Rubinstein and Trevor Cohn"
+    title: "Mitigating Data Poisoning in Text Classification with Differential Privacy"
+    year: "2021"
+    paper-type: inproceedings
+    booktitle: "EMNLP"
+    booktitle-full: "Findings of the Association for Computational Linguistics: EMNLP 2021"
+    docurl: "https://doi.org/10.18653/v1/2021.findings-emnlp.369"
+  - layout: paper
+    author: "Shivashankar Subramanian, Xudong Han, Timothy Baldwin, Trevor Cohn and Lea Frermann"
+    title: "Evaluating Debiasing Techniques for Intersectional Biases"
+    year: "2021"
+    paper-type: inproceedings
+    booktitle: "EMNLP 2021"
+    booktitle-full: "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing"
+    docurl: "https://doi.org/10.18653/v1/2021.emnlp-main.193"
+  - layout: paper
+    author: "Shivashankar Subramanian, Afshin Rahimi, Timothy Baldwin, Trevor Cohn and Lea Frermann"
+    title: "Fairness-aware Class Imbalanced Learning"
+    year: "2021"
+    paper-type: inproceedings
+    booktitle: "EMNLP 2021"
+    booktitle-full: "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing"
+    docurl: "https://doi.org/10.18653/v1/2021.emnlp-main.155"
+  - layout: paper
+    author: "Jiayuan He, Biaoyan Fang, Hiyori Yoshikawa, Yuan Li, Saber Akhondi, Christian Druckenbrodt, Camilo Thorne, Zubair Afzal, Zenan Zhai, Lawrence Cavedon, Trevor Cohn, Timothy Baldwin and Karin Verspoor"
     title: "ChEMU 2021: Reaction Reference Resolution and Anaphora Resolution in Chemical Patents"
     year: "2021"
     paper-type: inproceedings
     booktitle: "ECIR 2021"
     booktitle-full: "Advances in Information Retrieval - 43rd European Conference on IR Research"
-    docurl: "https://link.springer.com/chapter/10.1007/978-3-030-72240-1_71"
-  - layout: paper
-    author: "Jiayuan He, Dat Quoc Nguyen, Saber A Akhondi, Christian Druckenbrodt, Camilo Thorne, Ralph Hoessel, Zubair Afzal, Zenan Zhai, Biaoyan Fang, Hiyori Yoshikawa, Ameer Albahem, Lawrence Cavedon, Trevor Cohn, Timothy Baldwin, Karin Verspoor"
-    title: "ChEMU 2020: Natural language processing methods are effective for information extraction from chemical patents"
-    year: "2021"
-    paper-type: article
-    journal: "Frontiers in Research Metrics and Analytics"
-    booktitle-full: "Frontiers in Research Metrics and Analytics"
-    docurl: "https://www.frontiersin.org/articles/10.3389/frma.2021.654438/full"
-    volume: "6"
-  - layout: paper
-    author: "Xudong Han, Timothy Baldwin and Trevor Cohn"
-    title: "Decoupling Adversarial Training for Fair NLP"
-    year: 2021
-    paper-type: inproceedings
-    booktitle: "Findings of ACL 2021 (short)"
-    booktitle-full: "Findings of ACL 2021 short papers"
-    docurl: "https://aclanthology.org/2021.findings-acl.41.pdf"
-  - layout: paper
-    author: "Jun Wang, Chang Xu, Francisco Guzman, Ahmed El-Kishky, Yuqing Tang, Benjamin Rubinstein and Trevor Cohn"
-    title: "Putting words into the system's mouth: A targeted attack on neural machine translation using monolingual data poisoning"
-    year: 2021
-    paper-type: inproceedings
-    booktitle: "Findings of ACL 2021"
-    booktitle-full: "Findings of ACL 2021"
-    docurl: "https://aclanthology.org/2021.findings-acl.127.pdf"
-  - layout: paper
-    author: "Jun Wang, Chang Xu, Francisco GuzmÃ¡n, Ahmed El-Kishky, Benjamin Rubinstein and Trevor Cohn"
-    title: "As Easy as 1, 2, 3: Behavioural Testing of NMT Systems for Numerical Translation"
-    year: 2021
-    paper-type: inproceedings
-    booktitle: "Findings of ACL 2021 (short)"
-    booktitle-full: "Findings of ACL 2021, Short Papers"
-    docurl: "https://aclanthology.org/2021.findings-acl.415.pdf"
-  - layout: paper
-    title: "Incorporating Syntax and Semantics in Coreference Resolution with Heterogeneous Graph Attention Network"
-    author: "Fan Jiang and Trevor Cohn"
-    year: 2021
-    paper-type: inproceedings
-    booktitle: "NAACL 2021 (short)"
-    booktitle-full: "Proceedings of the 2021 Conference of the North American chapter of the Association for Computational Linguistics, Short Papers"
-    docurl: "https://www.aclweb.org/anthology/2021.naacl-main.125/"
-  - layout: paper
-    title: "Framing Unpacked: A Semi-Supervised Interpretable Multi-View Model of Media Frames"
-    author: "Shima Khanehzar, Trevor Cohn, Gosia Mikolajczak, Andrew Turpin and Lea Frermann"
-    year: 2021
-    paper-type: inproceedings
-    booktitle: "NAACL 2021"
-    booktitle-full: "Proceedings of the 2021 Conference of the North American chapter of the Association for Computational Linguistics"
-    docurl: "https://arxiv.org/abs/2104.11030"
-  - layout: paper
-    author: "Chang Xu, Jun Wang, Yuqing Tang, Francisco Guzm&apos;an, Benjamin Rubinstein and Trevor Cohn"
-    title: "Targeted Poisoning Attacks on Black-Box Neural Machine Translation"
-    year: "2021"
-    paper-type: inproceedings
-    booktitle: "WWW 2021"
-    booktitle-full: "The World Wide Web Conference (WWW)"
-    docurl: "https://arxiv.org/pdf/2011.00675.pdf"
+    docurl: "https://doi.org/10.1007/978-3-030-72240-1_71"
   - layout: paper
     author: "Kemal Kurniawan, Lea Frermann, Philip Schulz and Trevor Cohn"
-    title: "PPT: Parsimonious Parser Transfer for Unsupervised Cross-lingual Transfer"
+    title: "PPT: Parsimonious Parser Transfer for Unsupervised Cross-Lingual Adaptation"
     year: "2021"
     paper-type: inproceedings
     booktitle: "EACL 2021"
-    booktitle-full: "Proceedings of the 2021 Conference of the European Chapter of the Association for Computational Linguistics (EACL)"
-    docurl: "https://www.aclweb.org/anthology/2021.eacl-main.254"
+    booktitle-full: "Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume"
+    docurl: "https://doi.org/10.18653/v1/2021.eacl-main.254"
   - layout: paper
     author: "Xudong Han, Timothy Baldwin and Trevor Cohn"
     title: "Diverse Adversaries for Mitigating Bias in Training"
     year: "2021"
     paper-type: inproceedings
     booktitle: "EACL 2021"
-    booktitle-full: "Proceedings of the 2021 Conference of the European Chapter of the Association for Computational Linguistics (EACL)"
-    docurl: "https://www.aclweb.org/anthology/2021.eacl-main.239/"
+    booktitle-full: "Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume"
+    docurl: "https://doi.org/10.18653/v1/2021.eacl-main.239"
   - layout: paper
     author: "Philip Arthur, Trevor Cohn and Gholamreza Haffari"
     title: "Learning Coupled Policies for Simultaneous Machine Translation using Imitation Learning"
     year: "2021"
     paper-type: inproceedings
     booktitle: "EACL 2021"
-    booktitle-full: "Proceedings of the 2021 Conference of the European Chapter of the Association for Computational Linguistics (EACL)"
-    docurl: "https://www.aclweb.org/anthology/2021.eacl-main.233/"
+    booktitle-full: "Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume"
+    docurl: "https://doi.org/10.18653/v1/2021.eacl-main.233"
+  - layout: paper
+    author: "Jun Wang, Chang Xu, Francisco Guzm&apos;an, Ahmed El-Kishky, Yuqing Tang, Benjamin Rubinstein and Trevor Cohn"
+    title: "Putting words into the system&apos;s mouth: A targeted attack on neural machine translation using monolingual data poisoning"
+    year: "2021"
+    paper-type: inproceedings
+    booktitle: "ACL/IJCNLP 2021"
+    booktitle-full: "Findings of the Association for Computational Linguistics: ACL/IJCNLP 2021"
+    docurl: "https://doi.org/10.18653/v1/2021.findings-acl.127"
+  - layout: paper
+    author: "Jun Wang, Chang Xu, Francisco Guzm&apos;an, Ahmed El-Kishky, Benjamin Rubinstein and Trevor Cohn"
+    title: "As Easy as 1, 2, 3: Behavioural Testing of NMT Systems for Numerical Translation"
+    year: "2021"
+    paper-type: inproceedings
+    booktitle: "ACL/IJCNLP 2021"
+    booktitle-full: "Findings of the Association for Computational Linguistics: ACL/IJCNLP 2021"
+    docurl: "https://doi.org/10.18653/v1/2021.findings-acl.415"
+  - layout: paper
+    author: "Xudong Han, Timothy Baldwin and Trevor Cohn"
+    title: "Decoupling Adversarial Training for Fair NLP"
+    year: "2021"
+    paper-type: inproceedings
+    booktitle: "ACL/IJCNLP 2021"
+    booktitle-full: "Findings of the Association for Computational Linguistics: ACL/IJCNLP 2021"
+    docurl: "https://doi.org/10.18653/v1/2021.findings-acl.41"
   - layout: paper
     author: "Najam Zaidi, Trevor Cohn and Gholamreza Haffari"
     title: "Decoding As Dynamic Programming For Recurrent Autoregressive Models"
@@ -191,22 +198,6 @@ papers:
     booktitle: "ACL 2020"
     booktitle-full: "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics"
     docurl: "https://doi.org/10.18653/v1/2020.acl-main.448"
-  - layout: paper
-    author: "Dalin Wang, Daniel Beck and Trevor Cohn"
-    title: "On the Role of Scene Graphs in Image Captioning"
-    year: "2019"
-    paper-type: inproceedings
-    booktitle: "Proceedings of the Beyond Vision and LANguage: inTEgrating Real-world kNowledge (LANTERN)"
-    booktitle-full: "Proceedings of the Beyond Vision and LANguage: inTEgrating Real-world kNowledge (LANTERN)"
-    docurl: "https://www.aclweb.org/anthology/D19-6405"
-  - layout: paper
-    author: "Daniel Beck, Trevor Cohn and Gholamreza Haffari"
-    title: "Neural Speech Translation using Lattice Transformations and Graph Networks"
-    year: "2019"
-    paper-type: inproceedings
-    booktitle: "Proceedings of the Thirteenth Workshop on Graph-Based Methods for Natural Language Processing (TextGraphs-13)"
-    booktitle-full: "Proceedings of the Thirteenth Workshop on Graph-Based Methods for Natural Language Processing (TextGraphs-13)"
-    docurl: "https://www.aclweb.org/anthology/D19-5304"
   - layout: paper
     author: "Michal Lukasik, Kalina Bontcheva, Trevor Cohn, Arkaitz Zubiaga, Maria Liakata and Rob Procter"
     title: "Gaussian Processes for Rumour Stance Classification in Social Media"
@@ -328,7 +319,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ALTA 2019"
     booktitle-full: "Proceedings of the The 17th Annual Workshop of the Australasian Language Technology Association"
-    docurl: "https://aclweb.org/anthology/papers/U/U19/U19-1002/"
+    docurl: "https://aclanthology.org/U19-1002/"
   - layout: paper
     author: "Alexis Michaud, Oliver Adams, Trevor Cohn, Graham Neubig and Séverine Guillaume"
     title: "Integrating automatic transcription into the language documentation workflow: Experiments with Na data and the PERSEPHONE toolkit"
@@ -424,7 +415,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ACL 2018"
     booktitle-full: "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/P18-2030/"
+    docurl: "https://aclanthology.org/P18-2030/"
   - layout: paper
     author: "Fei Liu, Trevor Cohn and Timothy Baldwin"
     title: "Narrative Modeling with Memory Chains and Semantic Supervision"
@@ -432,7 +423,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ACL 2018"
     booktitle-full: "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/P18-2045/"
+    docurl: "https://aclanthology.org/P18-2045/"
     codeurl: "https://github.com/liufly/narrative-modeling"
   - layout: paper
     author: "Yitong Li, Timothy Baldwin and Trevor Cohn"
@@ -441,7 +432,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ACL 2018"
     booktitle-full: "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/P18-2005/"
+    docurl: "https://aclanthology.org/P18-2005/"
     codeurl: "https://github.com/lrank/Robust_and_Privacy_preserving_Text_Representations"
   - layout: paper
     author: "Philip Schulz, Wilker Aziz and Trevor Cohn"
@@ -450,7 +441,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ACL 2018"
     booktitle-full: "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/P18-1115/"
+    docurl: "https://aclanthology.org/P18-1115/"
     codeurl: "https://github.com/philschulz/stochastic-decoder"
   - layout: paper
     author: "Daniel Beck, Gholamreza Haffari and Trevor Cohn"
@@ -459,7 +450,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ACL 2018"
     booktitle-full: "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/P18-1026/"
+    docurl: "https://aclanthology.org/P18-1026/"
     codeurl: "https://github.com/beckdaniel/acl2018_graph2seq"
   - layout: paper
     author: "Afshin Rahimi, Trevor Cohn and Timothy Baldwin"
@@ -468,7 +459,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ACL 2018"
     booktitle-full: "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/P18-1187/"
+    docurl: "https://aclanthology.org/P18-1187/"
   - layout: paper
     author: "Jey Lau, Trevor Cohn, Timothy Baldwin, Julian Brooke and Adam Hammond"
     title: "Deep-speare: A joint neural model of poetic language, meter and rhyme"
@@ -476,7 +467,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ACL 2018"
     booktitle-full: "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/P18-1181/"
+    docurl: "https://aclanthology.org/P18-1181/"
     codeurl: "https://github.com/jhlau/deepspeare"
   - layout: paper
     author: "Nitika Mathur, Timothy Baldwin and Trevor Cohn"
@@ -485,7 +476,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ALTA 2018"
     booktitle-full: "Proceedings of the Australasian Language Technology Association Workshop 2018"
-    docurl: "https://www.aclweb.org/anthology/U18-1010/"
+    docurl: "https://aclanthology.org/U18-1010/"
   - layout: paper
     author: "Vu Hoang, Gholamreza Haffari and Trevor Cohn"
     title: "Improved Neural Machine Translation using Side Information"
@@ -493,7 +484,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ALTA 2018"
     booktitle-full: "Proceedings of the Australasian Language Technology Association Workshop 2018"
-    docurl: "https://www.aclweb.org/anthology/U18-1001/"
+    docurl: "https://aclanthology.org/U18-1001/"
   - layout: paper
     author: "Graham Neubig, Chris Dyer, Yoav Goldberg, Austin Matthews, Waleed Ammar, Antonios Anastasopoulos, Miguel Ballesteros, David Chiang, Daniel Clothiaux, Trevor Cohn, Kevin Duh, Manaal Faruqui, Cynthia Gan, Dan Garrette, Yangfeng Ji, Lingpeng Kong, Adhiguna Kuncoro, Gaurav Kumar, Chaitanya Malaviya, Paul Michel, Yusuke Oda, Matthew Richardson, Naomi Saphra, Swabha Swayamdipta and Pengcheng Yin"
     title: "DyNet: The Dynamic Neural Network Toolkit"
@@ -507,7 +498,7 @@ papers:
     title: "Pairwise Webpage Coreference Classification Using Distant Supervision"
     year: "2017"
     paper-type: inproceedings
-    booktitle: "Proceedings of the 26th International Conference on World Wide Web Companion"
+    booktitle: "WWW 2017"
     booktitle-full: "Proceedings of the 26th International Conference on World Wide Web Companion"
     docurl: "https://doi.org/10.1145/3041021.3054224"
   - layout: paper
@@ -517,7 +508,7 @@ papers:
     paper-type: inproceedings
     booktitle: "IJCNLP 2017"
     booktitle-full: "Proceedings of the Eighth International Joint Conference on Natural Language Processing"
-    docurl: "https://www.aclweb.org/anthology/I17-1056/"
+    docurl: "https://aclanthology.org/I17-1056/"
   - layout: paper
     author: "Jey Lau, Lianhua Chi, Khoi-Nguyen Tran and Trevor Cohn"
     title: "End-to-end Network for Twitter Geolocation Prediction and Hashing"
@@ -525,7 +516,7 @@ papers:
     paper-type: inproceedings
     booktitle: "IJCNLP 2017"
     booktitle-full: "Proceedings of the Eighth International Joint Conference on Natural Language Processing"
-    docurl: "https://www.aclweb.org/anthology/I17-1075/"
+    docurl: "https://aclanthology.org/I17-1075/"
   - layout: paper
     author: "Daniel Beck and Trevor Cohn"
     title: "Learning Kernels over Strings using Gaussian Processes"
@@ -533,7 +524,7 @@ papers:
     paper-type: inproceedings
     booktitle: "IJCNLP 2017"
     booktitle-full: "Proceedings of the Eighth International Joint Conference on Natural Language Processing"
-    docurl: "https://www.aclweb.org/anthology/I17-2012/"
+    docurl: "https://aclanthology.org/I17-2012/"
   - layout: paper
     author: "Ehsan Shareghi, Gholamreza Haffari and Trevor Cohn"
     title: "Compressed Nonparametric Language Modelling"
@@ -680,7 +671,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ALTA 2017"
     booktitle-full: "Proceedings of the Australasian Language Technology Association Workshop"
-    docurl: "https://www.aclweb.org/anthology/U17-1003/"
+    docurl: "https://aclanthology.org/U17-1003/"
   - layout: paper
     author: "Fei Liu, Trevor Cohn and Timothy Baldwin"
     title: "Improving End-to-End Memory Networks with Unified Weight Tying"
@@ -688,7 +679,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ALTA 2017"
     booktitle-full: "Proceedings of the Australasian Language Technology Association Workshop"
-    docurl: "https://www.aclweb.org/anthology/U17-1002/"
+    docurl: "https://aclanthology.org/U17-1002/"
   - layout: paper
     author: "Oliver Adams, Trevor Cohn, Graham Neubig and Alexis Michaud"
     title: "Phonemic Transcription of Low-Resource Tonal Languages"
@@ -696,7 +687,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ALTA 2017"
     booktitle-full: "Proceedings of the Australasian Language Technology Association Workshop"
-    docurl: "https://www.aclweb.org/anthology/U17-1006/"
+    docurl: "https://aclanthology.org/U17-1006/"
   - layout: paper
     author: "Yangfeng Ji, Trevor Cohn, Lingpeng Kong, Chris Dyer and Jacob Eisenstein"
     title: "Document Context Language Models"
@@ -822,7 +813,7 @@ papers:
     paper-type: inproceedings
     booktitle: "COLING 2016"
     booktitle-full: "26th International Conference on Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/C16-3006/"
+    docurl: "https://aclanthology.org/C16-3006/"
   - layout: paper
     author: "Nagesh Chandrasekarasastry, Gitansh Khirbat, Karin Verspoor, Trevor Cohn and Kotagiri Ramamohanarao"
     title: "SeeDev Binary Event Extraction using SVMs and a Rich Feature Set"
@@ -864,7 +855,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ALTA 2016"
     booktitle-full: "Proceedings of the Australasian Language Technology Association Workshop 2016"
-    docurl: "https://www.aclweb.org/anthology/U16-1001/"
+    docurl: "https://aclanthology.org/U16-1001/"
   - layout: paper
     author: "Nagesh Chandrasekarasastry, Karin Verspoor, Trevor Cohn and Rao Kotagiri"
     title: "ASM Kernel: Graph Kernel using Approximate Subgraph Matching for Relation Extraction"
@@ -872,7 +863,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ALTA 2016"
     booktitle-full: "Proceedings of the Australasian Language Technology Association Workshop 2016"
-    docurl: "https://www.aclweb.org/anthology/U16-1007/"
+    docurl: "https://aclanthology.org/U16-1007/"
   - layout: paper
     author: "Michal Lukasik and Trevor Cohn"
     title: "Convolution Kernels for Discriminative Learning from Streaming Text"
@@ -881,13 +872,6 @@ papers:
     booktitle: "AAAI 2016"
     booktitle-full: "Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence"
     docurl: "http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/view/12167"
-  - layout: paper
-    author: "Oliver Adams, Graham Neubig, Trevor Cohn and Steven Bird"
-    title: "Inducing Bilingual Lexicons from Small Quantities of Sentence-Aligned Phonemic Transcriptions"
-    year: "2015"
-    paper-type: inproceedings
-    booktitle: "IWSLT 2015"
-    booktitle-full: "Proceedings of the 12th International Workshop on Spoken Language Translation (IWSLT)"
   - layout: paper
     author: "Daniel Beck, Trevor Cohn, Christian Hardmeier and Lucia Specia"
     title: "Learning Structural Kernels for Natural Language Processing"
@@ -936,6 +920,14 @@ papers:
     booktitle: "NAACL HLT 2015"
     booktitle-full: "The 2015 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
     docurl: "https://doi.org/10.3115/v1/n15-1153"
+  - layout: paper
+    author: "Oliver Adams, Graham Neubig, Trevor Cohn and Steven Bird"
+    title: "Inducing bilingual lexicons from small quantities of sentence-aligned phonemic transcriptions"
+    year: "2015"
+    paper-type: inproceedings
+    booktitle: "IWSLT 2015"
+    booktitle-full: "Proceedings of the 12th International Workshop on Spoken Language Translation: Papers"
+    docurl: "https://aclanthology.org/2015.iwslt-papers.18"
   - layout: paper
     author: "Ehsan Shareghi, Matthias Petri, Gholamreza Haffari and Trevor Cohn"
     title: "Compact, Efficient and Unlimited Capacity: Language Modeling with Compressed Suffix Trees"
@@ -1018,20 +1010,6 @@ papers:
     booktitle-full: "Proceedings of the Twenty-Ninth AAAI Conference on Artificial Intelligence"
     docurl: "http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9814"
   - layout: paper
-    author: "Xingyi Song, Lucia Specia and Trevor Cohn"
-    title: "Data selection for discriminative training in statistical machine translation"
-    year: "2014"
-    paper-type: inproceedings
-    booktitle: "EAMT 2014"
-    booktitle-full: "Proceedings of the Conference of the European Association for Machine Translation (EAMT)"
-  - layout: paper
-    author: "Vasileios Lampos, Daniel Preotiuc-Pietro, Sina Samangooei, Douwe Gelling and Trevor Cohn"
-    title: "Extracting socioeconomic patterns from the news: Modelling text and outlet importance jointly"
-    year: "2014"
-    paper-type: inproceedings
-    booktitle: "Proceedings of the ACL Workshop on Language Technologies and Computational Social Science"
-    booktitle-full: "Proceedings of the ACL Workshop on Language Technologies and Computational Social Science"
-  - layout: paper
     author: "Long Duong, Trevor Cohn, Karin Verspoor, Steven Bird and Paul Cook"
     title: "What Can We Get From 1000 Tokens? A Case Study of Multilingual POS Tagging For Resource-Poor Languages"
     year: "2014"
@@ -1055,7 +1033,7 @@ papers:
     paper-type: inproceedings
     booktitle: "EAMT 2014"
     booktitle-full: "Proceedings of the 17th Annual conference of the European Association for Machine Translation"
-    docurl: "https://www.aclweb.org/anthology/2014.eamt-1.7/"
+    docurl: "https://aclanthology.org/2014.eamt-1.7/"
   - layout: paper
     author: "Vasileios Lampos, Nikolaos Aletras, Daniel Preotiuc-Pietro and Trevor Cohn"
     title: "Predicting and Characterising User Impact on Twitter"
@@ -1098,13 +1076,6 @@ papers:
     booktitle-full: "Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics"
     docurl: "https://doi.org/10.3115/v1/p14-6001"
   - layout: paper
-    author: "Xingyi Song, Trevor Cohn and Lucia Specia"
-    title: "BLEU deconstructed: Designing a Better MT Evaluation Metric"
-    year: "2013"
-    paper-type: inproceedings
-    booktitle: "CICLING 2013"
-    booktitle-full: "Computational Linguistics and Intelligent Text Processing - 14th International Conference"
-  - layout: paper
     author: "Trevor Cohn and Mirella Lapata"
     title: "An abstractive approach to sentence compression"
     year: "2013"
@@ -1114,13 +1085,21 @@ papers:
     docurl: "https://doi.org/10.1145/2483669.2483674"
     codeurl: "https://people.eng.unimelb.edu.au/tcohn/t3.html"
   - layout: paper
+    author: "Xingyi Song, Trevor Cohn and Lucia Specia"
+    title: "BLEU Deconstructed: Designing a Better MT Evaluation Metric"
+    year: "2013"
+    paper-type: article
+    journal: "Int. J. Comput. Linguistics Appl."
+    volume: 4
+    docurl: "http://www.ijcla.bahripublications.com/2013-2/IJCLA-2013-2-pp-029-044-BLEU.pdf"
+  - layout: paper
     author: "Daniel Beck, Kashif Shah, Trevor Cohn and Lucia Specia"
     title: "SHEF-Lite: When Less is More for Translation Quality Estimation"
     year: "2013"
     paper-type: inproceedings
     booktitle: "WMT@ACL 2013"
     booktitle-full: "Proceedings of the Eighth Workshop on Statistical Machine Translation"
-    docurl: "https://www.aclweb.org/anthology/W13-2241/"
+    docurl: "https://aclanthology.org/W13-2241/"
   - layout: paper
     author: "Daniel Preotiuc-Pietro and Trevor Cohn"
     title: "Mining user behaviours: a study of check-in patterns in location based social networks"
@@ -1152,7 +1131,7 @@ papers:
     paper-type: inproceedings
     booktitle: "EMNLP 2013"
     booktitle-full: "Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing"
-    docurl: "https://www.aclweb.org/anthology/D13-1100/"
+    docurl: "https://aclanthology.org/D13-1100/"
   - layout: paper
     author: "Ziqi Zhang, Trevor Cohn and Fabio Ciravegna"
     title: "Topic-Oriented Words as Features for Named Entity Recognition"
@@ -1168,7 +1147,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ACL 2013"
     booktitle-full: "51st Annual Meeting of the Association for Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/P13-4014/"
+    docurl: "https://aclanthology.org/P13-4014/"
   - layout: paper
     author: "Vasileios Lampos, Daniel Preotiuc-Pietro and Trevor Cohn"
     title: "A user-centric model of voting intention from Social Media"
@@ -1176,7 +1155,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ACL 2013"
     booktitle-full: "Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/P13-1098/"
+    docurl: "https://aclanthology.org/P13-1098/"
   - layout: paper
     author: "Yang Feng and Trevor Cohn"
     title: "A Markov Model of Machine Translation using Non-parametric Bayesian Inference"
@@ -1184,7 +1163,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ACL 2013"
     booktitle-full: "Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/P13-1033/"
+    docurl: "https://aclanthology.org/P13-1033/"
   - layout: paper
     author: "Trevor Cohn and Lucia Specia"
     title: "Modelling Annotator Bias with Multi-task Gaussian Processes: An Application to Machine Translation Quality Estimation"
@@ -1192,7 +1171,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ACL 2013"
     booktitle-full: "Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/P13-1004/"
+    docurl: "https://aclanthology.org/P13-1004/"
   - layout: paper
     author: "Trevor Cohn and Gholamreza Haffari"
     title: "An Infinite Hierarchical Bayesian Model of Phrasal Translation"
@@ -1200,7 +1179,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ACL 2013"
     booktitle-full: "Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/P13-1077/"
+    docurl: "https://aclanthology.org/P13-1077/"
   - layout: paper
     author: "Daniel Beck, Lucia Specia and Trevor Cohn"
     title: "Reducing Annotation Effort for Quality Estimation via Active Learning"
@@ -1208,7 +1187,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ACL 2013"
     booktitle-full: "Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/P13-2097/"
+    docurl: "https://aclanthology.org/P13-2097/"
   - layout: paper
     author: "Daniel Preotiuc-Pietro, Sina Samangooei, Trevor Cohn, Nicholas Gibbins and Mahesan Niranjan"
     title: "Trendminer: An Architecture for Real Time Analysis of Social Media Text"
@@ -1252,7 +1231,7 @@ papers:
     paper-type: inproceedings
     booktitle: "HLT:NAACL 2012"
     booktitle-full: "Human Language Technologies: Conference of the North American Chapter of the Association of Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/N12-1040/"
+    docurl: "https://aclanthology.org/N12-1040/"
   - layout: paper
     author: "Yang Feng, Yang Liu, Qun Liu and Trevor Cohn"
     title: "Left-to-Right Tree-to-String Decoding with Prediction"
@@ -1260,7 +1239,7 @@ papers:
     paper-type: inproceedings
     booktitle: "EMNLP-CoNLL 2012"
     booktitle-full: "Proceedings of the 2012 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning"
-    docurl: "https://www.aclweb.org/anthology/D12-1109/"
+    docurl: "https://aclanthology.org/D12-1109/"
   - layout: paper
     author: "Xingyi Song and Trevor Cohn"
     title: "Regression and Ranking based Optimisation for Sentence Level MT Evaluation"
@@ -1268,7 +1247,7 @@ papers:
     paper-type: inproceedings
     booktitle: "WMT@EMNLP 2011"
     booktitle-full: "Proceedings of the Sixth Workshop on Statistical Machine Translation"
-    docurl: "https://www.aclweb.org/anthology/W11-2113/"
+    docurl: "https://aclanthology.org/W11-2113/"
   - layout: paper
     author: "Phil Blunsom and Trevor Cohn"
     title: "A Hierarchical Pitman-Yor Process HMM for Unsupervised Part of Speech Induction"
@@ -1276,7 +1255,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ACL 2011"
     booktitle-full: "The 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies"
-    docurl: "https://www.aclweb.org/anthology/P11-1087/"
+    docurl: "https://aclanthology.org/P11-1087/"
   - layout: paper
     author: "Trevor Cohn, Phil Blunsom and Sharon Goldwater"
     title: "Inducing Tree-Substitution Grammars"
@@ -1292,7 +1271,7 @@ papers:
     paper-type: inproceedings
     booktitle: "HLT:NAACL 2010"
     booktitle-full: "Human Language Technologies: Conference of the North American Chapter of the Association of Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/N10-1028/"
+    docurl: "https://aclanthology.org/N10-1028/"
   - layout: paper
     author: "Phil Blunsom and Trevor Cohn"
     title: "Unsupervised Induction of Tree Substitution Grammars for Dependency Parsing"
@@ -1300,7 +1279,7 @@ papers:
     paper-type: inproceedings
     booktitle: "EMNLP 2010"
     booktitle-full: "Proceedings of the 2010 Conference on Empirical Methods in Natural Language Processing"
-    docurl: "https://www.aclweb.org/anthology/D10-1117/"
+    docurl: "https://aclanthology.org/D10-1117/"
   - layout: paper
     author: "Ahmet Aker, Trevor Cohn and Robert Gaizauskas"
     title: "Multi-Document Summarization Using A* Search and Discriminative Learning"
@@ -1308,7 +1287,7 @@ papers:
     paper-type: inproceedings
     booktitle: "EMNLP 2010"
     booktitle-full: "Proceedings of the 2010 Conference on Empirical Methods in Natural Language Processing"
-    docurl: "https://www.aclweb.org/anthology/D10-1047/"
+    docurl: "https://aclanthology.org/D10-1047/"
   - layout: paper
     author: "Trevor Cohn and Phil Blunsom"
     title: "Blocked Inference in Bayesian Tree Substitution Grammars"
@@ -1316,7 +1295,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ACL 2010"
     booktitle-full: "Proceedings of the 48th Annual Meeting of the Association for Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/P10-2042/"
+    docurl: "https://aclanthology.org/P10-2042/"
   - layout: paper
     author: "Trevor Cohn and Mirella Lapata"
     title: "Sentence Compression as Tree Transduction"
@@ -1332,7 +1311,7 @@ papers:
     paper-type: inproceedings
     booktitle: "HLT:NAACL 2009"
     booktitle-full: "Human Language Technologies: Conference of the North American Chapter of the Association of Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/N09-1062/"
+    docurl: "https://aclanthology.org/N09-1062/"
   - layout: paper
     author: "Trevor Cohn and Phil Blunsom"
     title: "A Bayesian Model of Syntax-Directed Tree to String Grammar Induction"
@@ -1340,7 +1319,7 @@ papers:
     paper-type: inproceedings
     booktitle: "EMNLP 2009"
     booktitle-full: "Proceedings of the 2009 Conference on Empirical Methods in Natural Language Processing"
-    docurl: "https://www.aclweb.org/anthology/D09-1037/"
+    docurl: "https://aclanthology.org/D09-1037/"
   - layout: paper
     author: "Josh Schroeder, Trevor Cohn and Philipp Koehn"
     title: "Word Lattices for Multi-Source Translation"
@@ -1348,7 +1327,7 @@ papers:
     paper-type: inproceedings
     booktitle: "EACL 2009"
     booktitle-full: "12th Conference of the European Chapter of the Association for Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/E09-1082/"
+    docurl: "https://aclanthology.org/E09-1082/"
   - layout: paper
     author: "Phil Blunsom, Trevor Cohn, Sharon Goldwater and Mark Johnson"
     title: "A Note on the Implementation of Hierarchical Dirichlet Processes"
@@ -1356,7 +1335,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ACL 2009"
     booktitle-full: "Proceedings of the 47th Annual Meeting of the Association for Computational Linguistics and the 4th International Joint Conference on Natural Language Processing of the AFNLP"
-    docurl: "https://www.aclweb.org/anthology/P09-2085/"
+    docurl: "https://aclanthology.org/P09-2085/"
   - layout: paper
     author: "Phil Blunsom, Trevor Cohn, Chris Dyer and Miles Osborne"
     title: "A Gibbs Sampler for Phrasal Synchronous Grammar Induction"
@@ -1364,7 +1343,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ACL 2009"
     booktitle-full: "Proceedings of the 47th Annual Meeting of the Association for Computational Linguistics and the 4th International Joint Conference on Natural Language Processing of the AFNLP"
-    docurl: "https://www.aclweb.org/anthology/P09-1088/"
+    docurl: "https://aclanthology.org/P09-1088/"
   - layout: paper
     author: "Trevor Cohn, Chris Callison-Burch and Mirella Lapata"
     title: "Constructing Corpora for the Development and Evaluation of Paraphrase Systems"
@@ -1388,7 +1367,7 @@ papers:
     paper-type: inproceedings
     booktitle: "COLING 2008"
     booktitle-full: "22nd International Conference on Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/C08-1018/"
+    docurl: "https://aclanthology.org/C08-1018/"
     codeurl: "https://people.eng.unimelb.edu.au/tcohn/t3.html"
   - layout: paper
     author: "Chris Callison-Burch, Trevor Cohn and Mirella Lapata"
@@ -1397,7 +1376,7 @@ papers:
     paper-type: inproceedings
     booktitle: "COLING 2008"
     booktitle-full: "22nd International Conference on Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/C08-1013/"
+    docurl: "https://aclanthology.org/C08-1013/"
   - layout: paper
     author: "Phil Blunsom, Trevor Cohn and Miles Osborne"
     title: "A Discriminative Latent Variable Model for Statistical Machine Translation"
@@ -1405,7 +1384,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ACL 2008"
     booktitle-full: "Proceedings of the 46th Annual Meeting of the Association for Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/P08-1024/"
+    docurl: "https://aclanthology.org/P08-1024/"
   - layout: paper
     author: "Trevor Cohn and Mirella Lapata"
     title: "Large Margin Synchronous Generation and its Application to Sentence Compression"
@@ -1413,7 +1392,7 @@ papers:
     paper-type: inproceedings
     booktitle: "EMNLP-CoNLL 2007"
     booktitle-full: "Proceedings of the 2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning"
-    docurl: "https://www.aclweb.org/anthology/D07-1008/"
+    docurl: "https://aclanthology.org/D07-1008/"
   - layout: paper
     author: "Trevor Cohn and Mirella Lapata"
     title: "Machine Translation by Triangulation: Making Effective Use of Multi-Parallel Corpora"
@@ -1421,7 +1400,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ACL 2007"
     booktitle-full: "Proceedings of the 45th Annual Meeting of the Association for Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/P07-1092/"
+    docurl: "https://aclanthology.org/P07-1092/"
   - layout: paper
     author: "Trevor Cohn"
     title: "Efficient Inference in Large Conditional Random Fields"
@@ -1437,7 +1416,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ACL 2006"
     booktitle-full: "21st International Conference on Computational Linguistics and 44th Annual Meeting of the Association for Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/P06-1009/"
+    docurl: "https://aclanthology.org/P06-1009/"
   - layout: paper
     author: "Trevor Cohn and Phil Blunsom"
     title: "Semantic Role Labelling with Tree Conditional Random Fields"
@@ -1445,7 +1424,7 @@ papers:
     paper-type: inproceedings
     booktitle: "CoNLL 2005"
     booktitle-full: "Proceedings of the Ninth Conference on Computational Natural Language Learning"
-    docurl: "https://www.aclweb.org/anthology/W05-0622/"
+    docurl: "https://aclanthology.org/W05-0622/"
   - layout: paper
     author: "Andrew Smith, Trevor Cohn and Miles Osborne"
     title: "Logarithmic Opinion Pools for Conditional Random Fields"
@@ -1453,7 +1432,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ACL 2005"
     booktitle-full: "43rd Annual Meeting of the Association for Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/P05-1003/"
+    docurl: "https://aclanthology.org/P05-1003/"
   - layout: paper
     author: "Trevor Cohn, Andrew Smith and Miles Osborne"
     title: "Scaling Conditional Random Fields Using Error-Correcting Codes"
@@ -1461,7 +1440,7 @@ papers:
     paper-type: inproceedings
     booktitle: "ACL 2005"
     booktitle-full: "43rd Annual Meeting of the Association for Computational Linguistics"
-    docurl: "https://www.aclweb.org/anthology/P05-1002/"
+    docurl: "https://aclanthology.org/P05-1002/"
   - layout: paper
     author: "Trevor Cohn"
     title: "Performance metrics for word sense disambiguation"
@@ -1469,4 +1448,4 @@ papers:
     paper-type: inproceedings
     booktitle: "ALTA 2003"
     booktitle-full: "Proceedings of the Australasian Language Technology Workshop"
-    docurl: "https://www.aclweb.org/anthology/U03-1011/"
+    docurl: "https://aclanthology.org/U03-1011/"

@@ -544,3 +544,13 @@ team:
     start: 2022
     end:
     co-supervisor: Tim Baldwin
+  - 
+    name: Viktoria Schram
+    type: student
+    degree: PhD
+    affiliation: University of Melbourne
+    completed: 0
+    description: TBA
+    start: 2022
+    end:
+    co-supervisor: Daniel Beck

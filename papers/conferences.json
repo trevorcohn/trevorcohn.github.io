@@ -127,6 +127,10 @@
     "long": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
     "short": "{ACL} 2020"
   },
+  "DBLP:conf/acl/2021f": {
+    "long": "Findings of the Association for Computational Linguistics: {ACL/IJCNLP} 2021",
+    "short": "ACL/IJCNLP 2021"
+  },
   "DBLP:conf/aclnmt/2018": {
     "long": "Proceedings of the 2nd Workshop on Neural Machine Translation and Generation",
     "short": "NMT@ACL 2018"
@@ -203,6 +207,10 @@
     "long": "Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics",
     "short": "{EACL} 2017"
   },
+  "DBLP:conf/eacl/2021": {
+    "long": "Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume",
+    "short": "{EACL} 2021"
+  },
   "DBLP:conf/eamt/2014": {
     "long": "Proceedings of the 17th Annual conference of the European Association for Machine Translation",
     "short": "{EAMT} 2014"
@@ -210,6 +218,10 @@
   "DBLP:conf/ecir/2020-2": {
     "long": "Advances in Information Retrieval - 42nd European Conference on {IR} Research",
     "short": "{ECIR} 2020"
+  },
+  "DBLP:conf/ecir/2021-2": {
+    "long": "Advances in Information Retrieval - 43rd European Conference on {IR} Research",
+    "short": "{ECIR} 2021"
   },
   "DBLP:conf/ecml/2006": {
     "long": "17th European Conference on Machine Learning",
@@ -267,6 +279,14 @@
     "long": "Proceedings of the Beyond Vision and LANguage: inTEgrating Real-world kNowledge",
     "short": "LANTERN@EMNLP-IJCNLP 2019"
   },
+  "DBLP:conf/emnlp/2021-1": {
+    "long": "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    "short": "{EMNLP} 2021"
+  },
+  "DBLP:conf/emnlp/2021f": {
+    "long": "Findings of the Association for Computational Linguistics: {EMNLP} 2021",
+    "short": "EMNLP"
+  },
   "DBLP:conf/ht/2013": {
     "long": "24th {ACM} Conference on Hypertext and Social Media (part of ECRC)",
     "short": "{HT} 2013"
@@ -299,9 +319,17 @@
     "long": "Proceedings of the Eighth International Joint Conference on Natural Language Processing",
     "short": "{IJCNLP} 2017"
   },
+  "DBLP:conf/inlg/2021": {
+    "long": "Proceedings of the 14th International Conference on Natural Language Generation",
+    "short": "{INLG} 2021"
+  },
   "DBLP:conf/interspeech/2016": {
     "long": "17th Annual Conference of the International Speech Communication Association",
     "short": "INTERSPEECH 2016"
+  },
+  "DBLP:conf/iwslt/2015": {
+    "long": "Proceedings of the 12th International Workshop on Spoken Language Translation: Papers",
+    "short": "{IWSLT} 2015"
   },
   "DBLP:conf/lrec/2016": {
     "long": "Proceedings of the Tenth International Conference on Language Resources and Evaluation {LREC} 2016",
@@ -343,6 +371,10 @@
     "long": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
     "short": "{NAACL-HLT} 2019"
   },
+  "DBLP:conf/naacl/2021": {
+    "long": "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    "short": "{NAACL-HLT} 2021"
+  },
   "DBLP:conf/nips/2008": {
     "long": "Proceedings of the Twenty-Second Annual Conference on Neural Information Processing Systems",
     "short": "NeurIPS 2008"
@@ -350,6 +382,10 @@
   "DBLP:conf/pkdd/2015-2": {
     "long": "Machine Learning and Knowledge Discovery in Databases - European Conference",
     "short": "{ECML} {PKDD} 2015"
+  },
+  "DBLP:conf/semeval/2021": {
+    "long": "Proceedings of the 15th International Workshop on Semantic Evaluation",
+    "short": "{SEMEVAL} 2021"
   },
   "DBLP:conf/sepln/2012elkr": {
     "long": "Proceedings of the 2nd International Workshop on Exploiting Large Knowledge Repositories",
@@ -381,11 +417,15 @@
   },
   "DBLP:conf/www/2017c": {
     "long": "Proceedings of the 26th International Conference on World Wide Web Companion",
-    "short": null
+    "short": "{WWW} 2017"
   },
   "DBLP:conf/www/2019": {
     "long": "The World Wide Web Conference",
     "short": "{WWW} 2019"
+  },
+  "DBLP:conf/www/2021": {
+    "long": "{WWW} '21: The Web Conference 2021",
+    "short": "{WWW} 2021"
   },
   "iclr2020": {
     "long": "International Conference on Learning Representations 2020",
