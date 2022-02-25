@@ -1,11 +1,20 @@
 team:
   - 
-    name: Yuan Li
+    name: Aili Shen
     role: Research Fellow
     type: staff
     affiliation: The University of Melbourne
-    start: 2019
-    end:
+    start: 2021
+    end: 
+    current:
+    completed: 0
+  - 
+    name: Xuanli He
+    role: Research Fellow (casual)
+    type: staff
+    affiliation: The University of Melbourne
+    start: 2021
+    end: 
     current:
     completed: 0
   - 
@@ -27,9 +36,9 @@ team:
     affiliation: The University of Melbourne
     co-supervisor: Ben Rubinstein
     start: 2020
-    end:
-    current:
-    completed: 0
+    end: 2021
+    current: Data Science research, Newscorp
+    completed: 1
   - 
     name: Philip Arthur 
     role: Research Fellow
@@ -38,9 +47,9 @@ team:
     description: Simultaneous machine translation
     co-supervisor: Reza Haffari
     start: 2018
-    end:
-    current:
-    completed: 0
+    end: 2020
+    current: Research Scientist, Oracle
+    completed: 1
   -
     name: Afshin Rahimi
     type: student
@@ -181,7 +190,7 @@ team:
     current: Google AI
   -
     name: Ehsan Shareghi
-    current: Research Fellow, UCambridge
+    current: Lecturer, Monash University
     type: student
     degree: PhD
     co-supervisor: Reza Haffari
@@ -296,8 +305,9 @@ team:
     description: Evaluation of translation
     co-supervisor: Tim Baldwin
     start: 2016
-    end:
-    completed: 0
+    end: 2021
+    completed: 1
+    current: Research Scientist, Oracle
   - 
     name: Shivashankar Subramanian
     type: student
@@ -306,15 +316,16 @@ team:
     description: Computational social science for political text
     co-supervisor: Tim Baldwin
     start: 2016
-    end:
-    completed: 0
+    end: 2020
+    completed: 1
+    current: Research Scientist, Oracle
   - 
     name:  Dalin Wang
     type: student
     degree: PhD
     affiliation: University of Melbourne
     description: Vision and language
-    co-supervisor: Daniel Beck
+    co-supervisor: Tim Baldwin
     start: 2018
     end:
     completed: 0
@@ -352,12 +363,13 @@ team:
     name: Najam Zaidi
     type: student
     degree: PhD
-    completed: 0
     affiliation: Monash University
     co-supervisor: Reza Haffari
     description: Structured prediction
     start: 2018
-    end:
+    end: 2021
+    completed: 1
+    current: Research Scientist, Oracle
   - 
     name: Zhuohan Xie
     type: student
@@ -373,19 +385,20 @@ team:
     type: student
     degree: MSc
     affiliation: University of Melbourne
-    completed: 0
+    completed: 1
     description: Adversarial attacks on NLP models
     start: 2019
-    end:
+    end: 2020
   - 
     name: Joshua Yang
     type: student
     degree: MSc
     affiliation: University of Melbourne
-    completed: 0
+    completed: 1
     description: Low resource NLP for Australian indigenous languages
     co-supervisor: Steven Bird
     start: 2019
+    end: 2020
   - 
     name: Xudong Han
     type: student
@@ -394,26 +407,6 @@ team:
     completed: 0
     description: Fairness and bias in NLP
     co-supervisor: Tim Baldwin
-    start: 2020
-    end:
-  - 
-    name: Haris Bin Zia
-    type: student
-    degree: PhD
-    affiliation: University of Melbourne
-    completed: 0
-    description: TBA
-    co-supervisor: Daniel Beck
-    start: 2020
-    end:
-  - 
-    name: Hang Hua
-    type: student
-    degree: PhD
-    affiliation: University of Melbourne
-    completed: 0
-    description: TBA
-    co-supervisor: Daniel Beck
     start: 2020
     end:
   - 
@@ -431,66 +424,86 @@ team:
     type: student
     degree: MSc
     affiliation: University of Melbourne
-    completed: 0
+    completed: 1
     description: TBA
     start: 2020
-    end:
+    end: 2021
   - 
     name: Fan Jiang
     type: student
     degree: MSc
     affiliation: University of Melbourne
-    completed: 0
+    completed: 1
     description: TBA
     start: 2020
-    end:
+    end: 2021
+  - 
+    name: Fan Jiang
+    type: student
+    degree: PhD
+    affiliation: University of Melbourne
+    completed: 0
+    description: TBA
+    co-supervisor: Tom Drummond
+    start: 2022
+    end: 
   - 
     name: Haripriya Ramesh
     type: student
     degree: MSc
     affiliation: University of Melbourne
-    completed: 0
+    completed: 1
     description: TBA
     co-supervisor: Olya Ohrimenko
     start: 2020
-    end:
+    end: 2021
   - 
     name: Jia Zhu
     type: student
     degree: MSc
     affiliation: University of Melbourne
-    completed: 0
+    completed: 1
     description: TBA
     start: 2020
-    end:
+    end: 2021
   - 
     name: Juizhou (Joe) Han
     type: student
     degree: MSc
     affiliation: University of Melbourne
-    completed: 0
+    completed: 1
     description: TBA
     co-supervisor: Daniel Beck
     start: 2020
-    end:
+    end: 2021
   - 
     name: Vignesh Chenthil Kumar
     type: student
     degree: MSc
     affiliation: University of Melbourne
-    completed: 0
+    completed: 1
     description: TBA
     start: 2020
-    end:
+    end: 2021
   - 
-    name: Zheng Wei
+    name: Zheng Wei Lim
     type: student
     degree: MSc
     affiliation: University of Melbourne
-    completed: 0
+    completed: 1
     description: TBA
     start: 2020
-    end:
+    end: 2021
+  - 
+    name: Zheng Wei Lim
+    type: student
+    degree: PhD
+    affiliation: University of Melbourne
+    completed: 0
+    description: TBA
+    co-supervisor: Charles Kemp, Ekaterina Vylomova
+    start: 2022
+    end: 
   - 
     name: Shima Khanehzar
     type: student
@@ -500,4 +513,34 @@ team:
     description: TBA
     start: 2019
     end:
-    co-supervisor: Andrew Turpin, Gosia Mikolajczak
+    co-supervisor: Lea Frermann, Gosia Mikolajczak
+  - 
+    name: Sukai Huang
+    type: student
+    degree: PhD
+    affiliation: University of Melbourne
+    completed: 0
+    description: TBA
+    start: 2021
+    end:
+    co-supervisor: Nir Lipovetzky 
+  - 
+    name: Jinrui Yang
+    type: student
+    degree: PhD
+    affiliation: University of Melbourne
+    completed: 0
+    description: TBA
+    start: 2021
+    end:
+    co-supervisor: Tim Baldwin
+  - 
+    name: Sayantan Dasgupta
+    type: student
+    degree: PhD
+    affiliation: University of Melbourne
+    completed: 0
+    description: TBA
+    start: 2022
+    end:
+    co-supervisor: Tim Baldwin

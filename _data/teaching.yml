@@ -1,4 +1,9 @@
 subjects:
+  - name: "COMP90051 Statistical Machine Learning"
+    department: "Computing and Information Systems"
+    url: "https://handbook.unimelb.edu.au/2021/subjects/comp90051"
+    year: "2022"
+
   - name: "BUSA90501 Text and Web Analytics"
     department: "Melbourne Business School"
     url: "https://handbook.unimelb.edu.au/2021/subjects/busa90501"

@@ -1,11 +1,35 @@
 papers:
   - layout: paper
+    author: "Zenan Zhai, Christian Druckenbrodt, Camilo Thorne, Saber A. Akhondi, Dat Quoc Nguyen, Trevor Cohn and Karin Verspoor"
+    title: "ChemTables: a dataset for semantic classification on tables in chemical patents"
+    paper-type: article
+    journal: "Journal of Cheminformatics"
+    volum: "13(1)"
+    year: "2021"
+    docurl: "https://doi.org/10.1186/s13321-021-00568-2"
+  - layout: paper
+    author: "Jun Wang, Benjamin Rubinstein and Trevor Cohn"
+    title: "Measuring and Mitigating Name Biases in Neural Machine Translation"
+    year: 2022
+    paper-type: inproceedings
+    booktitle: "ACL 2022"
+    booktitle-full: "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics"
+  - layout: paper
+    author: "Fan Jiang and Trevor Cohn"
+    title: "Incorporating Constituent Syntax for Coreference Resolution"
+    year: 2022
+    paper-type: inproceedings
+    booktitle: "AAAI 2022"
+    booktitle-full: "Proceedings of the 36th Annual AAAI Conference on Artificial Intelligence"
+    docurl: "https://www.aaai.org/AAAI22Papers/AAAI-4134.JiangF.pdf"
+  - layout: paper
     author: "Jinming Zhao, Philip Arthur, Gholamreza Haffari, Trevor Cohn and Ehsan Shareghi"
     title: "It Is Not As Good As You Think! Evaluating Simultaneous Machine Translation on Interpretation Data"
     year: 2021
     paper-type: inproceedings
     booktitle: "EMNLP 2021"
     booktitle-full: "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing" 
+    docurl: "https://aclanthology.org/2021.emnlp-main.537/"
   - layout: paper
     author: "Shivashankar Subramanian, Xudong Han, Timothy Baldwin, Trevor Cohn and Lea Frermann"
     title: "Evaluating Debiasing Techniques for Intersectional Biases"
@@ -13,6 +37,7 @@ papers:
     paper-type: inproceedings
     booktitle: "EMNLP 2021"
     booktitle-full: "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing" 
+    docurl: "https://aclanthology.org/2021.emnlp-main.193/"
   - layout: paper
     author: "Shivashankar Subramanian, Afshin Rahimi, Timothy Baldwin, Trevor Cohn and Lea Frermann"
     title: "Fairness-aware Class Imbalanced Learning"
@@ -20,6 +45,7 @@ papers:
     paper-type: inproceedings
     booktitle: "EMNLP 2021"
     booktitle-full: "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing" 
+    docurl: "https://aclanthology.org/2021.emnlp-main.155/"
   - layout: paper
     author: "Chang Xu, Jun Wang, Francisco Guzman, Benjamin Rubinstein and Trevor Cohn"
     title: "Mitigating Data Poisoning in Text Classification with Differential Privacy"
@@ -27,6 +53,7 @@ papers:
     paper-type: inproceedings
     booktitle: "Findings of EMNLP 2021"
     booktitle-full: "Findings of EMNLP 2021" 
+    docurl: "https://aclanthology.org/2021.findings-emnlp.369/"
   - layout: paper
     author: "Kemal Kurniawan, Lea Frermann, Philip Schulz and Trevor Cohn"
     title: "PTST-UoM at SemEval-2021 Task 10: Parsimonious Transfer for Sequence Tagging"
@@ -48,9 +75,10 @@ papers:
     title: "ChEMU 2020: Natural language processing methods are effective for information extraction from chemical patents"
     year: "2021"
     paper-type: article
-    booktitle: "Frontiers in Research Metrics and Analytics"
+    journal: "Frontiers in Research Metrics and Analytics"
     booktitle-full: "Frontiers in Research Metrics and Analytics"
     docurl: "https://www.frontiersin.org/articles/10.3389/frma.2021.654438/full"
+    volume: "6"
   - layout: paper
     author: "Xudong Han, Timothy Baldwin and Trevor Cohn"
     title: "Decoupling Adversarial Training for Fair NLP"
