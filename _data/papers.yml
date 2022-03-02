@@ -83,7 +83,7 @@ papers:
     title: "Mitigating Data Poisoning in Text Classification with Differential Privacy"
     year: "2021"
     paper-type: inproceedings
-    booktitle: "EMNLP"
+    booktitle: "Findings of EMNLP 2021"
     booktitle-full: "Findings of the Association for Computational Linguistics: EMNLP 2021"
     docurl: "https://doi.org/10.18653/v1/2021.findings-emnlp.369"
   - layout: paper
@@ -139,7 +139,7 @@ papers:
     title: "Putting words into the system&apos;s mouth: A targeted attack on neural machine translation using monolingual data poisoning"
     year: "2021"
     paper-type: inproceedings
-    booktitle: "ACL/IJCNLP 2021"
+    booktitle: "Findings of ACL/IJCNLP 2021"
     booktitle-full: "Findings of the Association for Computational Linguistics: ACL/IJCNLP 2021"
     docurl: "https://doi.org/10.18653/v1/2021.findings-acl.127"
   - layout: paper
@@ -147,7 +147,7 @@ papers:
     title: "As Easy as 1, 2, 3: Behavioural Testing of NMT Systems for Numerical Translation"
     year: "2021"
     paper-type: inproceedings
-    booktitle: "ACL/IJCNLP 2021"
+    booktitle: "Findings of ACL/IJCNLP 2021"
     booktitle-full: "Findings of the Association for Computational Linguistics: ACL/IJCNLP 2021"
     docurl: "https://doi.org/10.18653/v1/2021.findings-acl.415"
   - layout: paper
@@ -155,7 +155,7 @@ papers:
     title: "Decoupling Adversarial Training for Fair NLP"
     year: "2021"
     paper-type: inproceedings
-    booktitle: "ACL/IJCNLP 2021"
+    booktitle: "Findings of ACL/IJCNLP 2021"
     booktitle-full: "Findings of the Association for Computational Linguistics: ACL/IJCNLP 2021"
     docurl: "https://doi.org/10.18653/v1/2021.findings-acl.41"
   - layout: paper

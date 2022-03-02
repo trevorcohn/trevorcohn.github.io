@@ -129,7 +129,7 @@
   },
   "DBLP:conf/acl/2021f": {
     "long": "Findings of the Association for Computational Linguistics: {ACL/IJCNLP} 2021",
-    "short": "ACL/IJCNLP 2021"
+    "short": "Findings of ACL/IJCNLP 2021"
   },
   "DBLP:conf/aclnmt/2018": {
     "long": "Proceedings of the 2nd Workshop on Neural Machine Translation and Generation",
@@ -285,7 +285,7 @@
   },
   "DBLP:conf/emnlp/2021f": {
     "long": "Findings of the Association for Computational Linguistics: {EMNLP} 2021",
-    "short": "EMNLP"
+    "short": "Findings of EMNLP 2021"
   },
   "DBLP:conf/ht/2013": {
     "long": "24th {ACM} Conference on Hypertext and Social Media (part of ECRC)",
