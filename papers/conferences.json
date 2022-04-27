@@ -191,6 +191,10 @@
     "long": "Proceedings of the 20th {SIGNLL} Conference on Computational Natural Language Learning",
     "short": "CoNLL 2016"
   },
+  "DBLP:conf/conll/2021": {
+    "long": "Proceedings of the 25th Conference on Computational Natural Language Learning",
+    "short": "CoNLL 2021"
+  },
   "DBLP:conf/eacl/2009": {
     "long": "12th Conference of the European Chapter of the Association for Computational Linguistics",
     "short": "{EACL} 2009"
@@ -222,6 +226,10 @@
   "DBLP:conf/ecir/2021-2": {
     "long": "Advances in Information Retrieval - 43rd European Conference on {IR} Research",
     "short": "{ECIR} 2021"
+  },
+  "DBLP:conf/ecir/2022-2": {
+    "long": "Advances in Information Retrieval - 44th European Conference on {IR} Research",
+    "short": "{ECIR} 2022"
   },
   "DBLP:conf/ecml/2006": {
     "long": "17th European Conference on Machine Learning",
