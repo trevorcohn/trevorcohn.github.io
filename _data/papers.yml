@@ -1,40 +1,77 @@
 papers:
   - layout: paper
-    author: "Jun Wang, Benjamin Rubinstein and Trevor Cohn"
-    title: "Measuring and Mitigating Name Biases in Neural Machine Translation"
+    author: "Chunhua Liu, Trevor Cohn, Simon Deyne and Lea Frermann"
+    title: "WAX: A New Dataset for Word Association eXplanations"
     year: "2022"
     paper-type: inproceedings
-    booktitle: "ACL 2022"
-    booktitle-full: "60th Annual Meeting of the Association for Computational Linguistics"
+    booktitle: "AACL-IJCNLP 2022"
+    booktitle-full: "Proceedings of the 2nd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 12th International Joint Conference on Natural Language Processing"
   - layout: paper
-    author: "Hung Truong, Trevor Cohn, Timothy Baldwin and Karin Verspoor"
+    author: "Thinh Truong, Yulia Otmakhova, Timothy Baldwin, Trevor Cohn, Jey Lau and Karin Verspoor"
+    title: "Not another Negation Benchmark: The NaN-NLI Test Suite for Sub-clausal Negation"
+    year: "2022"
+    paper-type: inproceedings
+    booktitle: "AACL-IJCNLP 2022"
+    booktitle-full: "Proceedings of the 2nd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 12th International Joint Conference on Natural Language Processing"
+  - layout: paper
+    author: "Benjamin Jun and Trevor Cohn"
+    title: "Foiling Training-Time Attacks on Neural Machine Translation Systems"
+    year: "2022"
+    paper-type: inproceedings
+    booktitle: "EMNLP-Findings 2022"
+    booktitle-full: "Findings of the 2021 Conference on Empirical Methods in Natural Language Processing"
+  - layout: paper
+    author: "Aili Shen, Xudong Han, Trevor Cohn, Timothy Baldwin and Lea Frermann"
+    title: "Does Representational Fairness Imply Empirical Fairness?"
+    year: "2022"
+    paper-type: inproceedings
+    booktitle: "AACL-IJCNLP 2022"
+    booktitle-full: "Proceedings of the 2nd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 12th International Joint Conference on Natural Language Processing"
+  - layout: paper
+    author: "Xudong Han, Aili Shen, Yitong Li, Lea Frermann, Timothy Baldwin and Trevor Cohn"
+    title: "FairLib: A Unified Framework for Assessing and Improving Fairness"
+    year: "2022"
+    paper-type: inproceedings
+    booktitle: "EMNLP-Demos 2022"
+    booktitle-full: "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing, Demonstration track"
+  - layout: paper
+    author: "Xudong Han, Aili Shen, Trevor Cohn, Timothy Baldwin and Lea Frermann"
+    title: "Systematic Evaluation of Predictive Fairness"
+    year: "2022"
+    paper-type: inproceedings
+    booktitle: "AACL-IJCNLP 2022"
+    booktitle-full: "Proceedings of the 2nd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 12th International Joint Conference on Natural Language Processing"
+  - layout: paper
+    author: "Xudong Han, Timothy Baldwin and Trevor Cohn"
+    title: "Balancing out Bias: Achieving Fairness Through Balanced Training"
+    year: "2022"
+    paper-type: inproceedings
+    booktitle: "EMNLP 2022"
+    booktitle-full: "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing"
+  - layout: paper
+    author: "Thinh Truong, Timothy Baldwin, Trevor Cohn and Karin Verspoor"
     title: "Improving negation detection with negation-focused pre-training"
     year: "2022"
     paper-type: inproceedings
     booktitle: "NAACL 2022"
-    booktitle-full: "2022 Annual Conference of the North American Chapter of the Association for Computational Linguistics"
+    booktitle-full: "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
+    docurl: "https://doi.org/10.18653/v1/2022.naacl-main.309"
+  - layout: paper
+    author: "Aili Shen, Xudong Han, Trevor Cohn, Timothy Baldwin and Lea Frermann"
+    title: "Optimising Equal Opportunity Fairness in Model Training"
+    year: "2022"
+    paper-type: inproceedings
+    booktitle: "NAACL 2022"
+    booktitle-full: "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
+    docurl: "https://doi.org/10.18653/v1/2022.naacl-main.299"
   - layout: paper
     author: "Kemal Kurniawan, Lea Frermann, Philip Schulz and Trevor Cohn"
     title: "Unsupervised Cross-Lingual Transfer of Structured Predictors without Source Data"
     year: "2022"
     paper-type: inproceedings
     booktitle: "NAACL 2022"
-    booktitle-full: "2022 Annual Conference of the North American Chapter of the Association for Computational Linguistics"
-  - layout: paper
-    author: "Fan Jiang and Trevor Cohn"
-    title: "Incorporating Constituent Syntax for Coreference Resolution"
-    year: "2022"
-    paper-type: inproceedings
-    booktitle: "AAAI 2022"
-    booktitle-full: "36th AAAI Conference on Artificial Intelligence"
-    docurl: "https://aaai-2022.virtualchair.net/poster_aaai4134"
-  - layout: paper
-    author: "Aili Shen, Xudong Han, Timothy Baldwin, Trevor Cohn and Lea Frermann"
-    title: "Connecting Loss Difference with Equal Opportunity for Fair Models"
-    year: "2022"
-    paper-type: inproceedings
-    booktitle: "NAACL 2022"
-    booktitle-full: "2022 Annual Conference of the North American Chapter of the Association for Computational Linguistics"
+    booktitle-full: "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
+    docurl: "https://doi.org/10.18653/v1/2022.naacl-main.149"
   - layout: paper
     author: "Yuan Li, Biaoyan Fang, Jiayuan He, Hiyori Yoshikawa, Saber Akhondi, Christian Druckenbrodt, Camilo Thorne, Zenan Zhai, Zubair Afzal, Trevor Cohn, Timothy Baldwin and Karin Verspoor"
     title: "The ChEMU 2022 Evaluation Campaign: Information Extraction in Chemical Patents"
@@ -43,6 +80,22 @@ papers:
     booktitle: "ECIR 2022"
     booktitle-full: "Advances in Information Retrieval - 44th European Conference on IR Research"
     docurl: "https://doi.org/10.1007/978-3-030-99739-7_50"
+  - layout: paper
+    author: "Jun Wang, Benjamin Rubinstein and Trevor Cohn"
+    title: "Measuring and Mitigating Name Biases in Neural Machine Translation"
+    year: "2022"
+    paper-type: inproceedings
+    booktitle: "ACL 2022"
+    booktitle-full: "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+    docurl: "https://doi.org/10.18653/v1/2022.acl-long.184"
+  - layout: paper
+    author: "Fan Jiang and Trevor Cohn"
+    title: "Incorporating Constituent Syntax for Coreference Resolution"
+    year: "2022"
+    paper-type: inproceedings
+    booktitle: "AAAI 2022"
+    booktitle-full: "Thirty-Fourth Conference on Innovative Applications of Artificial Intelligence"
+    docurl: "https://ojs.aaai.org/index.php/AAAI/article/view/21329"
   - layout: paper
     author: "Zenan Zhai, Christian Druckenbrodt, Camilo Thorne, Saber Akhondi, Dat Nguyen, Trevor Cohn and Karin Verspoor"
     title: "ChemTables: a dataset for semantic classification on tables in chemical patents"
@@ -739,7 +792,7 @@ papers:
     paper-type: article
     journal: "Trans. Assoc. Comput. Linguistics"
     volume: 4
-    docurl: "https://transacl.org/ojs/index.php/tacl/article/view/865"
+    docurl: "https://doi.org/10.1162/tacl_a_00112"
     codeurl: "https://github.com/mpetri/cstlm"
   - layout: paper
     author: "Nagesh Chandrasekarasastry, Karin Verspoor, Trevor Cohn and Kotagiri Ramamohanarao"
@@ -916,7 +969,7 @@ papers:
     paper-type: article
     journal: "Trans. Assoc. Comput. Linguistics"
     volume: 3
-    docurl: "https://tacl2013.cs.columbia.edu/ojs/index.php/tacl/article/view/584"
+    docurl: "https://doi.org/10.1162/tacl_a_00151"
   - layout: paper
     author: "Kashif Shah, Trevor Cohn and Lucia Specia"
     title: "A Bayesian non-linear method for feature selection in machine translation quality estimation"
@@ -1300,7 +1353,7 @@ papers:
     paper-type: article
     journal: "J. Mach. Learn. Res."
     volume: 11
-    docurl: "http://portal.acm.org/citation.cfm?id=1953031"
+    docurl: "https://dl.acm.org/doi/10.5555/1756006.1953031"
   - layout: paper
     author: "Phil Blunsom and Trevor Cohn"
     title: "Inducing Synchronous Grammars with Slice Sampling"
