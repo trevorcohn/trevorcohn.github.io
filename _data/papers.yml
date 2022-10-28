@@ -14,7 +14,7 @@ papers:
     booktitle: "AACL-IJCNLP 2022"
     booktitle-full: "Proceedings of the 2nd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 12th International Joint Conference on Natural Language Processing"
   - layout: paper
-    author: "Benjamin Jun and Trevor Cohn"
+    author: "Jun Wang, Xuanli He, Benjamin Rubinstein and Trevor Cohn"
     title: "Foiling Training-Time Attacks on Neural Machine Translation Systems"
     year: "2022"
     paper-type: inproceedings
