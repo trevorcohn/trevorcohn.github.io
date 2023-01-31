@@ -133,7 +133,7 @@
   },
   "DBLP:conf/acl/2021f": {
     "long": "Findings of the Association for Computational Linguistics: {ACL/IJCNLP} 2021",
-    "short": "Findings of ACL/IJCNLP 2021"
+    "short": "Findings ACL/IJCNLP 2021"
   },
   "DBLP:conf/acl/2022-1": {
     "long": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
@@ -182,6 +182,10 @@
   "DBLP:conf/coling/2016t": {
     "long": "26th International Conference on Computational Linguistics",
     "short": "{COLING} 2016"
+  },
+  "DBLP:conf/coling/2022sdp": {
+    "long": "Proceedings of the Third Workshop on Scholarly Document Processing",
+    "short": "SDP@COLING 2022"
   },
   "DBLP:conf/conll/2005": {
     "long": "Proceedings of the Ninth Conference on Computational Natural Language Learning",
@@ -334,6 +338,14 @@
   "DBLP:conf/ijcnlp/2017-2": {
     "long": "Proceedings of the Eighth International Joint Conference on Natural Language Processing",
     "short": "{IJCNLP} 2017"
+  },
+  "DBLP:conf/ijcnlp/2022-1": {
+    "long": "Proceedings of the 2nd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 12th International Joint Conference on Natural Language Processing",
+    "short": "AACL-IJCNLP 2022"
+  },
+  "DBLP:conf/ijcnlp/2022f": {
+    "long": "Findings of the Association for Computational Linguistics: {AACL-IJCNLP} 2022",
+    "short": "Findings AACL-IJCNLP 2022"
   },
   "DBLP:conf/inlg/2021": {
     "long": "Proceedings of the 14th International Conference on Natural Language Generation",
