@@ -60,5 +60,4 @@ layout: page
 
 <h3>Recent Papers</h3>
 
-{% include publications.html year=2022 %}
-{% include publications.html year=2021 %}
+{% include publications.html year=2023 %}
