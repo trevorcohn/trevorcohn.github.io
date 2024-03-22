@@ -4,7 +4,7 @@ papers:
     title: "Backdoor Attacks on Multilingual Machine Translation"
     year: "2024"
     paper-type: inproceedings
-    booktitle: "2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics"
+    booktitle: "NAACL 2024"
     booktitle-full: "2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics"
     docurl: "https://openreview.net/forum?id=pMiB19w56s"
   - layout: paper
@@ -12,7 +12,7 @@ papers:
     title: "Revisiting subword tokenization: A case study on affixal negation in large language models"
     year: "2024"
     paper-type: inproceedings
-    booktitle: "2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics"
+    booktitle: "NAACL 2024"
     booktitle-full: "2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics"
     docurl: "https://openreview.net/forum?id=uMIHZf3CPf"
   - layout: paper
