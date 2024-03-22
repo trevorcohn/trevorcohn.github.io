@@ -9,15 +9,15 @@ layout: page
 	    <div class="col-sm-3">
 	      <b>Trevor Cohn</b>
 	      <br>Professor 
+              <br>Research Scientist, Google Research Australia
 	      <address>
-		Room 323<br/>
-		Doug McDonnell Building (#167)
+		Level 4, Melbourne Connect 
 	      </address>
 	    </div>
 		<div class="col-sm-7">
 		  <a href="http://www.cis.unimelb.edu.au">Computing and Information Systems</a><br/>
 		  <a href="http://www.unimelb.edu.au">The University of Melbourne</a><br/>
-		  <a href="http://uom-nlp.github.io/">Natural Language Processing group</a>
+		  <a href="https://cis.unimelb.edu.au/research/artificial-intelligence/research/Natural-Language-Processing">Natural Language Processing group</a>
 		</div>
 	  </div>
 	  <div class="row">
@@ -43,9 +43,7 @@ layout: page
   Artificial Intelligence since its beginnings, with massive potential to
   improve communication, provide better information access and automate basic
   human tasks. My research focuses on technologies for automatic processing of
-  human language, with several applications including automatic translation 
-  (akin to <a href="http://translate.google.com">Google</a> and
-  <a href="http://www.bing.com/translator">Bing's</a> translation tools). 
+  human language, with several applications including automatic translation.
   My core focus is on probabilistic machine learning modelling
   of language applications, particularly handling uncertain
   or partly observed data and structured prediction problems.
@@ -60,4 +58,5 @@ layout: page
 
 <h3>Recent Papers</h3>
 
+{% include publications.html year=2024 %}
 {% include publications.html year=2023 %}

@@ -1,11 +1,116 @@
 papers:
   - layout: paper
-    author: "Shima Khanehzar, Trevor Cohn, Gosia Mikolajczak and Lea Frermann"
-    title: "Probing Power by Prompting: Harnessing Pre-trained Language Models for Power Connotation Frame"
+    author: "Jun Wang, Qiongkai Xu, Xuanli He, Benjamin Rubinstein and Trevor Cohn"
+    title: "Backdoor Attacks on Multilingual Machine Translation"
+    year: "2024"
+    paper-type: inproceedings
+    booktitle: "2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics"
+    booktitle-full: "2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics"
+    docurl: "https://openreview.net/forum?id=pMiB19w56s"
+  - layout: paper
+    author: "Thinh Truong, Yulia Otmakhova, Trevor Cohn, Karin Verspoor and Timothy Baldwin"
+    title: "Revisiting subword tokenization: A case study on affixal negation in large language models"
+    year: "2024"
+    paper-type: inproceedings
+    booktitle: "2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics"
+    booktitle-full: "2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics"
+    docurl: "https://openreview.net/forum?id=uMIHZf3CPf"
+  - layout: paper
+    author: "Thinh Truong, Timothy Baldwin, Karin Verspoor and Trevor Cohn"
+    title: "Language models are not naysayers: an analysis of language models on negation benchmarks"
+    year: "2023"
+    paper-type: inproceedings
+    booktitle: "*SEM@ACL 2023"
+    booktitle-full: "Proceedings of the The 12th Joint Conference on Lexical and Computational Semantics"
+    docurl: "https://doi.org/10.18653/v1/2023.starsem-1.10"
+  - layout: paper
+    author: "Chunhua Liu, Trevor Cohn and Lea Frermann"
+    title: "Seeking Clozure: Robust Hypernym extraction from BERT with Anchored Prompts"
+    year: "2023"
+    paper-type: inproceedings
+    booktitle: "*SEM@ACL 2023"
+    booktitle-full: "Proceedings of the The 12th Joint Conference on Lexical and Computational Semantics"
+    docurl: "https://doi.org/10.18653/v1/2023.starsem-1.18"
+  - layout: paper
+    author: "Zhuohan Xie, Trevor Cohn and Jey Lau"
+    title: "The Next Chapter: A Study of Large Language Models in Storytelling"
+    year: "2023"
+    paper-type: inproceedings
+    booktitle: "INLG 2023"
+    booktitle-full: "Proceedings of the 16th International Natural Language Generation Conference"
+    docurl: "https://aclanthology.org/2023.inlg-main.23"
+  - layout: paper
+    author: "Xudong Han, Timothy Baldwin and Trevor Cohn"
+    title: "Everybody Needs Good Neighbours: An Unsupervised Locality-based Method for Bias Mitigation"
+    year: "2023"
+    paper-type: inproceedings
+    booktitle: "ICLR 2023"
+    booktitle-full: "The Eleventh International Conference on Learning Representations"
+    docurl: "https://openreview.net/pdf?id=pOnhudsvzR"
+  - layout: paper
+    author: "Zhuohan Xie, Miao Li, Trevor Cohn and Jey Lau"
+    title: "DeltaScore: Fine-Grained Story Evaluation with Perturbations"
+    year: "2023"
+    paper-type: inproceedings
+    booktitle: "EMNLP"
+    booktitle-full: "Findings of the Association for Computational Linguistics: EMNLP 2023"
+    docurl: "https://aclanthology.org/2023.findings-emnlp.353"
+  - layout: paper
+    author: "Fan Jiang, Qiongkai Xu, Tom Drummond and Trevor Cohn"
+    title: "Boot and Switch: Alternating Distillation for Zero-Shot Dense Retrieval"
+    year: "2023"
+    paper-type: inproceedings
+    booktitle: "EMNLP"
+    booktitle-full: "Findings of the Association for Computational Linguistics: EMNLP 2023"
+    docurl: "https://aclanthology.org/2023.findings-emnlp.65"
+  - layout: paper
+    author: "Fan Jiang, Tom Drummond and Trevor Cohn"
+    title: "Noisy Self-Training with Synthetic Queries for Dense Retrieval"
+    year: "2023"
+    paper-type: inproceedings
+    booktitle: "EMNLP"
+    booktitle-full: "Findings of the Association for Computational Linguistics: EMNLP 2023"
+    docurl: "https://aclanthology.org/2023.findings-emnlp.803"
+  - layout: paper
+    author: "Xuanli He, Qiongkai Xu, Jun Wang, Benjamin Rubinstein and Trevor Cohn"
+    title: "Mitigating Backdoor Poisoning Attacks through the Lens of Spurious Correlation"
+    year: "2023"
+    paper-type: inproceedings
+    booktitle: "EMNLP 2023"
+    booktitle-full: "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing"
+    docurl: "https://aclanthology.org/2023.emnlp-main.60"
+  - layout: paper
+    author: "Biaoyan Fang, Trevor Cohn, Timothy Baldwin and Lea Frermann"
+    title: "More than Votes? Voting and Language based Partisanship in the US Supreme Court"
+    year: "2023"
+    paper-type: inproceedings
+    booktitle: "EMNLP"
+    booktitle-full: "Findings of the Association for Computational Linguistics: EMNLP 2023"
+    docurl: "https://aclanthology.org/2023.findings-emnlp.306"
+  - layout: paper
+    author: "Qiongkai Xu, Trevor Cohn and Olga Ohrimenko"
+    title: "Fingerprint Attack: Client De-Anonymization in Federated Learning"
+    year: "2023"
+    paper-type: inproceedings
+    booktitle: "ECAI 2023"
+    booktitle-full: "26th European Conference on Artificial Intelligence"
+    docurl: "https://doi.org/10.3233/FAIA230590"
+  - layout: paper
+    author: "Viktoria Schram, Daniel Beck and Trevor Cohn"
+    title: "Performance Prediction via Bayesian Matrix Factorisation for Multilingual Natural Language Processing Tasks"
     year: "2023"
     paper-type: inproceedings
     booktitle: "EACL 2023"
     booktitle-full: "Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics"
+    docurl: "https://doi.org/10.18653/v1/2023.eacl-main.131"
+  - layout: paper
+    author: "Shima Khanehzar, Trevor Cohn, Gosia Mikolajczak and Lea Frermann"
+    title: "Probing Power by Prompting: Harnessing Pre-trained Language Models for Power Connotation Framing"
+    year: "2023"
+    paper-type: inproceedings
+    booktitle: "EACL 2023"
+    booktitle-full: "Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics"
+    docurl: "https://doi.org/10.18653/v1/2023.eacl-main.61"
   - layout: paper
     author: "Fan Jiang, Tom Drummond and Trevor Cohn"
     title: "Don&apos;t Mess with Mister-in-Between: Improved Negative Search for Knowledge Graph Completion"
@@ -13,6 +118,7 @@ papers:
     paper-type: inproceedings
     booktitle: "EACL 2023"
     booktitle-full: "Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics"
+    docurl: "https://doi.org/10.18653/v1/2023.eacl-main.133"
   - layout: paper
     author: "Xudong Han, Timothy Baldwin and Trevor Cohn"
     title: "Fair Enough: Standardizing Evaluation and Model Selection for Fairness Research in NLP"
@@ -20,41 +126,39 @@ papers:
     paper-type: inproceedings
     booktitle: "EACL 2023"
     booktitle-full: "Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics"
+    docurl: "https://doi.org/10.18653/v1/2023.eacl-main.23"
   - layout: paper
-    author: "Viktoria Schram, Daniel Beck and Trevor Cohn"
-    title: "Performance Prediction via Bayesian Matrix Factorisation for Natural Language Processing Tasks"
+    author: "Terry Zhuo, Qiongkai Xu, Xuanli He and Trevor Cohn"
+    title: "Rethinking Round-Trip Translation for Machine Translation Evaluation"
     year: "2023"
     paper-type: inproceedings
-    booktitle: "EACL 2023"
-    booktitle-full: "Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics"
+    booktitle: "ACL"
+    booktitle-full: "Findings of the Association for Computational Linguistics: ACL 2023"
+    docurl: "https://doi.org/10.18653/v1/2023.findings-acl.22"
   - layout: paper
-    author: "Xudong Han, Timothy Baldwin and Trevor Cohn"
-    title: "Everybody Needs Good Neighbours: An Unsupervised Locality-based Method for Bias Mitigation"
+    author: "Qin Zhang, Shangsi Chen, Dongkuan Xu, Qingqing Cao, Xiaojun Chen, Trevor Cohn and Meng Fang"
+    title: "A Survey for Efficient Open Domain Question Answering"
     year: "2023"
     paper-type: inproceedings
-    booktitle: "ICLR 2023"
-    booktitle-full: "Proceedings of the Eleventh International Conference on Learning Representations"
+    booktitle: "ACL 2023"
+    booktitle-full: "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+    docurl: "https://doi.org/10.18653/v1/2023.acl-long.808"
   - layout: paper
-    author: "Jun Wang, Xuanli He, Benjamin Rubinstein and Trevor Cohn"
-    title: "Foiling Training-Time Attacks on Neural Machine Translation Systems"
-    year: "2022"
+    author: "Zheng Lim, Trevor Cohn, Charles Kemp and Ekaterina Vylomova"
+    title: "Predicting Human Translation Difficulty Using Automatic Word Alignment"
+    year: "2023"
     paper-type: inproceedings
-    booktitle: "EMNLP-Findings 2022"
-    booktitle-full: "Findings of the 2021 Conference on Empirical Methods in Natural Language Processing"
+    booktitle: "ACL"
+    booktitle-full: "Findings of the Association for Computational Linguistics: ACL 2023"
+    docurl: "https://doi.org/10.18653/v1/2023.findings-acl.736"
   - layout: paper
-    author: "Xudong Han, Aili Shen, Yitong Li, Lea Frermann, Timothy Baldwin and Trevor Cohn"
-    title: "FairLib: A Unified Framework for Assessing and Improving Fairness"
-    year: "2022"
+    author: "Sayantan Dasgupta, Trevor Cohn and Timothy Baldwin"
+    title: "Cost-effective Distillation of Large Language Models"
+    year: "2023"
     paper-type: inproceedings
-    booktitle: "EMNLP-Demos 2022"
-    booktitle-full: "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing, Demonstration track"
-  - layout: paper
-    author: "Xudong Han, Timothy Baldwin and Trevor Cohn"
-    title: "Balancing out Bias: Achieving Fairness Through Balanced Training"
-    year: "2022"
-    paper-type: inproceedings
-    booktitle: "EMNLP 2022"
-    booktitle-full: "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing"
+    booktitle: "ACL"
+    booktitle-full: "Findings of the Association for Computational Linguistics: ACL 2023"
+    docurl: "https://doi.org/10.18653/v1/2023.findings-acl.463"
   - layout: paper
     author: "Thinh Truong, Timothy Baldwin, Trevor Cohn and Karin Verspoor"
     title: "Improving negation detection with negation-focused pre-training"
@@ -112,6 +216,30 @@ papers:
     booktitle-full: "Proceedings of the 2nd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 12th International Joint Conference on Natural Language Processing"
     docurl: "https://aclanthology.org/2022.aacl-main.6"
   - layout: paper
+    author: "Jun Wang, Xuanli He, Benjamin Rubinstein and Trevor Cohn"
+    title: "Foiling Training-Time Attacks on Neural Machine Translation Systems"
+    year: "2022"
+    paper-type: inproceedings
+    booktitle: "EMNLP"
+    booktitle-full: "Findings of the Association for Computational Linguistics: EMNLP 2022"
+    docurl: "https://doi.org/10.18653/v1/2022.findings-emnlp.435"
+  - layout: paper
+    author: "Xudong Han, Aili Shen, Yitong Li, Lea Frermann, Timothy Baldwin and Trevor Cohn"
+    title: "FairLib: A Unified Framework for Assessing and Improving Fairness"
+    year: "2022"
+    paper-type: inproceedings
+    booktitle: "Proceedings of the The 2022 Conference on Empirical Methods in Natural Language Processing"
+    booktitle-full: "Proceedings of the The 2022 Conference on Empirical Methods in Natural Language Processing"
+    docurl: "https://doi.org/10.18653/v1/2022.emnlp-demos.7"
+  - layout: paper
+    author: "Xudong Han, Timothy Baldwin and Trevor Cohn"
+    title: "Balancing out Bias: Achieving Fairness Through Balanced Training"
+    year: "2022"
+    paper-type: inproceedings
+    booktitle: "EMNLP 2022"
+    booktitle-full: "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing"
+    docurl: "https://doi.org/10.18653/v1/2022.emnlp-main.779"
+  - layout: paper
     author: "Yuan Li, Biaoyan Fang, Jiayuan He, Hiyori Yoshikawa, Saber Akhondi, Christian Druckenbrodt, Camilo Thorne, Zenan Zhai, Zubair Afzal, Trevor Cohn, Timothy Baldwin and Karin Verspoor"
     title: "The ChEMU 2022 Evaluation Campaign: Information Extraction in Chemical Patents"
     year: "2022"
@@ -142,7 +270,7 @@ papers:
     paper-type: inproceedings
     booktitle: "AAAI 2022"
     booktitle-full: "Thirty-Fourth Conference on Innovative Applications of Artificial Intelligence"
-    docurl: "https://ojs.aaai.org/index.php/AAAI/article/view/21329"
+    docurl: "https://doi.org/10.1609/aaai.v36i10.21329"
   - layout: paper
     author: "Zenan Zhai, Christian Druckenbrodt, Camilo Thorne, Saber Akhondi, Dat Nguyen, Trevor Cohn and Karin Verspoor"
     title: "ChemTables: a dataset for semantic classification on tables in chemical patents"
@@ -167,6 +295,14 @@ papers:
     booktitle: "WWW 2021"
     booktitle-full: "WWW &apos;21: The Web Conference 2021"
     docurl: "https://doi.org/10.1145/3442381.3450034"
+  - layout: paper
+    author: "Hung-Thinh Truong, Yulia Otmakhova, Timothy Baldwin, Jey Lau, Trevor Cohn, Karin Verspoor, Rahmad Mahendra, Lawrence Cavedon and Damiano Spina"
+    title: "ITTC @ TREC 2021 Clinical Trials Track"
+    year: "2021"
+    paper-type: inproceedings
+    booktitle: "TREC 2021"
+    booktitle-full: "Proceedings of the Thirtieth Text REtrieval Conference"
+    docurl: "https://trec.nist.gov/pubs/trec30/papers/ITTC-AIMedTech-CT.pdf"
   - layout: paper
     author: "Kemal Kurniawan, Lea Frermann, Philip Schulz and Trevor Cohn"
     title: "PTST-UoM at SemEval-2021 Task 10: Parsimonious Transfer for Sequence Tagging"
@@ -318,7 +454,7 @@ papers:
     paper-type: inproceedings
     booktitle: "Working Notes of CLEF 2020 - Conference and Labs of the Evaluation Forum"
     booktitle-full: "Working Notes of CLEF 2020 - Conference and Labs of the Evaluation Forum"
-    docurl: "http://ceur-ws.org/Vol-2696/paper_254.pdf"
+    docurl: "https://ceur-ws.org/Vol-2696/paper_254.pdf"
   - layout: paper
     author: "Jiayuan He, Dat Nguyen, Saber Akhondi, Christian Druckenbrodt, Camilo Thorne, Ralph Hoessel, Zubair Afzal, Zenan Zhai, Biaoyan Fang, Hiyori Yoshikawa, Ameer Albahem, Lawrence Cavedon, Trevor Cohn, Timothy Baldwin and Karin Verspoor"
     title: "Overview of ChEMU 2020: Named Entity Recognition and Event Extraction of Chemical Reactions from Patents"
@@ -848,7 +984,7 @@ papers:
     paper-type: inproceedings
     booktitle: "SMBM 2016"
     booktitle-full: "Proceedings of the 7th International Symposium on Semantic Mining in Biomedicine"
-    docurl: "http://ceur-ws.org/Vol-1650/smbm16Chandrasekarasastry.pdf"
+    docurl: "https://ceur-ws.org/Vol-1650/smbm16Chandrasekarasastry.pdf"
   - layout: paper
     author: "Vu Hoang, Trevor Cohn and Gholamreza Haffari"
     title: "Incorporating Side Information into Recurrent Neural Network Language Models"
@@ -1008,7 +1144,7 @@ papers:
     paper-type: inproceedings
     booktitle: "AAAI 2016"
     booktitle-full: "Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence"
-    docurl: "http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/view/12167"
+    docurl: "https://doi.org/10.1609/aaai.v30i1.10348"
   - layout: paper
     author: "Daniel Beck, Trevor Cohn, Christian Hardmeier and Lucia Specia"
     title: "Learning Structural Kernels for Natural Language Processing"
@@ -1145,7 +1281,7 @@ papers:
     paper-type: inproceedings
     booktitle: "AAAI 2015"
     booktitle-full: "Proceedings of the Twenty-Ninth AAAI Conference on Artificial Intelligence"
-    docurl: "http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9814"
+    docurl: "https://doi.org/10.1609/aaai.v29i1.9515"
   - layout: paper
     author: "Long Duong, Trevor Cohn, Karin Verspoor, Steven Bird and Paul Cook"
     title: "What Can We Get From 1000 Tokens? A Case Study of Multilingual POS Tagging For Resource-Poor Languages"
@@ -1360,7 +1496,7 @@ papers:
     paper-type: inproceedings
     booktitle: "Proceedings of the 2nd International Workshop on Exploiting Large Knowledge Repositories"
     booktitle-full: "Proceedings of the 2nd International Workshop on Exploiting Large Knowledge Repositories"
-    docurl: "http://ceur-ws.org/Vol-882/elkr_atsf_2012_paper6.pdf"
+    docurl: "https://ceur-ws.org/Vol-882/elkr_atsf_2012_paper6.pdf"
   - layout: paper
     author: "Jeremy Nicholson, Trevor Cohn and Timothy Baldwin"
     title: "Evaluating a Morphological Analyser of Inuktitut"
