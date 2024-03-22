@@ -6,7 +6,7 @@ layout: page
     <div class="col-sm-3"><img src="{{ site.baseurl }}public/mug18.png" alt="Photo of Trevor"></div> 
     <div class="col-sm-9">
 	  <div class="row">
-	    <div class="col-sm-3">
+	    <div class="col-sm-5">
 	      <b>Trevor Cohn</b>
 	      <br>Professor 
               <br>Research Scientist, Google Research Australia
@@ -14,7 +14,7 @@ layout: page
 		Level 4, Melbourne Connect 
 	      </address>
 	    </div>
-		<div class="col-sm-7">
+		<div class="col-sm-5">
 		  <a href="http://www.cis.unimelb.edu.au">Computing and Information Systems</a><br/>
 		  <a href="http://www.unimelb.edu.au">The University of Melbourne</a><br/>
 		  <a href="https://cis.unimelb.edu.au/research/artificial-intelligence/research/Natural-Language-Processing">Natural Language Processing group</a>
