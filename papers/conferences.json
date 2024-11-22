@@ -133,7 +133,19 @@
   },
   "DBLP:conf/acl/2021f": {
     "long": "Findings of the Association for Computational Linguistics: {ACL/IJCNLP} 2021",
-    "short": "Findings of ACL/IJCNLP 2021"
+    "short": "Findings ACL/IJCNLP 2021"
+  },
+  "DBLP:conf/acl/2022-1": {
+    "long": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "short": "{ACL} 2022"
+  },
+  "DBLP:conf/acl/2023-1": {
+    "long": "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "short": "{ACL} 2023"
+  },
+  "DBLP:conf/acl/2023f": {
+    "long": "Findings of the Association for Computational Linguistics: {ACL} 2023",
+    "short": "ACL"
   },
   "DBLP:conf/acl/2022-1": {
     "long": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
@@ -183,6 +195,10 @@
     "long": "26th International Conference on Computational Linguistics",
     "short": "{COLING} 2016"
   },
+  "DBLP:conf/coling/2022sdp": {
+    "long": "Proceedings of the Third Workshop on Scholarly Document Processing",
+    "short": "SDP@COLING 2022"
+  },
   "DBLP:conf/conll/2005": {
     "long": "Proceedings of the Ninth Conference on Computational Natural Language Learning",
     "short": "CoNLL 2005"
@@ -223,9 +239,17 @@
     "long": "Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume",
     "short": "{EACL} 2021"
   },
+  "DBLP:conf/eacl/2023": {
+    "long": "Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics",
+    "short": "{EACL} 2023"
+  },
   "DBLP:conf/eamt/2014": {
     "long": "Proceedings of the 17th Annual conference of the European Association for Machine Translation",
     "short": "{EAMT} 2014"
+  },
+  "DBLP:conf/ecai/2023": {
+    "long": "26th European Conference on Artificial Intelligence",
+    "short": "ECAI 2023"
   },
   "DBLP:conf/ecir/2020-2": {
     "long": "Advances in Information Retrieval - 42nd European Conference on {IR} Research",
@@ -303,6 +327,26 @@
     "long": "Findings of the Association for Computational Linguistics: {EMNLP} 2021",
     "short": "Findings of EMNLP 2021"
   },
+  "DBLP:conf/emnlp/2022": {
+    "long": "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    "short": "{EMNLP} 2022"
+  },
+  "DBLP:conf/emnlp/2022-d": {
+    "long": "Proceedings of the The 2022 Conference on Empirical Methods in Natural Language Processing",
+    "short": null
+  },
+  "DBLP:conf/emnlp/2022f": {
+    "long": "Findings of the Association for Computational Linguistics: {EMNLP} 2022",
+    "short": "EMNLP"
+  },
+  "DBLP:conf/emnlp/2023": {
+    "long": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    "short": "{EMNLP} 2023"
+  },
+  "DBLP:conf/emnlp/2023f": {
+    "long": "Findings of the Association for Computational Linguistics: {EMNLP} 2023",
+    "short": "EMNLP"
+  },
   "DBLP:conf/ht/2013": {
     "long": "24th {ACM} Conference on Hypertext and Social Media (part of ECRC)",
     "short": "{HT} 2013"
@@ -318,6 +362,10 @@
   "DBLP:conf/iclr/2020": {
     "long": "8th International Conference on Learning Representations",
     "short": "{ICLR} 2020"
+  },
+  "DBLP:conf/iclr/2023": {
+    "long": "The Eleventh International Conference on Learning Representations",
+    "short": "{ICLR} 2023"
   },
   "DBLP:conf/icml/2019": {
     "long": "Proceedings of the 36th International Conference on Machine Learning",
@@ -335,9 +383,21 @@
     "long": "Proceedings of the Eighth International Joint Conference on Natural Language Processing",
     "short": "{IJCNLP} 2017"
   },
+  "DBLP:conf/ijcnlp/2022-1": {
+    "long": "Proceedings of the 2nd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 12th International Joint Conference on Natural Language Processing",
+    "short": "AACL-IJCNLP 2022"
+  },
+  "DBLP:conf/ijcnlp/2022f": {
+    "long": "Findings of the Association for Computational Linguistics: {AACL-IJCNLP} 2022",
+    "short": "Findings AACL-IJCNLP 2022"
+  },
   "DBLP:conf/inlg/2021": {
     "long": "Proceedings of the 14th International Conference on Natural Language Generation",
     "short": "{INLG} 2021"
+  },
+  "DBLP:conf/inlg/2023": {
+    "long": "Proceedings of the 16th International Natural Language Generation Conference",
+    "short": "{INLG} 2023"
   },
   "DBLP:conf/interspeech/2016": {
     "long": "17th Annual Conference of the International Speech Communication Association",
@@ -419,9 +479,17 @@
     "long": "Proceedings of the Eighth Joint Conference on Lexical and Computational Semantics",
     "short": "*SEM@NAACL-HLT 2019"
   },
+  "DBLP:conf/starsem/2023": {
+    "long": "Proceedings of the The 12th Joint Conference on Lexical and Computational Semantics",
+    "short": "*SEM@ACL 2023"
+  },
   "DBLP:conf/textgraphs/2019": {
     "long": "Proceedings of the Thirteenth Workshop on Graph-Based Methods for Natural Language Processing",
     "short": "TextGraphs 2019"
+  },
+  "DBLP:conf/trec/2021": {
+    "long": "Proceedings of the Thirtieth Text REtrieval Conference",
+    "short": "{TREC} 2021"
   },
   "DBLP:conf/websci/2013": {
     "long": "Web Science 2013",
