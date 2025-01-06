@@ -1,5 +1,21 @@
 papers:
   - layout: paper
+    author: "Sukai Huang, Nir Lipovetzky and Trevor Cohn"
+    title: "Planning in the Dark: LLM-Symbolic Planning Pipeline without Experts"
+    year: "2025"
+    paper-type: inproceedings
+    booktitle: "AAAI 2025"
+    booktitle-full: "Proceedings of The 39th Annual AAAI Conference on Artificial Intelligence"
+    docurl: "https://openreview.net/forum?id=kM8VkXSxlW"
+  - layout: paper
+    author: "Sukai Huang, Nir Lipovetzky and Trevor Cohn"
+    title: "Chasing Progress, Not Perfection: Revisiting Strategies for End-to-End LLM Plan Generation"
+    year: "2025"
+    paper-type: inproceedings
+    booktitle: "LM4Plan@AAAI 2025"
+    booktitle-full: "Workshop on Planning in the Era of LLMs (LM4Plan @ AAAI 2025)"
+    docurl: "https://arxiv.org/abs/2412.10675"
+  - layout: paper
     author: "Xuanli He, Qiongkai Xu, Jun Wang, Benjamin Rubinstein and Trevor Cohn"
     title: "SEEP: Training Dynamics Grounds Latent Representation Search for Mitigating Backdoor Poisoning Attacks"
     year: "2024"

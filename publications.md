@@ -9,7 +9,7 @@ title: "Publications"
       <a  href="{{ site.github }}">my GitHub page</a>.
 
 
-{% for yr in (2005..2023) reversed %}
+{% for yr in (2005..2025) reversed %}
 ## {{yr}}
 {% include publications.html year=yr %}
 {% endfor %}
