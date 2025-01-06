@@ -147,9 +147,9 @@
     "long": "Findings of the Association for Computational Linguistics: {ACL} 2023",
     "short": "ACL"
   },
-  "DBLP:conf/acl/2022-1": {
-    "long": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    "short": "{ACL} 2022"
+  "DBLP:conf/acl/2024short": {
+    "long": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics",
+    "short": null
   },
   "DBLP:conf/aclnmt/2018": {
     "long": "Proceedings of the 2nd Workshop on Neural Machine Translation and Generation",
@@ -347,6 +347,10 @@
     "long": "Findings of the Association for Computational Linguistics: {EMNLP} 2023",
     "short": "EMNLP"
   },
+  "DBLP:conf/emnlp/2024": {
+    "long": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    "short": "{EMNLP} 2024"
+  },
   "DBLP:conf/ht/2013": {
     "long": "24th {ACM} Conference on Hypertext and Social Media (part of ECRC)",
     "short": "{HT} 2013"
@@ -390,6 +394,10 @@
   "DBLP:conf/ijcnlp/2022f": {
     "long": "Findings of the Association for Computational Linguistics: {AACL-IJCNLP} 2022",
     "short": "Findings AACL-IJCNLP 2022"
+  },
+  "DBLP:conf/ijcnlp/2023-2": {
+    "long": "Proceedings of the 13th International Joint Conference on Natural Language Processing and the 3rd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics",
+    "short": null
   },
   "DBLP:conf/inlg/2021": {
     "long": "Proceedings of the 14th International Conference on Natural Language Generation",
@@ -454,6 +462,10 @@
   "DBLP:conf/naacl/2022": {
     "long": "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
     "short": "{NAACL} 2022"
+  },
+  "DBLP:conf/naacl/2024": {
+    "long": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    "short": "{NAACL} 2024"
   },
   "DBLP:conf/nips/2008": {
     "long": "Proceedings of the Twenty-Second Annual Conference on Neural Information Processing Systems",

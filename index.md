@@ -57,5 +57,5 @@ layout: page
 
 <h3>Recent Papers</h3>
 
+{% include publications.html year=2025 %}
 {% include publications.html year=2024 %}
-{% include publications.html year=2023 %}
